@@ -2833,9 +2833,11 @@
         "key": "level_us_11_02",
         "num_trucks": 1,
         "num_upgrades": 1,
+        "num_watchpoints": 3,
         "objectives": [
           {
             "key": "US_11_02_ACCIDENT_TASK",
+            "name": "A Traffic Accident",
             "type": "Task"
           },
           {
@@ -2843,8 +2845,15 @@
             "type": "Task"
           },
           {
+            "key": "US_11_02_DELIVERY"
+          },
+          {
             "key": "US_11_02_DESCENT_CONTEST",
             "type": "Contest"
+          },
+          {
+            "key": "US_11_02_LOST_CARGO_TASK",
+            "type": "Task"
           },
           {
             "key": "US_11_02_NEO_FALCON_TASK",
@@ -2859,11 +2868,27 @@
             "type": "Task"
           },
           {
+            "key": "US_11_02_REPAIR_TASK",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_02_SEARCH_TASK",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_02_SEISMO_TASK",
+            "type": "Task"
+          },
+          {
             "key": "US_11_02_TRACK_DELIVERY_TASK_01",
             "type": "Task"
           },
           {
             "key": "US_11_02_TRACK_DELIVERY_TASK_02",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_02_VISIT_TASK",
             "type": "Task"
           },
           {
