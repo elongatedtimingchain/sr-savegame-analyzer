@@ -198,7 +198,7 @@ function processGameInfo(gameInfo) {
     const params = new URLSearchParams(window.location.search);
     if (params.has("savegame")) {
         const savegamePath = params.get("savegame");
-        fetch(savegamePath)
+        fetch(savegamePath, { cache: "reload" })
             .then(function(response) {
                 if (!response.ok) {
                     throw new Error("Unable to fetch file.");
