@@ -50,7 +50,7 @@ Below is a table showing the progress for each region:
 |Glades|Missing|Missing|Missing|Complete|
 |Ontario|Missing|Missing|Missing|Complete|
 |Br. Columbia|Missing|Missing|Missing|Complete|
-|Scandinavia|Partial|Missing|Missing|Partial|
+|Scandinavia|Partial|Partial|Missing|Complete|
 
 ---
 
