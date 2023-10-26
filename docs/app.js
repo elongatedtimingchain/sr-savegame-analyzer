@@ -1,0 +1,227 @@
+function toggleDarkMode() {
+    const body = document.body;
+    const darkModeToggle = document.getElementById("dark-mode-toggle");
+    if (body.classList.contains("dark-mode")) {
+        body.classList.add("light-mode");
+        body.classList.remove("dark-mode");
+        darkModeToggle.textContent = "Light Mode";
+    } else {
+        body.classList.add("dark-mode");
+        body.classList.remove("light-mode");
+        darkModeToggle.textContent = "Dark Mode";
+    }
+} 
+
+function addPercentage(elemClass) {
+    for (const elem of document.getElementsByClassName(elemClass)) {
+        numItemsFinished = elem.getElementsByClassName("done").length;
+        numItemsTotal = elem.getElementsByClassName("objective").length;
+        for (const cn of ["num_trucks", "num_upgrades", "num_watchpoints"]) {
+            for (const li of elem.getElementsByClassName(cn)) {
+                numItemsFinished += li.dataset.numCurrent;
+                numItemsTotal += li.dataset.numTotal;
+            }
+        }
+        elem.children[0].textContent = elem.dataset.name + ": " + (100.0 * numItemsFinished / numItemsTotal).toFixed(2) + "%";
+    }
+}
+
+function getNumDiscoveredTrucksByLevel(savegame) {
+    return Object.entries(savegame.CompleteSave.SslValue.persistentProfileData.discoveredTrucks).reduce(function(result, [k,v]){
+        result[k] = v.current;
+        return result;
+    }, {});
+}
+
+function getNumDiscoveredUpgradesByLevel(savegame) {
+    return Object.entries(savegame.CompleteSave.SslValue.persistentProfileData.discoveredUpgrades).reduce(function(result, [k,v]){
+        result[k] = v.current;
+        return result;
+    }, {});
+}
+
+function getNumDiscoveredWatchpointsByLevel(savegame) {
+    return Object.entries(savegame.CompleteSave.SslValue.watchPointsData.data).reduce(function(result, [k,v]){
+        result[k] = Object.values(v).reduce((sum, next) => sum + (next ? 1 : 0), 0);
+        return result;
+    }, {});
+}
+
+function addProgress(progressByLevel, varName) {
+    for (const [mapName, numCurrent] of Object.entries(progressByLevel)) {
+        const liNode = document.getElementById(varName + "_" + mapName);
+        if (liNode !== null) {
+            liNode.dataset.numCurrent = numCurrent;
+            liNode.textContent = liNode.dataset.name + ": " + liNode.dataset.numCurrent + " / " + liNode.dataset.numTotal;
+        }        
+    }    
+}
+
+function processSavegame(savegame) {
+    const liObjectives = document.getElementsByClassName("objective");
+    for (const li of liObjectives) {
+        li.classList.add("pending");
+    }
+    const finishedObjectives = savegame.CompleteSave.SslValue.finishedObjs;
+    for (const obj in finishedObjectives) {
+        const li = document.getElementById(finishedObjectives[obj]);
+        if (li) {
+            li.classList.remove("pending");
+            li.classList.add("done");
+        }
+    }
+    for (const elem of document.getElementsByClassName("objectives")) {
+        numItemsFinished = elem.getElementsByClassName("done").length;
+        elem.childNodes[0].textContent = elem.dataset.name + ": " + numItemsFinished + " / " + elem.dataset.numTotal;
+    }
+    addProgress(getNumDiscoveredTrucksByLevel(savegame), "num_trucks");
+    addProgress(getNumDiscoveredUpgradesByLevel(savegame), "num_upgrades");
+    addProgress(getNumDiscoveredWatchpointsByLevel(savegame), "num_watchpoints");
+    addPercentage("region");
+    addPercentage("map");
+    addPercentage("employer");
+}
+
+function handleFileSelect(input) {
+    const file = input.files[0];
+    if (file) {
+        const mimeType = file.type;
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            const fileContent = e.target.result;
+            const savegame = JSON.parse(fileContent.replace(/\0/g, ''));
+            processSavegame(savegame);
+
+        }
+        reader.readAsText(file);
+    }
+}
+
+function makeObjectivesUlNode(objectives) {
+    const ulNode = document.createElement("ul");
+    ulNode.classList.add("objective-list");
+    if (typeof(objectives) !== "undefined") {
+        for (const objective of objectives) {
+            const liNode = document.createElement("li");
+            liNode.id = objective.key;
+            liNode.classList.add("objective");
+            if (typeof(objective.type) !== "undefined") {
+                liNode.classList.add("obj-kind-" + objective.type.toLowerCase())
+            }
+            const name = (typeof(objective.name) !== "undefined") ? objective.name : objective.key;
+            liNode.textContent = name;
+            ulNode.appendChild(liNode);
+        }
+    }
+    return ulNode;
+}
+
+function createMapInfoListItem(map, varName, prettyName, isCount=false) {
+    if (typeof(map[varName]) === "undefined") {
+        return null;
+    }
+    const liNode = document.createElement("li");
+    if (isCount) {
+        liNode.dataset.numTotal = map[varName].length
+    } else {
+        liNode.dataset.numTotal = map[varName];
+    }
+    liNode.id = varName + "_" + map.key;
+    liNode.dataset.name = prettyName;
+    liNode.textContent = prettyName + ": " + liNode.dataset.numTotal;
+    liNode.classList.add(varName);
+    return liNode;
+}
+
+function createDetailsNode(summary) {
+    const detailsNode = document.createElement("details");
+    const summaryNode = document.createElement("summary");
+    summaryNode.textContent = summary;
+    detailsNode.appendChild(summaryNode);
+    return detailsNode;
+}
+
+function createPNode(text) {
+    const pNode = document.createElement("p");
+    pNode.textContent = text;
+    return pNode;
+}
+
+function processGameInfo(gameInfo) {
+    for (const region of gameInfo) {
+        const detailsNodeRegion = createDetailsNode(region.name);
+        detailsNodeRegion.classList.add("region");
+        detailsNodeRegion.dataset.name = region.name
+        if (typeof(region.maps) !== "undefined") {
+            detailsNodeRegion.appendChild(createPNode("Maps:"));
+            for (const map of region.maps) {
+                const detailsNodeMap = createDetailsNode(map.name);
+                detailsNodeMap.classList.add("map");
+                detailsNodeMap.dataset.name = map.name;
+                const ulNode = document.createElement("ul");
+                const mapVars = {
+                    "num_trucks": "Trucks",
+                    "num_upgrades": "Upgrades",
+                    "num_watchpoints": "Watchpoints"
+                }
+                for (const [varName, prettyName] of Object.entries(mapVars)) {
+                    const liNode = createMapInfoListItem(map, varName, prettyName);
+                    if (liNode) {
+                        ulNode.appendChild(liNode);
+                    }
+                }
+                const liNode = createMapInfoListItem(map, "objectives", "Tasks / Contests", true);
+                if (liNode) {
+                    liNode.appendChild(makeObjectivesUlNode(map.objectives));
+                    ulNode.appendChild(liNode);
+                }
+                detailsNodeMap.appendChild(ulNode);
+                detailsNodeRegion.appendChild(detailsNodeMap);
+            }
+        }
+        if (typeof(region.contracts) !== "undefined") {
+            detailsNodeRegion.appendChild(createPNode("Contracts:"));
+            for (const employer of region.contracts) {
+                const detailsNodeEmployer = createDetailsNode(employer.name);
+                detailsNodeEmployer.classList.add("employer");
+                detailsNodeEmployer.dataset.name = employer.name;
+                detailsNodeEmployer.appendChild(makeObjectivesUlNode(employer.objectives));
+                detailsNodeRegion.appendChild(detailsNodeEmployer);
+            }
+        }
+        document.getElementById("main").appendChild(detailsNodeRegion);
+    }
+    
+    document.getElementById('loading').style.display = 'none';
+    document.getElementById('main').style.display = '';
+
+    const params = new URLSearchParams(window.location.search);
+    if (params.has("savegame")) {
+        const savegamePath = params.get("savegame");
+        fetch(savegamePath)
+            .then(function(response) {
+                if (!response.ok) {
+                    throw new Error("Unable to fetch file.");
+                }
+                return response.text();
+            })
+            .then(function(text) {
+                processSavegame(JSON.parse(text.replace(/\0/g, '')));
+            })
+            .catch(function(error) {
+                console.error("Error loading savegame:", error);
+            });
+    }
+}
+
+fetch('game_info.json')
+    .then(function(response) {
+        if (!response.ok) {
+            throw new Error("Unable to fetch file");
+        }
+        return response.json();
+    })
+    .then(processGameInfo)
+    .catch(function(error) {
+        console.error("Error loading game info:", error);
+    });

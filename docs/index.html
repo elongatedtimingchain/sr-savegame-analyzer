@@ -1,1 +1,195 @@
-Hello World!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SR Savegame Analyzer</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 12pt;
+        }
+        .dark-mode {
+            color: white;
+            background-color: #18181a;
+        }
+        .light-mode {
+            color: black;
+            background-color: white;
+        }
+        .dark-mode header {
+            background-color: #242427;
+        }
+        .light-mode header {
+            background-color: #f8f8f8;
+        }
+        header {
+            left: 0;
+            padding: 0;
+            text-align: center;
+            top: 0;
+            width: 100%;
+            position: fixed;
+            z-index: 100;
+            display: flex;
+            justify-content: space-between;
+            height: 60px;
+        }
+        .button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 10pt;
+            text-decoration: none;
+        }
+        #main {
+            position: relative;
+            margin-top: 70px;
+        }
+        #loading {
+            margin-top: 70px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+        }
+        #spinner {
+            width: 100px;
+            height: 100px;
+        }
+        #spinner svg {
+            animation: spin 2s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .dark-mode .spinner-bg {
+            fill: #18181a;
+        }
+        .light-mode .spinner-bg {
+            fill:  white;
+        }
+        .dark-mode .spinner-fg {
+            fill: white;
+        }
+        .light-mode .spinner-fg {
+            fill:  black;
+        }
+        details {
+            padding: 10px;
+            margin: 10px;
+        }
+        summary {
+            cursor: pointer;
+        }
+        .light-mode details {
+            background: #f2f2f2;
+        }
+        .dark-mode details {
+            background: #333337;
+        }
+        .light-mode details details {
+            background: #d2d2d2;
+        }
+        .dark-mode details details {
+            background: #444;
+        }
+        .objective-list {
+            list-style: none;
+        }
+        .objective::before {
+            content: '';
+            background: url('empty.svg') no-repeat;
+            display: inline-block;
+            width: 12pt;
+            height: 12pt;
+            margin-right: 4pt;
+            background-size: contain;
+        }
+        .light-mode .objective::before {
+            filter: saturate(0%) brightness(0);
+        }
+        .dark-mode .objective::before {
+            filter: saturate(0%) brightness(100);
+        }
+        .objective.obj-kind-task::before {
+            background: url('task.svg') no-repeat;
+        }
+        .objective.obj-kind-contest::before {
+            background: url('contest.svg') no-repeat;
+        }
+        .objective.obj-kind-contract::before {
+            background: url('contract.svg') no-repeat;
+        }
+        .objective.pending::before {
+            filter: saturate(75%) hue-rotate(35deg) brightness(2);
+        }
+        .objective.done::before {
+            filter: saturate(100%) hue-rotate(211deg) brightness(2);
+        } 
+    </style>
+    <script src="app.js" defer></script>
+</head>
+<body class="dark-mode">
+    <header>
+        <div>
+        <input type="file" id="fileInput" onchange="handleFileSelect(this)" style="display:none;">
+        <button class="button" onclick="document.getElementById('fileInput').click();">Browse Savegame...</button>
+        </div>
+        <div><!-- spacer --></div>
+        <div>
+        <a class="button" href="https://github.com/elongatedtimingchain/sr-savegame-analyzer">View on GitHub</a>
+        <button id="dark-mode-toggle" class="button" onclick="toggleDarkMode()">Dark Mode</button>
+        </div>
+    </header>
+    <div id="loading">
+        <div id="spinner">
+            <svg width="100px" height="100px" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <circle class="spinner-fg" cx="50" cy="50" r="49"/>
+                <g fill="#fff" class="spinner-bg">
+                    <path d="m68.938 3.1987 12.124 7-11.063 5.1598z"/>
+                    <path d="m89.801 18.938 7 12.124-12.161-1.0629z"/>
+                    <path d="m100 43v14l-10-7.0009z"/>
+                    <path d="m96.801 68.938-7 12.124-5.1598-11.063z"/>
+                    <path d="m81.062 89.801-12.124 7 1.0629-12.161z"/>
+                    <path d="m57 100h-14l7.0009-10z"/>
+                    <path d="m31.062 96.801-12.124-7 11.063-5.1598z"/>
+                    <path d="m10.199 81.062-7-12.124 12.161 1.0629z"/>
+                    <path d="m1.0642e-5 57v-14l10 7.0009z"/>
+                    <path d="m3.1987 31.062 7-12.124 5.1598 11.063z"/>
+                    <path d="m18.938 10.199 12.124-7-1.0629 12.161z"/>
+                    <path d="m43 1.0642e-5h14l-7.0009 10z"/>
+                </g>
+                <circle class="spinner-fg" cx="50" cy="50" r="44"/>
+                <circle class="spinner-bg" cx="50" cy="50" r="23" fill="#fff"/>
+                <g class="spinner-fg">
+                    <circle cx="50" cy="50" r="10"/>
+                    <path d="m63.435 40.808c-1.1716 1.1716-3.0711 1.1716-4.2426 0s-1.1716-3.0711 0-4.2426 3.0711-1.1716 4.2426 0 1.1716 3.0711 0 4.2426z"/>
+                    <path d="m66 53c-1.6569 0-3-1.3431-3-3s1.3431-3 3-3 3 1.3431 3 3-1.3431 3-3 3z"/>
+                    <path d="m59.192 63.435c-1.1716-1.1716-1.1716-3.0711 0-4.2426s3.0711-1.1716 4.2426 0 1.1716 3.0711 0 4.2426-3.0711 1.1716-4.2426 0z"/>
+                    <path d="m47 66c0-1.6569 1.3431-3 3-3s3 1.3431 3 3-1.3431 3-3 3-3-1.3431-3-3z"/>
+                    <path d="m36.565 59.192c1.1716-1.1716 3.0711-1.1716 4.2426 0s1.1716 3.0711 0 4.2426-3.0711 1.1716-4.2426 0-1.1716-3.0711 0-4.2426z"/>
+                    <path d="m34 47c1.6569 0 3 1.3431 3 3s-1.3431 3-3 3-3-1.3431-3-3 1.3431-3 3-3z"/>
+                    <path d="m40.808 36.565c1.1716 1.1716 1.1716 3.0711 0 4.2426s-3.0711 1.1716-4.2426 0-1.1716-3.0711 0-4.2426 3.0711-1.1716 4.2426 0z"/>
+                    <path d="m53 34c0 1.6569-1.3431 3-3 3s-3-1.3431-3-3 1.3431-3 3-3 3 1.3431 3 3z"/>
+                </g>
+            </svg>
+        </div>
+    </div>
+    
+    <div id="main" style="display:none;">
+        <!-- App content goes here -->
+    </div>
+</body>
+</html>
+ 
