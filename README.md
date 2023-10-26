@@ -1,6 +1,8 @@
 # sr-savegame-analyzer
 
-Savegame analyzer for the game SnowRunner.
+Savegame analyzer for the game SnowRunner:
+
+https://elongatedtimingchain.github.io/sr-savegame-analyzer/
 
 ## How to use
 
