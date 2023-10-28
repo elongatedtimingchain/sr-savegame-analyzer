@@ -2720,7 +2720,54 @@
         "num_trucks": 1,
         "num_upgrades": 2,
         "num_watchpoints": 15,
-        "objectives": []
+        "objectives": [
+          {
+            "key": "US_10_01_CONT_VISIT",
+            "name": "Data For The Observatory",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_DELIVERY_METEO_TSK",
+            "name": "Restoring Communication",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_DELIVERY_OIL_RIGS_TSK",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_DELIVERY_TRANSFORMER_TSK",
+            "name": "Backup Source",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_FALLEN_POWER_LINE_02_TSK",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_FALLEN_TRAIN_TSK",
+            "name": "Off The Tracks",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_FIX_BRIDGE_02_TSK",
+            "name": "South City Bridge",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_FIX_BRIDGE_05_TSK",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_PASS_01_TSK",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_PASS_02_TSK",
+            "name": "Landslide On The Road",
+            "type": "Task"
+          }
+        ]
       },
       {
         "name": "North Peak National Park",
@@ -2728,21 +2775,67 @@
         "num_trucks": 1,
         "num_upgrades": 1,
         "num_watchpoints": 7,
-        "objectives": []
+        "objectives": [
+          {
+            "key": "US_10_02_GARAGE_CONSTRUCTION_OBJ"
+          },
+          {
+            "key": "US_10_02_WILDLIFE_OFFICERS_01_OILTANK_OBJ"
+          },
+          {
+            "key": "US_10_02_WILDLIFE_OFFICERS_02_VISIT_OBJ"
+          },
+          {
+            "key": "US_10_02_WILDLIFE_OFFICERS_03_BOAT_OBJ"
+          }
+        ]
       }
     ],
     "contracts": [
       {
         "name": "British Columbia Gov.",
-        "objectives": []
+        "objectives": [
+          {
+            "key": "US_10_01_ELECTRIC_POLE_01_OBJ",
+            "name": "Short Circuit",
+            "type": "Contract"
+          }
+        ]
       },
       {
         "name": "Uncle Fishmore",
-        "objectives": []
+        "objectives": [
+          {
+            "key": "US_10_01_DELIVERY_FERRY_OBJ",
+            "name": "Consumables For The Ferry",
+            "type": "Contract"
+          },
+          {
+            "key": "US_10_01_DELIVERY_TRAILER_01_OBJ",
+            "name": "Humanitarian Aid",
+            "type": "Contract"
+          },
+          {
+            "key": "US_10_01_CONSTRUCTION_FACTORY_OBJ",
+            "name": "The Unfinished Business At The Plant",
+            "type": "Contract"
+          }
+        ]
       },
       {
         "name": "Stormy Water Medical",
-        "objectives": []
+        "objectives": [
+          {
+            "key": "US_10_01_DELIVERY_LOG_01_OBJ",
+            "name": "Forestry Business",
+            "type": "Contract"
+          },
+          {
+            "key": "US_10_01_DELIVERY_LOG_02_OBJ",
+            "name": "Town Requests",
+            "type": "Contract"
+          }
+        ]
       }
     ]
   },
@@ -2795,6 +2888,7 @@
           },
           {
             "key": "US_11_01_FRIENDLY_HELP_TASK",
+            "name": "A Friend's Favor",
             "type": "Task"
           },
           {
@@ -2815,6 +2909,7 @@
           },
           {
             "key": "US_11_01_STRUCK_NOT_BROKEN_TASK",
+            "name": "Bent, but Not Broken!",
             "type": "Task"
           },
           {
@@ -2842,6 +2937,7 @@
           },
           {
             "key": "US_11_02_BRIDGE_TASK",
+            "name": "Southern Bridge",
             "type": "Task"
           },
           {
@@ -2877,6 +2973,7 @@
           },
           {
             "key": "US_11_02_SEISMO_TASK",
+            "name": "Thor's Thunder",
             "type": "Task"
           },
           {
@@ -2885,6 +2982,7 @@
           },
           {
             "key": "US_11_02_TRACK_DELIVERY_TASK_02",
+            "name": "Missing Movie Props",
             "type": "Task"
           },
           {
