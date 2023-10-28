@@ -110,9 +110,11 @@ function processSavegame(savegame) {
     }
     const divTrackedObjective = document.getElementById("tracked_objective");
     const trackedObjectiveKey = savegame.CompleteSave.SslValue.trackedObjective;
-    const trackedObjLi = document.getElementById(trackedObjectiveKey);
-    const name = (trackedObjLi !== null) ? trackedObjLi.textContent : trackedObjectiveKey;
-    divTrackedObjective.textContent = "Tracked Objective: " + name;
+    if (trackedObjectiveKey !== "") {
+        const trackedObjLi = document.getElementById(trackedObjectiveKey);
+        const name = (trackedObjLi !== null) ? trackedObjLi.textContent : trackedObjectiveKey;
+        divTrackedObjective.textContent = "Tracked Objective: " + name;
+    }
     for (const elem of document.getElementsByClassName("objectives")) {
         numItemsFinished = elem.getElementsByClassName("done").length;
         elem.childNodes[0].textContent = elem.dataset.name + ": " + numItemsFinished + " / " + elem.dataset.numTotal;
@@ -131,11 +133,6 @@ function handleFileSelect(input) {
     }
     const file = input.files[0];
     if (file) {
-        const mimeType = file.type;
-        if (mimeType !== "application/json") {
-            invalidSavegame();
-            return;
-        }
         const reader = new FileReader();
         reader.onload = function(e) {
             const fileContent = e.target.result;
