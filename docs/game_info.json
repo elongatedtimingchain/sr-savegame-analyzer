@@ -613,10 +613,14 @@
             "type": "Contest"
           },
           {
-            "key": "US_02_01_MOUNTAIN_CONQUEST_1_CNT"
+            "key": "US_02_01_MOUNTAIN_CONQUEST_1_CNT",
+            "name": "North Mountain Conquest",
+            "type": "Contest"
           },
           {
-            "key": "US_02_01_MOUNTAIN_CONQUEST_2_CNT"
+            "key": "US_02_01_MOUNTAIN_CONQUEST_2_CNT",
+            "name": "West Mountain Conquest",
+            "type": "Contest"
           }
         ]
       },
@@ -771,7 +775,9 @@
             "type": "Task"
           },
           {
-            "key": "US_02_04_FRAGILE_DELIVERY_CNT"
+            "key": "US_02_04_FRAGILE_DELIVERY_CNT",
+            "name": "Weather Conditions",
+            "type": "Contest"
           }
         ]
       }
@@ -1123,7 +1129,9 @@
             "type": "Contest"
           },
           {
-            "key": "RU_02_02_CONTAINER_DELIVERY_CNT"
+            "key": "RU_02_02_CONTAINER_DELIVERY_CNT",
+            "name": "Container Delivery",
+            "type": "Contest"
           },
           {
             "key": "RU_02_02_FLAG_1_CNT"
@@ -1634,7 +1642,9 @@
             "type": "Task"
           },
           {
-            "key": "RU_03_02_GARBAGE_CNT"
+            "key": "RU_03_02_GARBAGE_CNT",
+            "name": "Dirty business",
+            "type": "Contest"
           }
         ]
       }
@@ -1836,13 +1846,19 @@
             "type": "Task"
           },
           {
-            "key": "US_04_01_DOWNHILL_01_CNT"
+            "key": "US_04_01_DOWNHILL_01_CNT",
+            "name": "Down!",
+            "type": "Contest"
           },
           {
-            "key": "US_04_01_RACE_L_CNT"
+            "key": "US_04_01_RACE_L_CNT",
+            "name": "Long ride",
+            "type": "Contest"
           },
           {
-            "key": "US_04_01_RACE_S_CNT"
+            "key": "US_04_01_RACE_S_CNT",
+            "name": "Short ride",
+            "type": "Contest"
           }
         ]
       },
@@ -1939,10 +1955,14 @@
             "type": "Task"
           },
           {
-            "key": "US_04_02_DIRT_CNT"
+            "key": "US_04_02_DIRT_CNT",
+            "name": "Path through the Rocks",
+            "type": "Contest"
           },
           {
-            "key": "US_04_02_TOTHETOP_CNT"
+            "key": "US_04_02_TOTHETOP_CNT",
+            "name": "To the Top!",
+            "type": "Contest"
           }
         ]
       }
@@ -2208,10 +2228,14 @@
             "type": "Task"
           },
           {
-            "key": "US_03_02_MUDSTER_CNT"
+            "key": "US_03_02_MUDSTER_CNT",
+            "name": "Mud Tested",
+            "type": "Contest"
           },
           {
-            "key": "US_03_02_SLALOM_CNT"
+            "key": "US_03_02_SLALOM_CNT",
+            "name": "Slalom",
+            "type": "Contest"
           }
         ]
       }
@@ -2404,7 +2428,9 @@
             "type": "Task"
           },
           {
-            "key": "RU_04_01_ICE_RACE_CNT"
+            "key": "RU_04_01_ICE_RACE_CNT",
+            "name": "Ice Adventure",
+            "type": "Contest"
           },
           {
             "key": "RU_04_01_POWERPLANT_OBJ"
@@ -2416,7 +2442,9 @@
             "key": "RU_04_01_ROCKET_TRAILER_OBJ"
           },
           {
-            "key": "RU_04_01_ROCK_RACE_CNT"
+            "key": "RU_04_01_ROCK_RACE_CNT",
+            "name": "Conquering Summits",
+            "type": "Contest"
           },
           {
             "key": "RU_04_01_TUNNELBLOCK_OBJ"
@@ -2899,10 +2927,14 @@
             "type": "Task"
           },
           {
-            "key": "RU_05_02_HONEY"
+            "key": "RU_05_02_HONEY",
+            "name": "Sweet Tooth",
+            "type": "Contest"
           },
           {
-            "key": "RU_05_02_LAKE_RACE"
+            "key": "RU_05_02_LAKE_RACE",
+            "name": "The Quick and the Wet",
+            "type": "Contest"
           }
         ]
       }
@@ -3175,10 +3207,14 @@
             "type": "Task"
           },
           {
-            "key": "US_06_02_DANGERRACE_CNT"
+            "key": "US_06_02_DANGERRACE_CNT",
+            "name": "Dangerous Games",
+            "type": "Contest"
           },
           {
-            "key": "US_06_02_KARTER_CNT"
+            "key": "US_06_02_KARTER_CNT",
+            "name": "Mysterious Monoliths",
+            "type": "Contest"
           }
         ]
       }
@@ -4432,12 +4468,13 @@
           },
           {
             "key": "US_10_01_CONTEST_RACE",
+            "name": "Deadly Race",
             "type": "Contest"
           },
           {
             "key": "US_10_01_CONT_VISIT",
             "name": "Data For The Observatory",
-            "type": "Task"
+            "type": "Contest"
           }
         ]
       },
@@ -4668,6 +4705,7 @@
           },
           {
             "key": "US_11_01_FLOODED_RACE_CONTEST",
+            "name": "A Flooded Race",
             "type": "Contest"
           }
         ]
@@ -4745,10 +4783,13 @@
             "type": "Task"
           },
           {
-            "key": "US_11_02_DELIVERY"
+            "key": "US_11_02_DELIVERY",
+            "name": "Speedy Delivery",
+            "type": "Contest"
           },
           {
             "key": "US_11_02_DESCENT_CONTEST",
+            "name": "Challenging Descent",
             "type": "Contest"
           }
         ]
