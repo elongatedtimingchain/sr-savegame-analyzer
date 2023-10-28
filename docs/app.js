@@ -126,15 +126,27 @@ function processSavegame(savegame) {
 }
 
 function handleFileSelect(input) {
+    const invalidSavegame = function() {
+        alert("Invalid Savegame!");
+    }
     const file = input.files[0];
     if (file) {
         const mimeType = file.type;
+        if (mimeType !== "application/json") {
+            invalidSavegame();
+            return;
+        }
         const reader = new FileReader();
         reader.onload = function(e) {
             const fileContent = e.target.result;
-            const savegame = JSON.parse(fileContent.replace(/\0/g, ''));
-            processSavegame(savegame);
-
+            try {
+                const savegame = JSON.parse(fileContent.replace(/\0/g, ''));
+                processSavegame(savegame);
+            } catch (e) {
+                console.error(e);
+                invalidSavegame();
+                return;
+            }
         }
         reader.readAsText(file);
     }
