@@ -57,19 +57,62 @@ function addProgress(progressByLevel, varName) {
     }    
 }
 
+function makeObjectiveLiNode(objective) {
+    const liNode = document.createElement("li");
+    liNode.id = objective.key;
+    liNode.classList.add("objective");
+    if (typeof(objective.type) !== "undefined") {
+        liNode.classList.add("obj-kind-" + objective.type.toLowerCase())
+    }
+    const name = (typeof(objective.name) !== "undefined") ? objective.name : objective.key;
+    liNode.textContent = name;
+    return liNode;
+}
+
+function addUnknownObjective(objectiveKey) {
+    const shortLevelId = objectiveKey.substr(0,8).toLowerCase();
+    for (const objectivesLi of document.getElementsByClassName("objectives")) {
+        if (objectivesLi.id.startsWith("objectives_level_" + shortLevelId)) {
+            const ul = objectivesLi.children[0];
+            const li = makeObjectiveLiNode({
+                "key": objectiveKey,
+                "type": "new"
+            });
+            ul.appendChild(li);
+            return li;
+        }
+    }
+}
+
 function processSavegame(savegame) {
+    const discoveredObjectives =savegame.CompleteSave.SslValue.discoveredObjectives;
+    for (const obj in discoveredObjectives) {
+        const objKey = discoveredObjectives[obj];
+        const li = document.getElementById(objKey);
+        if (!li) {
+            console.log(objKey);
+            addUnknownObjective(objKey);
+        }
+    }
     const liObjectives = document.getElementsByClassName("objective");
     for (const li of liObjectives) {
         li.classList.add("pending");
     }
     const finishedObjectives = savegame.CompleteSave.SslValue.finishedObjs;
     for (const obj in finishedObjectives) {
-        const li = document.getElementById(finishedObjectives[obj]);
-        if (li) {
-            li.classList.remove("pending");
-            li.classList.add("done");
+        const objKey = finishedObjectives[obj];
+        li = document.getElementById(objKey);
+        if (!li) {
+            continue;
         }
+        li.classList.remove("pending");
+        li.classList.add("done");
     }
+    const divTrackedObjective = document.getElementById("tracked_objective");
+    const trackedObjectiveKey = savegame.CompleteSave.SslValue.trackedObjective;
+    const trackedObjLi = document.getElementById(trackedObjectiveKey);
+    const name = (trackedObjLi !== null) ? trackedObjLi.textContent : trackedObjectiveKey;
+    divTrackedObjective.textContent = "Tracked Objective: " + name;
     for (const elem of document.getElementsByClassName("objectives")) {
         numItemsFinished = elem.getElementsByClassName("done").length;
         elem.childNodes[0].textContent = elem.dataset.name + ": " + numItemsFinished + " / " + elem.dataset.numTotal;
@@ -102,15 +145,7 @@ function makeObjectivesUlNode(objectives) {
     ulNode.classList.add("objective-list");
     if (typeof(objectives) !== "undefined") {
         for (const objective of objectives) {
-            const liNode = document.createElement("li");
-            liNode.id = objective.key;
-            liNode.classList.add("objective");
-            if (typeof(objective.type) !== "undefined") {
-                liNode.classList.add("obj-kind-" + objective.type.toLowerCase())
-            }
-            const name = (typeof(objective.name) !== "undefined") ? objective.name : objective.key;
-            liNode.textContent = name;
-            ulNode.appendChild(liNode);
+            ulNode.appendChild(makeObjectiveLiNode(objective));
         }
     }
     return ulNode;

@@ -46,6 +46,13 @@
             font-size: 10pt;
             text-decoration: none;
         }
+        #tracked_objective_wrapper {
+            display: table;
+        }
+        #tracked_objective {
+            display: table-cell;
+            vertical-align: middle;
+        }
         #main {
             position: relative;
             margin-top: 70px;
@@ -131,25 +138,32 @@
         .objective.obj-kind-contract::before {
             background: url('contract.svg') no-repeat;
         }
+        .objective.obj-kind-new::before {
+            background: url('new.svg') no-repeat;
+        }
         .objective.pending::before {
             filter: saturate(75%) hue-rotate(35deg) brightness(2);
         }
         .objective.done::before {
             filter: saturate(100%) hue-rotate(211deg) brightness(2);
-        } 
+        }
     </style>
     <script src="app.js" defer></script>
 </head>
 <body class="dark-mode">
     <header>
         <div>
-        <input type="file" id="fileInput" onchange="handleFileSelect(this)" style="display:none;">
-        <button class="button" onclick="document.getElementById('fileInput').click();">Browse Savegame...</button>
+            <input type="file" id="fileInput" onchange="handleFileSelect(this)" style="display:none;">
+            <button class="button" onclick="document.getElementById('fileInput').click();">Browse Savegame...</button>
+        </div>
+        <div><!-- spacer --></div>
+        <div id="tracked_objective_wrapper">
+            <span id="tracked_objective"></span>
         </div>
         <div><!-- spacer --></div>
         <div>
-        <a class="button" href="https://github.com/elongatedtimingchain/sr-savegame-analyzer">View on GitHub</a>
-        <button id="dark-mode-toggle" class="button" onclick="toggleDarkMode()">Dark Mode</button>
+            <a class="button" href="https://github.com/elongatedtimingchain/sr-savegame-analyzer">View on GitHub</a>
+            <button id="dark-mode-toggle" class="button" onclick="toggleDarkMode()">Dark Mode</button>
         </div>
     </header>
     <div id="loading">
