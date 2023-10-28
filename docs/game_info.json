@@ -1061,11 +1061,6 @@
         "name": "Transtaymyr",
         "objectives": [
           {
-            "key": "RU_02_02_MAZUT_DELIVERY",
-            "name": "Dirty Deeds",
-            "type": "Contract"
-          },
-          {
             "key": "RU_02_01_SERVICE_HUB_RECOVERY_01_OBJ",
             "name": "Service Hub Recovery",
             "type": "Contract"
@@ -1073,6 +1068,11 @@
           {
             "key": "RU_02_01_SERVICE_HUB_RECOVERY_02_OBJ",
             "name": "Repair Shop Restock",
+            "type": "Contract"
+          },
+          {
+            "key": "RU_02_02_MAZUT_DELIVERY",
+            "name": "Dirty Deeds",
             "type": "Contract"
           }
         ]
@@ -1099,6 +1099,11 @@
             "key": "RU_02_03_PIER_RECOVERY_OBJ",
             "name": "Pier Recovery",
             "type": "Contract"
+          },
+          {
+            "key": "RU_02_04_NORTH_ROAD_EXPLORATION_OBJ",
+            "name": "Pathfinder",
+            "type": "Contract"
           }
         ]
       },
@@ -1121,16 +1126,6 @@
             "type": "Contract"
           },
           {
-            "key": "RU_02_04_MAST_RESTORATION_OBJ",
-            "name": "Uplink",
-            "type": "Contract"
-          },
-          {
-            "key": "RU_02_04_MINES_EXPLORATION_OBJ",
-            "name": "Data Mining",
-            "type": "Contract"
-          },
-          {
             "key": "RU_02_03_DERRICK_DELIVERY_OBJ",
             "name": "Derrick Delivery",
             "type": "Contract"
@@ -1138,6 +1133,16 @@
           {
             "key": "RU_02_03_DRILLING_EQUIPMENT_DELIVERY_OBJ",
             "name": "Drilling Equipment Delivery",
+            "type": "Contract"
+          },
+          {
+            "key": "RU_02_04_MAST_RESTORATION_OBJ",
+            "name": "Uplink",
+            "type": "Contract"
+          },
+          {
+            "key": "RU_02_04_MINES_EXPLORATION_OBJ",
+            "name": "Data Mining",
             "type": "Contract"
           }
         ]
@@ -2722,8 +2727,20 @@
         "num_watchpoints": 15,
         "objectives": [
           {
+            "key": "US_10_01_CONTEST_RACE",
+            "type": "Contest"
+          },
+          {
             "key": "US_10_01_CONT_VISIT",
             "name": "Data For The Observatory",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_DELIVERY_HUNT_TSK",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_DELIVERY_LIFT_TSK",
             "type": "Task"
           },
           {
@@ -2736,8 +2753,20 @@
             "type": "Task"
           },
           {
+            "key": "US_10_01_DELIVERY_OILTANK_01_TSK",
+            "type": "Task"
+          },
+          {
             "key": "US_10_01_DELIVERY_TRANSFORMER_TSK",
             "name": "Backup Source",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_DELIVERY_TRUCK_TSK",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_FALLEN_POWER_LINE_01_TSK",
             "type": "Task"
           },
           {
@@ -2750,8 +2779,16 @@
             "type": "Task"
           },
           {
+            "key": "US_10_01_FIX_BRIDGE_01_TSK",
+            "type": "Task"
+          },
+          {
             "key": "US_10_01_FIX_BRIDGE_02_TSK",
             "name": "South City Bridge",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_FIX_BRIDGE_04_TSK",
             "type": "Task"
           },
           {
@@ -2948,6 +2985,10 @@
             "type": "Contest"
           },
           {
+            "key": "US_11_02_FIXING_STATION_CONTRACT",
+            "type": "Contract"
+          },
+          {
             "key": "US_11_02_LOST_CARGO_TASK",
             "type": "Task"
           },
@@ -2999,15 +3040,68 @@
     "contracts": [
       {
         "name": "Orestoke Resort Administration",
-        "objectives": []
+        "objectives": [
+          {
+            "key": "US_11_01_HOLIDAY_BEGINS_WITH_WORK_CONTRACT",
+            "name": "Business before Pleasure",
+            "type": "Contract"
+          },
+          {
+            "key": "US_11_01_LOST_TRAILERS_CONTRACT",
+            "name": "Lost Trailers",
+            "type": "Contract"
+          },
+          {
+            "key": "US_11_01_HELP_FOR_DROWNING_CONTRACT",
+            "name": "Helping the Fishermen",
+            "type": "Contract"
+          },
+          {
+            "key": "US_11_01_REPAIR_WAREHOUSE_CONTRACT",
+            "name": "Warehouse Repairs",
+            "type": "Contract"
+          },
+          {
+            "key": "US_11_02_RAIL_REPAIR_CONTRACT",
+            "name": "Disrupted Supplies",
+            "type": "Contract"
+          },
+          {
+            "key": "US_11_02_HOTEL_HOUSE_CONTRACT",
+            "name": "Tourist Cabin Repairs",
+            "type": "Contract"
+          }
+        ]
       },
       {
         "name": "Emberro Pictures",
-        "objectives": []
+        "objectives": [
+          {
+            "key": "US_11_01_FILM_STAR_CITY_CONTRACT",
+            "name": "The Movie Star",
+            "type": "Contract"
+          }
+        ]
       },
       {
         "name": "Nordic Environment Authority",
-        "objectives": []
+        "objectives": [
+          {
+            "key": "US_11_01_FORESTER_IS_WATCHING_YOU_CONTRACT",
+            "name": "The Ranger is Watching",
+            "type": "Contract"
+          },
+          {
+            "key": "US_11_01_TOP_VIEW_CONTRACT",
+            "name": "The View from Above",
+            "type": "Contract"
+          },
+          {
+            "key": "US_11_01_TERRIORY_EXPLORATION_CONTRACT",
+            "name": "Reconnaissance",
+            "type": "Contract"
+          }
+        ]
       }
     ]
   }
