@@ -22,36 +22,6 @@ If you can't find it, here's a (non-exhaustive) list of the possible savegame lo
 
 - `~/.local/share/Steam/userdata/<your_steam_id>/1465360/remote/`
 
-## Problems and Limitations
-
-All game info was scraped from savegames by myself.
-Regarding objectives, savegames only contain their back-end representation.
-The pretty names that you're used to as shown in-game have to be put in by myself in a labor-intensive manual process. Therefore, they are not available
-for most objectives in the game yet.
-
-Additionally, contracts may be misclassified as Tasks and will therefore be found under a certain map (contracts **are** assigned a map in the back-end,
-but this is not reflected in-game), as there is no definitive way to tell
-apart contracts from tasks / contests from the savegames alone, and additionally it's not straightforward to determine a contract's employer.
-
-Below is a table showing the progress for each region:
-
-| | Objective Keys | Objective Names | Contracts | Trucks, Upgrades, Watchpoints |
-|-|-|-|-|-|
-|Michigan|Complete|Partial|Partial|Complete|
-|Alaska|Complete|Partial|Partial|Complete|
-|Taymyr|Complete|Partial|Partial|Complete|
-|Kola|Complete|Partial|Missing|Complete|
-|Yukon|Complete|Missing|Missing|Complete|
-|Wisconsin|Complete|Missing|Missing|Complete|
-|Amur|Complete|Missing|Missing|Complete|
-|Don|Complete|Missing|Missing|Complete|
-|Maine|Complete|Missing|Missing|Complete|
-|Tennessee|Missing|Missing|Missing|Complete|
-|Glades|Missing|Missing|Missing|Complete|
-|Ontario|Missing|Missing|Missing|Complete|
-|Br. Columbia|Missing|Missing|Missing|Complete|
-|Scandinavia|Partial|Partial|Missing|Complete|
-
 ---
 
 ## Advanced usage
