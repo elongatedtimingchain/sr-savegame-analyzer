@@ -1,6 +1,7 @@
 [
   {
     "name": "Michigan, North America",
+    "key": "us_01",
     "maps": [
       {
         "name": "Black River",
@@ -10,84 +11,28 @@
         "num_watchpoints": 8,
         "objectives": [
           {
-            "key": "US_01_01_BOATMAN_TOOLS_DELIVERY_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_01_BUILD_A_BRIDGE_OBJ"
-          },
-          {
-            "key": "US_01_01_DRILLING_RECOVERY_OBJ"
-          },
-          {
-            "key": "US_01_01_DROWNED_TRUCK_01_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_01_DROWNED_TRUCK_02_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_01_DROWNED_TRUCK_03_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_01_EXPLORE_GARAGE_OBJ"
-          },
-          {
-            "key": "US_01_01_EXPLORING_TRUCK_OBJ"
-          },
-          {
-            "key": "US_01_01_EXPLORING_WATCHTOWER_OBJ"
-          },
-          {
-            "key": "US_01_01_FACTORY_RECOVERY_OBJ"
-          },
-          {
             "key": "US_01_01_FALLEN_POWER_LINES_TSK",
             "name": "Fallen Powerline",
             "type": "Task"
           },
           {
-            "key": "US_01_01_FARM_DELIVERY_OBJ"
-          },
-          {
-            "key": "US_01_01_FOOD_DELIVERY_CNT",
-            "name": "Food Delivery",
-            "type": "Contest"
-          },
-          {
-            "key": "US_01_01_KING_OF_HILLS_TSK",
-            "name": "King Of The Hill",
+            "key": "US_01_01_DROWNED_TRUCK_01_TSK",
+            "name": "Drowned Highway Truck",
             "type": "Task"
           },
           {
-            "key": "US_01_01_LANDSLIDE_TSK",
+            "key": "US_01_01_DROWNED_TRUCK_02_TSK",
+            "name": "Drowned Scout Truck",
             "type": "Task"
           },
           {
-            "key": "US_01_01_LOCAL_ENTERTAINMENT_TSK",
-            "name": "Local Entertainment",
+            "key": "US_01_01_DROWNED_TRUCK_03_TSK",
+            "name": "Drowned Heavy Truck",
             "type": "Task"
-          },
-          {
-            "key": "US_01_01_LOST_CARGO_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_01_LOST_CONTAINERS_OBJ"
-          },
-          {
-            "key": "US_01_01_METEO_DATA_CNT",
-            "name": "Meteorology Data",
-            "type": "Contest"
           },
           {
             "key": "US_01_01_MISSED_OILTANK_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_01_MOTEL_NEEDS_TSK",
+            "name": "Missing Oil Tank",
             "type": "Task"
           },
           {
@@ -96,31 +41,69 @@
             "type": "Task"
           },
           {
-            "key": "US_01_01_ROAD_BLOCKAGE_TSK",
-            "type": "Task"
-          },
-          {
             "key": "US_01_01_STUCK_TRAILER_TSK",
+            "name": "Stuck Trailer",
             "type": "Task"
-          },
-          {
-            "key": "US_01_01_SUPPLIES_FOR_FARMERS_OBJ"
-          },
-          {
-            "key": "US_01_01_SWAMP_EXPLORATION_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_01_THE_PLACE_BEYOND_THE_SPRUCES_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_01_TOWN_STORAGE_OBJ"
           },
           {
             "key": "US_01_01_WOODEN_BRIDGE_TSK",
             "name": "Wooden Bridge",
             "type": "Task"
+          },
+          {
+            "key": "US_01_01_KING_OF_HILLS_TSK",
+            "name": "King Of The Hill",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_01_SWAMP_EXPLORATION_TSK",
+            "name": "Drainage",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_01_LOST_CARGO_TSK",
+            "name": "Missing Machinery",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_01_BOATMAN_TOOLS_DELIVERY_TSK",
+            "name": "Riverside Repair",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_01_MOTEL_NEEDS_TSK",
+            "name": "Motel Woes",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_01_LANDSLIDE_TSK",
+            "name": "Rockslide",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_01_ROAD_BLOCKAGE_TSK",
+            "name": "Road Block",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_01_LOCAL_ENTERTAINMENT_TSK",
+            "name": "Local Entertainment",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_01_THE_PLACE_BEYOND_THE_SPRUCES_TSK",
+            "name": "The Place Beyond The Spruces",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_01_FOOD_DELIVERY_CNT",
+            "name": "Food Delivery",
+            "type": "Contest"
+          },
+          {
+            "key": "US_01_01_METEO_DATA_CNT",
+            "name": "Meteorology Data",
+            "type": "Contest"
           },
           {
             "key": "US_01_01_WOODEN_ORDER_CNT",
@@ -137,83 +120,13 @@
         "num_watchpoints": 6,
         "objectives": [
           {
-            "key": "US_01_02_BARRELS_DELIVERY_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_02_BRICKS_DELIVERY_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_02_CLEAN_THE_RIVER_EAST_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_02_CLEAN_THE_RIVER_WEST_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_02_CLEAR_ROCKS_01_TSK",
-            "type": "Task"
-          },
-          {
             "key": "US_01_02_DRILL_FOR_OUTCAST_TSK",
+            "name": "Well Well Well",
             "type": "Task"
           },
           {
-            "key": "US_01_02_FALLEN_ROCKS_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_02_FARMERS_NEEDS_CNT",
-            "name": "Heavy Burden",
-            "type": "Contest"
-          },
-          {
-            "key": "US_01_02_FARM_ORDER_OBJ"
-          },
-          {
-            "key": "US_01_02_FIND_THE_ANTENNA_TOWER_TSK",
-            "name": "Find The Antenna Tower",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_02_FLOODED_HOUSE_CNT",
-            "name": "Going Under",
-            "type": "Contest"
-          },
-          {
-            "key": "US_01_02_FOOD_FOR_WORKERS_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_02_HOUSE_RENOVATION_CNT",
-            "name": "New Nest",
-            "type": "Contest"
-          },
-          {
-            "key": "US_01_02_LOST_BAGS_TSK",
-            "name": "Lost Bags",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_02_LOST_TRAILER_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_02_MICHIGAN_TRIAL_TSK",
-            "name": "Michigan Trial",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_02_REPAIR_THE_TRUCK_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_02_RESOURCES_FOR_WINTER_OBJ"
-          },
-          {
-            "key": "US_01_02_RIVER_CROSSING_TSK",
+            "key": "US_01_02_UNLUCKY_FISHERMAN_TSK",
+            "name": "Unlucky Fisherman",
             "type": "Task"
           },
           {
@@ -222,16 +135,94 @@
             "type": "Task"
           },
           {
-            "key": "US_01_02_TRUCK_RESTORATION_TSK",
+            "key": "US_01_02_CLEAR_ROCKS_01_TSK",
+            "name": "The Long Way",
             "type": "Task"
           },
           {
-            "key": "US_01_02_UNLUCKY_FISHERMAN_TSK",
+            "key": "US_01_02_FIND_THE_ANTENNA_TOWER_TSK",
+            "name": "Find The Antenna Tower",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_02_REPAIR_THE_TRUCK_TSK",
+            "name": "Repair The Truck",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_02_BRICKS_DELIVERY_TSK",
+            "name": "Tools Delivery",
             "type": "Task"
           },
           {
             "key": "US_01_02_WOODEN_BRIDGE_TSK",
+            "name": "Smithville Bridge",
             "type": "Task"
+          },
+          {
+            "key": "US_01_02_BARRELS_DELIVERY_TSK",
+            "name": "More Fuel",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_02_LOST_TRAILER_TSK",
+            "name": "Lost Trailer",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_02_FALLEN_ROCKS_TSK",
+            "name": "Rock On",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_02_CLEAN_THE_RIVER_EAST_TSK",
+            "name": "Threatening Accident",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_02_CLEAN_THE_RIVER_WEST_TSK",
+            "name": "Unfortunate Event",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_02_FOOD_FOR_WORKERS_TSK",
+            "name": "Hungry Workers",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_02_RIVER_CROSSING_TSK",
+            "name": "Across The River",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_02_TRUCK_RESTORATION_TSK",
+            "name": "Fixer Upper",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_02_LOST_BAGS_TSK",
+            "name": "Lost Bags",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_02_MICHIGAN_TRIAL_TSK",
+            "name": "Michigan Trial",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_02_FARMERS_NEEDS_CNT",
+            "name": "Heavy Burden",
+            "type": "Contest"
+          },
+          {
+            "key": "US_01_02_FLOODED_HOUSE_CNT",
+            "name": "Going Under",
+            "type": "Contest"
+          },
+          {
+            "key": "US_01_02_HOUSE_RENOVATION_CNT",
+            "name": "New Nest",
+            "type": "Contest"
           }
         ]
       },
@@ -243,62 +234,59 @@
         "num_watchpoints": 8,
         "objectives": [
           {
-            "key": "US_01_03_BARREL_CNT",
-            "name": "Flaming Barrels",
-            "type": "Contest"
-          },
-          {
-            "key": "US_01_03_CARGO_PORT_OBJ"
-          },
-          {
-            "key": "US_01_03_DROPPED_VEHICLE_SEARCHING_TSK_01",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_03_DROPPED_VEHICLE_SEARCHING_TSK_02",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_03_DROPPED_VEHICLE_SEARCHING_TSK_03",
+            "key": "US_01_03_FIX_THE_ANTENNA_TSK",
+            "name": "Broken Antenna",
             "type": "Task"
           },
           {
             "key": "US_01_03_FIND_THE_ANTENNA_TSK",
+            "name": "Signal In The Mountains",
             "type": "Task"
-          },
-          {
-            "key": "US_01_03_FIX_THE_ANTENNA_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_03_LOST_CARGO_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_03_LUMBER_MILL_REACTIVATION_OBJ"
-          },
-          {
-            "key": "US_01_03_POWER_WIRES_1_CONTRACT_OBJ",
-            "type": "Contract"
           },
           {
             "key": "US_01_03_SHORT_CUT_TSK",
+            "name": "Hunter Bob's Вridge",
             "type": "Task"
           },
           {
-            "key": "US_01_03_SWAMP_CROSSING_01_TSK",
+            "key": "US_01_03_DROPPED_VEHICLE_SEARCHING_TSK_01",
+            "name": "The Huntsman And The Car",
             "type": "Task"
           },
           {
-            "key": "US_01_03_SWAMP_CROSSING_02_TSK",
+            "key": "US_01_03_DROPPED_VEHICLE_SEARCHING_TSK_03",
+            "name": "A Little Help For My Friends",
             "type": "Task"
           },
           {
             "key": "US_01_03_SWAMP_CROSSING_03_TSK",
+            "name": "Corporate Expansion",
             "type": "Task"
           },
           {
-            "key": "US_01_03_TRUCK_REPAIR"
+            "key": "US_01_03_SWAMP_CROSSING_02_TSK",
+            "name": "Bridge The Gap",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_03_SWAMP_CROSSING_01_TSK",
+            "name": "Tough Negotiations",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_03_DROPPED_VEHICLE_SEARCHING_TSK_02",
+            "name": "Rusty Legacy",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_03_TRUCK_REPAIR",
+            "name": "No Country For Old Truck",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_03_BARREL_CNT",
+            "name": "Flaming Barrels",
+            "type": "Contest"
           }
         ]
       },
@@ -310,102 +298,217 @@
         "num_watchpoints": 4,
         "objectives": [
           {
-            "key": "US_01_04_BUILD_A_BRIDGE_OBJ_1"
+            "key": "US_01_04_BUILD_A_BRIDGE_OBJ_1",
+            "name": "Support Local Rangers",
+            "type": "Task"
           },
           {
-            "key": "US_01_04_BUILD_A_BRIDGE_OBJ_2"
+            "key": "US_01_04_BUILD_A_BRIDGE_OBJ_3",
+            "name": "Ten-Hut",
+            "type": "Task"
           },
           {
-            "key": "US_01_04_BUILD_A_BRIDGE_OBJ_3"
+            "key": "US_01_04_BUILD_A_BRIDGE_OBJ_2",
+            "name": "Of Bridges And Men",
+            "type": "Task"
           },
           {
-            "key": "US_01_04_CARGO_DELIVERING_OBJ"
+            "key": "US_01_04_FALLEN_CARGO_TSK",
+            "name": "Cousin Cletus",
+            "type": "Task"
           },
           {
-            "key": "US_01_04_CARGO_FROM_SHIP_OBJ"
+            "key": "US_01_04_FIND_LOST_TRUCK_TSK",
+            "name": "Mud Wrestling",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_04_LOST_CARGO_DELIVERY_TSK",
+            "name": "Lost Delivery",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_04_LOST_SHIP_OBJ",
+            "name": "Forged By The Sea",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_04_PATH__PASSING_TSK",
+            "name": "Tourist Attraction",
+            "type": "Task"
+          },
+          {
+            "key": "US_01_04_OBSERVATION_DECK_TSK",
+            "name": "The Silent Observer",
+            "type": "Task"
           },
           {
             "key": "US_01_04_EXPLORING_CNT",
             "name": "A Race With The Rain",
             "type": "Contest"
-          },
-          {
-            "key": "US_01_04_FALLEN_CARGO_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_04_FIND_LOST_TRUCK_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_04_LONG_LOGS_2_OBJ"
-          },
-          {
-            "key": "US_01_04_LONG_LOGS_OBJ"
-          },
-          {
-            "key": "US_01_04_LOST_CARGO_DELIVERY_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_04_LOST_SHIP_OBJ"
-          },
-          {
-            "key": "US_01_04_MED_LOGS_2_OBJ"
-          },
-          {
-            "key": "US_01_04_MED_LOGS_OBJ"
-          },
-          {
-            "key": "US_01_04_MULTIORDER_OBJ"
-          },
-          {
-            "key": "US_01_04_OBSERVATION_DECK_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_04_PATH__PASSING_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_01_04_SUPPLIES_FOR_REGION_2_OBJ"
           }
         ]
       }
     ],
     "contracts": [
       {
-        "name": "Dyson Diesel",
-        "objectives": []
-      },
-      {
-        "name": "Husky Forwarding",
+        "name": "DYSON DIESEL",
+        "key": "DysonDiesel",
         "objectives": [
           {
-            "key": "US_01_02_FUEL_ORDER_OBJ",
-            "name": "Fuel Order",
+            "name": "Pipe Dream",
+            "key": "US_01_01_FACTORY_RECOVERY_OBJ",
             "type": "Contract"
           },
           {
-            "key": "US_01_02_MATERIALS_ORDER_OBJ",
-            "name": "Materials Order",
+            "name": "Not A Drill",
+            "key": "US_01_01_DRILLING_RECOVERY_OBJ",
             "type": "Contract"
           },
           {
-            "key": "US_01_02_WORK_FOR_OLD_SWEAT_OBJ",
-            "name": "Work For Old Sweat",
+            "name": "Instruments Of Development",
+            "key": "US_01_03_LOST_CARGO_TSK",
+            "type": "Contract"
+          },
+          {
+            "name": "Harbor Delivery",
+            "key": "US_01_03_CARGO_PORT_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Out With The Old",
+            "key": "US_01_04_CARGO_DELIVERING_OBJ",
             "type": "Contract"
           }
         ]
       },
       {
-        "name": "Steel River Township",
-        "objectives": []
+        "name": "HUSKY FORWARDING",
+        "key": "HuskyForwarding",
+        "objectives": [
+          {
+            "name": "Farming Tools",
+            "key": "US_01_01_FARM_DELIVERY_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Wet Harvest",
+            "key": "US_01_01_SUPPLIES_FOR_FARMERS_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Winter Stores",
+            "key": "US_01_02_RESOURCES_FOR_WINTER_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "The Essentials",
+            "key": "US_01_02_FARM_ORDER_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Materials Order",
+            "key": "US_01_02_MATERIALS_ORDER_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Work For Old Sweat",
+            "key": "US_01_02_WORK_FOR_OLD_SWEAT_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Fuel Order",
+            "key": "US_01_02_FUEL_ORDER_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Lumber Mill Revival",
+            "key": "US_01_03_LUMBER_MILL_REACTIVATION_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Power Lines",
+            "key": "US_01_03_POWER_WIRES_1_CONTRACT_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Cargo From The Ship",
+            "key": "US_01_04_CARGO_FROM_SHIP_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Cement For The Region",
+            "key": "US_01_04_SUPPLIES_FOR_REGION_2_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Super Order",
+            "key": "US_01_04_MULTIORDER_OBJ",
+            "type": "Contract"
+          }
+        ]
+      },
+      {
+        "name": "STEEL RIVER TOWNSHIP",
+        "key": "AttecaTownship",
+        "objectives": [
+          {
+            "name": "The Watchtower",
+            "key": "US_01_01_EXPLORING_WATCHTOWER_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "First Truck",
+            "key": "US_01_01_EXPLORING_TRUCK_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Old Bridge Reconstruction",
+            "key": "US_01_01_BUILD_A_BRIDGE_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Get To The Garage",
+            "key": "US_01_01_EXPLORE_GARAGE_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Lost Container",
+            "key": "US_01_01_LOST_CONTAINERS_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Steel River Supplies",
+            "key": "US_01_01_TOWN_STORAGE_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Logs to the Workers!",
+            "key": "US_01_04_LONG_LOGS_2_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Aid at the Island",
+            "key": "US_01_04_MED_LOGS_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Timber at Arm's Reach",
+            "key": "US_01_04_MED_LOGS_2_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Timber for the Locals",
+            "key": "US_01_04_LONG_LOGS_OBJ",
+            "type": "Contract"
+          }
+        ]
       }
     ]
   },
   {
     "name": "Alaska, North America",
+    "key": "us_02",
     "maps": [
       {
         "name": "North Port",
@@ -415,29 +518,89 @@
         "num_watchpoints": 4,
         "objectives": [
           {
-            "key": "US_02_01_ABANDONED_SUPPLIES_TSK",
+            "key": "US_02_01_ROCK_FALL_TSK",
+            "name": "Rocks Fall",
             "type": "Task"
           },
           {
-            "key": "US_02_01_BAGS_ON_ICE_TSK",
+            "key": "US_02_01_ROCK_TSK",
+            "name": "Rock Obstacle",
             "type": "Task"
           },
           {
-            "key": "US_02_01_BARRELS_OBJ"
-          },
-          {
-            "key": "US_02_01_CANT_GO_TO_WASTE_TSK",
+            "key": "US_02_01_STONE_FALL_TSK",
+            "name": "Stone Fall",
             "type": "Task"
           },
           {
             "key": "US_02_01_CONTAINERS_IN_RIVER_TSK",
+            "name": "Containers In The River",
             "type": "Task"
           },
           {
-            "key": "US_02_01_DISASS_OBJ"
+            "key": "US_02_01_LOST_OILTANK_TSK",
+            "name": "Lost Oil Tank",
+            "type": "Task"
           },
           {
-            "key": "US_02_01_DRILL_DELIVERY_OBJ"
+            "key": "US_02_01_RADIOSTATION_TSK",
+            "name": "Find Radio Station",
+            "type": "Task"
+          },
+          {
+            "key": "US_02_01_HUMMER_TSK",
+            "name": "Drowned Hummer",
+            "type": "Task"
+          },
+          {
+            "key": "US_02_01_LOST_TUBE_TSK",
+            "name": "Lost Tube",
+            "type": "Task"
+          },
+          {
+            "key": "US_02_01_OILTANK_DELIVERY_TSK",
+            "name": "Oil Tank Delivery",
+            "type": "Task"
+          },
+          {
+            "key": "US_02_01_STUCK_SCOUT_TSK",
+            "name": "Stuck In The Mountains",
+            "type": "Task"
+          },
+          {
+            "key": "US_02_01_SERVICE_RETURN_TSK",
+            "name": "Lost Service Trailer",
+            "type": "Task"
+          },
+          {
+            "key": "US_02_01_TRAILER_PARK_TSK",
+            "name": "Trailer Park",
+            "type": "Task"
+          },
+          {
+            "key": "US_02_01_CANT_GO_TO_WASTE_TSK",
+            "name": "Can't Go To Waste",
+            "type": "Task"
+          },
+          {
+            "key": "US_02_01_POWERLINE_CHECK_TSK",
+            "name": "Powerlines Check",
+            "type": "Task"
+          },
+          {
+            "key": "US_02_01_BAGS_ON_ICE_TSK",
+            "name": "Bags On Ice",
+            "type": "Task"
+          },
+          {
+            "key": "US_02_01_ABANDONED_SUPPLIES_TSK",
+            "name": "Abandoned Supplies",
+            "type": "Task"
+          },
+          {
+            "key": "US_02_01_FIX_A_BRIDGE_TSK",
+            "name": "Bridge Repair",
+            "type": "Task"
           },
           {
             "key": "US_02_01_EMPLOYEE_DISLOCATION_CNT",
@@ -445,82 +608,15 @@
             "type": "Contest"
           },
           {
-            "key": "US_02_01_FIX_A_BRIDGE_TSK",
-            "type": "Task"
-          },
-          {
             "key": "US_02_01_FLAGS_CNT",
             "name": "Race Down To Flags",
             "type": "Contest"
-          },
-          {
-            "key": "US_02_01_HUMMER_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_01_LOGS_01_OBJ"
-          },
-          {
-            "key": "US_02_01_LOST_OILTANK_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_01_LOST_TUBE_TSK",
-            "type": "Task"
           },
           {
             "key": "US_02_01_MOUNTAIN_CONQUEST_1_CNT"
           },
           {
             "key": "US_02_01_MOUNTAIN_CONQUEST_2_CNT"
-          },
-          {
-            "key": "US_02_01_OIL_DELIVERY_02_OBJ"
-          },
-          {
-            "key": "US_02_01_OILTANK_DELIVERY_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_01_PIPELINE_OBJ"
-          },
-          {
-            "key": "US_02_01_POLAR_BASE_OBJ"
-          },
-          {
-            "key": "US_02_01_POWERLINE_CHECK_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_01_RADIOSTATION_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_01_ROCK_FALL_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_01_ROCK_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_01_SERVICE_RETURN_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_01_SPECIAL_DELIVERY_OBJ"
-          },
-          {
-            "key": "US_02_01_STONE_FALL_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_01_STUCK_SCOUT_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_01_TRAILER_PARK_TSK",
-            "type": "Task"
           }
         ]
       },
@@ -532,34 +628,29 @@
         "num_watchpoints": 3,
         "objectives": [
           {
-            "key": "US_02_02_BRICKS_ON_RIVER_TSK",
-            "type": "Task"
-          },
-          {
             "key": "US_02_02_BRIDGE_RECOVERY_TSK",
+            "name": "Restoring The Bridge",
             "type": "Task"
           },
           {
-            "key": "US_02_02_DISASS_OBJ"
+            "key": "US_02_02_SERVICE_CONVOY_TSK",
+            "name": "Service Convoy",
+            "type": "Task"
           },
           {
-            "key": "US_02_02_DRILLING_PARTS_OBJ"
+            "key": "US_02_02_BRICKS_ON_RIVER_TSK",
+            "name": "Bricks In The River",
+            "type": "Task"
+          },
+          {
+            "key": "US_02_02_WORKING_STIFF_TSK",
+            "name": "Working Stiff",
+            "type": "Task"
           },
           {
             "key": "US_02_02_ENVIRONMENTAL_ISSUE_TSK",
+            "name": "Environmental Issue",
             "type": "Task"
-          },
-          {
-            "key": "US_02_02_LOGS_01_OBJ"
-          },
-          {
-            "key": "US_02_02_MILL_DELIVERY_OBJ"
-          },
-          {
-            "key": "US_02_02_PIPELINE_OBJ"
-          },
-          {
-            "key": "US_02_02_POLAR_BASE_OBJ"
           },
           {
             "key": "US_02_02_RIVER_CONTEST_CNT",
@@ -567,23 +658,9 @@
             "type": "Contest"
           },
           {
-            "key": "US_02_02_SERVICE_CONVOY_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_02_SPECIAL_DELIVERY_OBJ"
-          },
-          {
             "key": "US_02_02_TO_THE_TOWER_CNT",
             "name": "To The Top And Back",
             "type": "Contest"
-          },
-          {
-            "key": "US_02_02_TSTOP_DELIVERY_OBJ"
-          },
-          {
-            "key": "US_02_02_WORKING_STIFF_TSK",
-            "type": "Task"
           }
         ]
       },
@@ -595,67 +672,49 @@
         "num_watchpoints": 5,
         "objectives": [
           {
-            "key": "US_02_03_BLOCKED_TUNNEL_TSK",
+            "key": "US_02_03_REPAIR_THE_BRIDGE_TSK",
+            "name": "Bridge",
             "type": "Task"
-          },
-          {
-            "key": "US_02_03_BUILDING_MATERIALS_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_03_CRATES_OF_CONSUMABLES_OBJ"
-          },
-          {
-            "key": "US_02_03_DERRY_LONGHORN_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_03_DISASS_OBJ"
-          },
-          {
-            "key": "US_02_03_DRILL_DELIVERY_OBJ"
-          },
-          {
-            "key": "US_02_03_FAILED_FISHING_A_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_03_LOGS_01_OBJ"
           },
           {
             "key": "US_02_03_LONG_BRIDGE_RECOVERY_TSK",
+            "name": "Long Bridge",
             "type": "Task"
           },
           {
-            "key": "US_02_03_MAZUT_OBJ"
-          },
-          {
-            "key": "US_02_03_OUT_OF_FUEL_TSK",
+            "key": "US_02_03_BLOCKED_TUNNEL_TSK",
+            "name": "Blocked Tunnel",
             "type": "Task"
           },
           {
-            "key": "US_02_03_PIPELINE_OBJ"
+            "key": "US_02_03_DERRY_LONGHORN_TSK",
+            "name": "Pluck The Stuck Truck",
+            "type": "Task"
           },
           {
-            "key": "US_02_03_POLAR_BASE_OBJ"
+            "key": "US_02_03_FAILED_FISHING_A_TSK",
+            "name": "Search And Rescue",
+            "type": "Task"
           },
           {
-            "key": "US_02_03_REPAIR_THE_BRIDGE_TSK",
+            "key": "US_02_03_THEFT_OF_FUEL_TSK",
+            "name": "Trucks And Investigations",
             "type": "Task"
           },
           {
             "key": "US_02_03_SCOUT_IN_TROUBLE_TSK",
+            "name": "Deep River Diving",
             "type": "Task"
           },
           {
-            "key": "US_02_03_SPECIAL_DELIVERY_OBJ"
-          },
-          {
-            "key": "US_02_03_THEFT_OF_FUEL_TSK",
+            "key": "US_02_03_BUILDING_MATERIALS_TSK",
+            "name": "Building Materials",
             "type": "Task"
           },
           {
-            "key": "US_02_03_TOWN_DELIVERY_OBJ"
+            "key": "US_02_03_OUT_OF_FUEL_TSK",
+            "name": "Out Of Fuel",
+            "type": "Task"
           },
           {
             "key": "US_02_03_WEATHER_FORECAST_CNT",
@@ -672,88 +731,236 @@
         "num_watchpoints": 4,
         "objectives": [
           {
-            "key": "US_02_04_BRIDGE_BUILDING_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_04_BROKEN_POLE_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_04_CAR_HELP_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_04_EPIC_DELIVERY_TIME_OBJ"
-          },
-          {
             "key": "US_02_04_FARMER_HOME_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_04_FRAGILE_DELIVERY_CNT"
-          },
-          {
-            "key": "US_02_04_LOGS_01_OBJ"
-          },
-          {
-            "key": "US_02_04_LOST_CARGO_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_02_04_MATERIAL_DELIVERYING_TSK",
+            "name": "The Mountains Road",
             "type": "Task"
           },
           {
             "key": "US_02_04_MOUNTAIN_CLEANING_TSK",
+            "name": "Morrison's Landslide",
             "type": "Task"
-          },
-          {
-            "key": "US_02_04_NEED_MORE_CARGO_OBJ"
-          },
-          {
-            "key": "US_02_04_NEED_MORE_CARGO_ST2_OBJ"
-          },
-          {
-            "key": "US_02_04_PIPELINE_BUILDING_CNT"
           },
           {
             "key": "US_02_04_SIDEBOARD_SPAWN_TSK",
+            "name": "Family Treasure",
             "type": "Task"
           },
           {
-            "key": "US_02_04_SPECIAL_CARGO_DELIVERYNG_CNT"
+            "key": "US_02_04_CAR_HELP_TSK",
+            "name": "Old Mack And Drowned Car",
+            "type": "Task"
+          },
+          {
+            "key": "US_02_04_BRIDGE_BUILDING_TSK",
+            "name": "Dangerous Route",
+            "type": "Task"
+          },
+          {
+            "key": "US_02_04_LOST_CARGO_TSK",
+            "name": "The Lost Tools",
+            "type": "Task"
+          },
+          {
+            "key": "US_02_04_BROKEN_POLE_TSK",
+            "name": "Pole Down",
+            "type": "Task"
+          },
+          {
+            "key": "US_02_04_MATERIAL_DELIVERYING_TSK",
+            "name": "Moving The Stock",
+            "type": "Task"
+          },
+          {
+            "key": "US_02_04_FRAGILE_DELIVERY_CNT"
           }
         ]
       }
     ],
     "contracts": [
       {
-        "name": "GR Enterprise",
+        "name": "GR ENTERPRISE",
+        "key": "GREnterprise",
         "objectives": [
           {
-            "key": "US_02_02_VILLAGE_DELIVERY_OBJ",
+            "name": "Port Polar Base Supply",
+            "key": "US_02_01_POLAR_BASE_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Timber!",
+            "key": "US_02_01_LOGS_01_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Mountain Maze",
+            "key": "US_02_02_POLAR_BASE_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "On The Top Of The World",
+            "key": "US_02_02_TSTOP_DELIVERY_OBJ",
+            "type": "Contract"
+          },
+          {
             "name": "Village Delivery",
+            "key": "US_02_02_VILLAGE_DELIVERY_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "It's a long way to the top",
+            "key": "US_02_02_LOGS_01_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Oil Barrels Delivery",
+            "key": "US_02_03_MAZUT_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Valley Polar Base Research",
+            "key": "US_02_03_POLAR_BASE_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Town Supplies",
+            "key": "US_02_03_TOWN_DELIVERY_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Airdrome logging",
+            "key": "US_02_03_LOGS_01_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Order Master Supreme",
+            "key": "US_02_04_EPIC_DELIVERY_TIME_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Cargopocalypse",
+            "key": "US_02_04_NEED_MORE_CARGO_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Cargopocalypse, pt.2",
+            "key": "US_02_04_NEED_MORE_CARGO_ST2_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Far Far Away",
+            "key": "US_02_04_LOGS_01_OBJ",
             "type": "Contract"
           }
         ]
       },
       {
-        "name": "Morrison Mining",
+        "name": "MORRISON MINING",
+        "key": "MorrisonMining",
         "objectives": [
           {
-            "key": "US_02_04_SERVICE_HUB_REACTIVATION_CNT",
+            "name": "Drilling Supplies",
+            "key": "US_02_01_DRILL_DELIVERY_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Lumber Mill Supplies",
+            "key": "US_02_02_MILL_DELIVERY_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Drilling Stuff Delivery",
+            "key": "US_02_03_DRILL_DELIVERY_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Supply Crates",
+            "key": "US_02_03_CRATES_OF_CONSUMABLES_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Cargo Delivery",
+            "key": "US_02_04_SPECIAL_CARGO_DELIVERYNG_CNT",
+            "type": "Contract"
+          },
+          {
             "name": "Service Hub Reactivation",
+            "key": "US_02_04_SERVICE_HUB_REACTIVATION_CNT",
             "type": "Contract"
           }
         ]
       },
       {
-        "name": "Black Bird",
+        "name": "BLACK BIRD",
+        "key": "BlackBird",
         "objectives": [
           {
-            "key": "US_02_01_OIL_DELIVERY_OBJ",
+            "name": "Fire In A Barrel",
+            "key": "US_02_01_BARRELS_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Pipeline Construction",
+            "key": "US_02_01_PIPELINE_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Floating Drill",
+            "key": "US_02_01_DISASS_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Mountain Delivery",
+            "key": "US_02_01_OIL_DELIVERY_02_OBJ",
+            "type": "Contract"
+          },
+          {
             "name": "Oil Delivery",
+            "key": "US_02_01_OIL_DELIVERY_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Drilling Parts Delivery",
+            "key": "US_02_01_SPECIAL_DELIVERY_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Drill Rig Disassembly",
+            "key": "US_02_02_DISASS_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Mountain Pipeline Building",
+            "key": "US_02_02_PIPELINE_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Drilling Equipment",
+            "key": "US_02_02_DRILLING_PARTS_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "More Parts",
+            "key": "US_02_02_SPECIAL_DELIVERY_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Drill Disassembly",
+            "key": "US_02_03_DISASS_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Valley Pipeline Building",
+            "key": "US_02_03_PIPELINE_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "From Water To The Land",
+            "key": "US_02_03_SPECIAL_DELIVERY_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Pipeline Repair",
+            "key": "US_02_04_PIPELINE_BUILDING_CNT",
             "type": "Contract"
           }
         ]
@@ -762,6 +969,7 @@
   },
   {
     "name": "Taymyr, Russia",
+    "key": "ru_02",
     "maps": [
       {
         "name": "Quarry",
@@ -771,22 +979,8 @@
         "num_watchpoints": 6,
         "objectives": [
           {
-            "key": "RU_02_01_EXAMINE_EAST_TSK",
-            "name": "Late Inspection",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_01_EXAMINE_SOUTH_TSK",
-            "name": "Rogue Connection",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_01_FIREWATCH_SUPPLY_CNT",
-            "name": "Firewatch Tower Supply",
-            "type": "Contest"
-          },
-          {
-            "key": "RU_02_01_HERMIT_RESCUE_TSK",
+            "key": "RU_02_01_TOWER_CLEARING_A_TSK",
+            "name": "Clearing The Way",
             "type": "Task"
           },
           {
@@ -795,17 +989,8 @@
             "type": "Task"
           },
           {
-            "key": "RU_02_01_LOG_QUARRY_REINFORCEMENT_OBJ"
-          },
-          {
-            "key": "RU_02_01_LOG_SHIPWRECK_SUPPLY_OBJ"
-          },
-          {
-            "key": "RU_02_01_OILRIG_RECOVERY_OBJ"
-          },
-          {
-            "key": "RU_02_01_OILRIG_SAMPLING_TSK",
-            "name": "Oil Sampling",
+            "key": "RU_02_01_REPAIR_TRUCK_HIGHWAY_TSK",
+            "name": "Off-Roader",
             "type": "Task"
           },
           {
@@ -814,8 +999,34 @@
             "type": "Task"
           },
           {
-            "key": "RU_02_01_REPAIR_TRUCK_HIGHWAY_TSK",
+            "key": "RU_02_01_VILLAGE_RESTORATION_TSK",
+            "name": "Settling In",
             "type": "Task"
+          },
+          {
+            "key": "RU_02_01_OILRIG_SAMPLING_TSK",
+            "name": "Oil Sampling",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_01_EXAMINE_SOUTH_TSK",
+            "name": "Rogue Connection",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_01_EXAMINE_EAST_TSK",
+            "name": "Late Inspection",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_01_HERMIT_RESCUE_TSK",
+            "name": "Cliffhanger",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_01_FIREWATCH_SUPPLY_CNT",
+            "name": "Firewatch Tower Supply",
+            "type": "Contest"
           },
           {
             "key": "RU_02_01_SERVHUB_FUEL_RESTOCK_CNT",
@@ -826,14 +1037,6 @@
             "key": "RU_02_01_SHIP_REPAIRS_CNT",
             "name": "Shipwreck",
             "type": "Contest"
-          },
-          {
-            "key": "RU_02_01_TOWER_CLEARING_A_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_01_VILLAGE_RESTORATION_TSK",
-            "type": "Task"
           }
         ]
       },
@@ -845,6 +1048,76 @@
         "num_watchpoints": 3,
         "objectives": [
           {
+            "key": "RU_02_02_STUCK_TRUCK_02_TSK",
+            "name": "Retired",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_02_STUCK_TRUCK_03_TSK",
+            "name": "Lost In The Rocks",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_02_STUCK_TRUCK_TSK",
+            "name": "Saving Country Bread",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_02_STUCK_TRUCK_04_TSK",
+            "name": "Help Cable",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_02_STUCK_TRUCK_05_TSK",
+            "name": "Farm Swim",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_02_LOST_CARGO_01_TSK",
+            "name": "Drowned Oil Tank",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_02_LOST_CARGO_02_TSK",
+            "name": "Lost Bricks",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_02_LOST_CARGO_03_TSK",
+            "name": "Lost Light Trailer",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_02_DAMAGED_TRUCK_01_TSK",
+            "name": "Drowned Truck",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_02_DAMAGED_TRUCK_02_TSK",
+            "name": "Off The Cliff",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_02_DAMAGED_TRUCK_03_TSK",
+            "name": "Aquatic",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_02_DAMAGED_TRUCK_04_TSK",
+            "name": "SOS",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_02_LOST_CARGO_04_TSK",
+            "name": "Drowned Bricks",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_02_LOST_CARGO_05_TSK",
+            "name": "Fallen Bricks",
+            "type": "Task"
+          },
+          {
             "key": "RU_02_02_BARRELS_DELIVERY_CNT",
             "name": "Barrels Delivery",
             "type": "Contest"
@@ -853,87 +1126,10 @@
             "key": "RU_02_02_CONTAINER_DELIVERY_CNT"
           },
           {
-            "key": "RU_02_02_DAMAGED_TRUCK_01_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_02_DAMAGED_TRUCK_02_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_02_DAMAGED_TRUCK_03_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_02_DAMAGED_TRUCK_04_TSK",
-            "type": "Task"
-          },
-          {
             "key": "RU_02_02_FLAG_1_CNT"
           },
           {
             "key": "RU_02_02_FLAG_2_CNT"
-          },
-          {
-            "key": "RU_02_02_HUB_RECOVERY"
-          },
-          {
-            "key": "RU_02_02_HUB_RECOVERY_2"
-          },
-          {
-            "key": "RU_02_02_LOG_FARM_SUPPLY_OBJ"
-          },
-          {
-            "key": "RU_02_02_LOG_LUMBERMILL_RESTOCK_OBJ"
-          },
-          {
-            "key": "RU_02_02_LOST_CARGO_01_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_02_LOST_CARGO_02_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_02_LOST_CARGO_03_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_02_LOST_CARGO_04_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_02_LOST_CARGO_05_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_02_RADAR_TOWER_RECOVERY"
-          },
-          {
-            "key": "RU_02_02_RESEARCH"
-          },
-          {
-            "key": "RU_02_02_STUCK_TRUCK_02_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_02_STUCK_TRUCK_03_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_02_STUCK_TRUCK_04_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_02_STUCK_TRUCK_05_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_02_STUCK_TRUCK_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_02_WOODEN_PLANKS_DELIVERY"
           }
         ]
       },
@@ -944,6 +1140,41 @@
         "num_upgrades": 6,
         "num_watchpoints": 3,
         "objectives": [
+          {
+            "key": "RU_02_03_SAWMILL_RECOVERY_OBJ",
+            "name": "Sawmill",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_03_TASK_METAL_DELIVERY_OBJ",
+            "name": "Metal Delivery",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_03_TASK_FIND_THE_CAR_OBJ",
+            "name": "Abandoned Car",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_03_TASK_FIND_THE_TRUCK_OBJ",
+            "name": "Truck Recovery",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_03_TASK_DOCUMENTARY_OBJ",
+            "name": "Documentary Film",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_03_TASK_SEARCH_OBJ",
+            "name": "Lost Instruments",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_03_TASK_BUILD_BRIDGE_OBJ",
+            "name": "Zimnegorsk Bridge Recovery",
+            "type": "Task"
+          },
           {
             "key": "RU_02_03_CONTEST_BARRELS_DELIVERY_OBJ",
             "name": "Cement Delivery",
@@ -963,44 +1194,6 @@
             "key": "RU_02_03_CONTEST_WOODEN_DELIVEY_WAREHOUSE_OBJ",
             "name": "Warehouse Delivery",
             "type": "Contest"
-          },
-          {
-            "key": "RU_02_03_LOG_SAWMILL_RESTOCK_OBJ"
-          },
-          {
-            "key": "RU_02_03_SAWMILL_RECOVERY_OBJ",
-            "name": "Sawmill",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_03_TASK_BUILD_BRIDGE_OBJ",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_03_TASK_DOCUMENTARY_OBJ",
-            "name": "Documentary Film",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_03_TASK_FIND_THE_CAR_OBJ",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_03_TASK_FIND_THE_TRUCK_OBJ",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_03_TASK_METAL_DELIVERY_OBJ",
-            "name": "Metal Delivery",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_03_TASK_SEARCH_OBJ",
-            "name": "Lost Instruments",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_03_UPD_PORTSIDE_RESUPPLY_OBJ"
           }
         ]
       },
@@ -1012,7 +1205,38 @@
         "num_watchpoints": 4,
         "objectives": [
           {
+            "key": "RU_02_04_REPAIR_ZIKZ_TSK",
+            "name": "Finders Keepers",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_04_RECOVER_LOAF_TSK",
+            "name": "The Great Nomad",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_04_RECOVER_APC_TSK",
+            "name": "Pacifist",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_04_MAST_FUELSTATION_TSK",
+            "name": "Covering All Fronts",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_04_REFUEL_TRUCK_TSK",
+            "name": "Ol' Faithful",
+            "type": "Task"
+          },
+          {
             "key": "RU_02_04_DELIVER_SUPPLY_TRAILER_TSK",
+            "name": "Lost And Found",
+            "type": "Task"
+          },
+          {
+            "key": "RU_02_04_RESUPPLY_TSK",
+            "name": "In With The New",
             "type": "Task"
           },
           {
@@ -1021,128 +1245,168 @@
             "type": "Task"
           },
           {
-            "key": "RU_02_04_MAST_FUELSTATION_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_04_RECOVER_APC_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_04_RECOVER_LOAF_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_04_REFUEL_TRUCK_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_04_REPAIR_ZIKZ_TSK",
-            "name": "Finders Keepers",
-            "type": "Task"
-          },
-          {
-            "key": "RU_02_04_RESUPPLY_TSK",
-            "type": "Task"
-          },
-          {
             "key": "RU_02_04_RIFT_MAPPING_CNT",
             "name": "Landslide Mapping",
             "type": "Contest"
-          },
-          {
-            "key": "RU_02_04_UPD_VILLAGE_RESTOCK_OBJ"
           }
         ]
       }
     ],
     "contracts": [
       {
-        "name": "Transtaymyr",
+        "name": "TRANSTAYMYR",
+        "key": "TransTaymir",
         "objectives": [
           {
-            "key": "RU_02_01_SERVICE_HUB_RECOVERY_01_OBJ",
             "name": "Service Hub Recovery",
+            "key": "RU_02_01_SERVICE_HUB_RECOVERY_01_OBJ",
             "type": "Contract"
           },
           {
-            "key": "RU_02_01_SERVICE_HUB_RECOVERY_02_OBJ",
             "name": "Repair Shop Restock",
+            "key": "RU_02_01_SERVICE_HUB_RECOVERY_02_OBJ",
             "type": "Contract"
           },
           {
-            "key": "RU_02_02_MAZUT_DELIVERY",
+            "name": "Waterlogged",
+            "key": "RU_02_01_LOG_QUARRY_REINFORCEMENT_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "A Bigger Boat",
+            "key": "RU_02_01_LOG_SHIPWRECK_SUPPLY_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Hub Recovery, 1st Stage",
+            "key": "RU_02_02_HUB_RECOVERY",
+            "type": "Contract"
+          },
+          {
+            "name": "Hub Recovery, 2nd Stage",
+            "key": "RU_02_02_HUB_RECOVERY_2",
+            "type": "Contract"
+          },
+          {
             "name": "Dirty Deeds",
+            "key": "RU_02_02_MAZUT_DELIVERY",
+            "type": "Contract"
+          },
+          {
+            "name": "Wooden Planks Order",
+            "key": "RU_02_02_WOODEN_PLANKS_DELIVERY",
+            "type": "Contract"
+          },
+          {
+            "name": "East Wind",
+            "key": "RU_02_02_LOG_FARM_SUPPLY_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Up And Running",
+            "key": "RU_02_02_LOG_LUMBERMILL_RESTOCK_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Test Flight",
+            "key": "RU_02_03_LOG_SAWMILL_RESTOCK_OBJ",
             "type": "Contract"
           }
         ]
       },
       {
-        "name": "Voronoe 12",
+        "name": "VORONOE 12",
+        "key": "Voronoe12",
         "objectives": [
           {
-            "key": "RU_02_02_FARM_SUPPLY",
             "name": "Cycle of Cargo",
+            "key": "RU_02_02_FARM_SUPPLY",
             "type": "Contract"
           },
           {
-            "key": "RU_02_02_GORLAG_CLEANING",
             "name": "Radioactive Fossils",
+            "key": "RU_02_02_GORLAG_CLEANING",
             "type": "Contract"
           },
           {
+            "name": "Key Buildings Restoration",
             "key": "RU_02_03_GARAGE_AND_WAREHOUSE_RESTORATION_OBJ",
-            "name": "Key Buildings Restauration",
             "type": "Contract"
           },
           {
-            "key": "RU_02_03_PIER_RECOVERY_OBJ",
             "name": "Pier Recovery",
+            "key": "RU_02_03_PIER_RECOVERY_OBJ",
             "type": "Contract"
           },
           {
-            "key": "RU_02_04_NORTH_ROAD_EXPLORATION_OBJ",
+            "name": "Supply and demand",
+            "key": "RU_02_03_UPD_PORTSIDE_RESUPPLY_OBJ",
+            "type": "Contract"
+          },
+          {
             "name": "Pathfinder",
+            "key": "RU_02_04_NORTH_ROAD_EXPLORATION_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Loud and clear",
+            "key": "RU_02_04_UPD_VILLAGE_RESTOCK_OBJ",
             "type": "Contract"
           }
         ]
       },
       {
-        "name": "Taiga Oil",
+        "name": "TAIGA OIL",
+        "key": "TaigaOil",
         "objectives": [
           {
+            "name": "Georesearch — Starting Point",
             "key": "RU_02_01_PROSPECTING_01_OBJ",
-            "name": "Georesearch – Starting Point",
             "type": "Contract"
           },
           {
+            "name": "Georesearch — Triangulation",
             "key": "RU_02_01_PROSPECTING_02_OBJ",
-            "name": "Georesearch – Triangulation",
             "type": "Contract"
           },
           {
-            "key": "RU_02_03_CONTRACT_SCAN_POINTS_OBJ",
+            "name": "Oil Rig Restoration",
+            "key": "RU_02_01_OILRIG_RECOVERY_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Looking Beyond The Horizon",
+            "key": "RU_02_02_RADAR_TOWER_RECOVERY",
+            "type": "Contract"
+          },
+          {
+            "name": "Geological Exploration",
+            "key": "RU_02_02_RESEARCH",
+            "type": "Contract"
+          },
+          {
             "name": "Geological Research",
+            "key": "RU_02_03_CONTRACT_SCAN_POINTS_OBJ",
             "type": "Contract"
           },
           {
-            "key": "RU_02_03_DERRICK_DELIVERY_OBJ",
-            "name": "Derrick Delivery",
-            "type": "Contract"
-          },
-          {
-            "key": "RU_02_03_DRILLING_EQUIPMENT_DELIVERY_OBJ",
             "name": "Drilling Equipment Delivery",
+            "key": "RU_02_03_DRILLING_EQUIPMENT_DELIVERY_OBJ",
             "type": "Contract"
           },
           {
-            "key": "RU_02_04_MAST_RESTORATION_OBJ",
+            "name": "Derrick Delivery",
+            "key": "RU_02_03_DERRICK_DELIVERY_OBJ",
+            "type": "Contract"
+          },
+          {
             "name": "Uplink",
+            "key": "RU_02_04_MAST_RESTORATION_OBJ",
             "type": "Contract"
           },
           {
+            "name": "Datamining",
             "key": "RU_02_04_MINES_EXPLORATION_OBJ",
-            "name": "Data Mining",
             "type": "Contract"
           }
         ]
@@ -1151,6 +1415,7 @@
   },
   {
     "name": "Kola Peninsula, Russia",
+    "key": "ru_03",
     "maps": [
       {
         "name": "Lake Kovd",
@@ -1160,68 +1425,104 @@
         "num_watchpoints": 3,
         "objectives": [
           {
-            "key": "RU_03_01_ANTIQUE_TRUCK_HUNT_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_01_BASE_SUPPLIES_TSK",
-            "type": "Task"
-          },
-          {
             "key": "RU_03_01_BRIDGE_REPAIR_B_TSK",
+            "name": "Old Crossing",
             "type": "Task"
           },
           {
-            "key": "RU_03_01_BUNKER_OBJ"
-          },
-          {
-            "key": "RU_03_01_CAMP_GAS_DELIVEY_TSK",
+            "key": "RU_03_01_METEO_CHECK_TSK",
+            "name": "Dead Calm",
             "type": "Task"
           },
           {
             "key": "RU_03_01_CAMP_RESUPPLY_TSK",
+            "name": "Supplies Delivery",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_01_BASE_SUPPLIES_TSK",
+            "name": "Army Reserve",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_01_FACTORY_CHECK_TSK",
+            "name": "Factory Skyline",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_01_VILLAGE_SCOUTING_TSK",
+            "name": "Frozen in Time",
             "type": "Task"
           },
           {
             "key": "RU_03_01_CAMP_ROUTE_CHECK_TSK",
+            "name": "Trackwalker",
             "type": "Task"
           },
           {
-            "key": "RU_03_01_CAMP_SETUP_OBJ"
-          },
-          {
-            "key": "RU_03_01_FACTORY_CHECK_TSK",
+            "key": "RU_03_01_CAMP_GAS_DELIVEY_TSK",
+            "name": "Pit-stop",
             "type": "Task"
           },
           {
-            "key": "RU_03_01_FOREIGNER_TSK",
+            "key": "RU_03_01_ON_THIN_ICE_TSK",
+            "name": "On Thin Ice",
             "type": "Task"
           },
           {
             "key": "RU_03_01_HELI_CARGO_RECOVERY_TSK",
+            "name": "Inclement Weather",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_01_POWERLINE_1_REPAIR_TSK",
+            "name": "Temporary Measures",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_01_POWERLINE_3_REPAIR_TSK",
+            "name": "Unlucky Number",
             "type": "Task"
           },
           {
             "key": "RU_03_01_LOG_CABIN_REPAIR_TSK",
+            "name": "Shabby Guard House",
             "type": "Task"
           },
           {
-            "key": "RU_03_01_LOG_VILLAGE_DELIVERY_OBJ"
-          },
-          {
-            "key": "RU_03_01_METEO_CHECK_TSK",
+            "key": "RU_03_01_RURAL_SPELUNKER_TSK",
+            "name": "Rural Spelunker",
             "type": "Task"
           },
           {
-            "key": "RU_03_01_METEO_RESTORE_TSK",
+            "key": "RU_03_01_ANTIQUE_TRUCK_HUNT_TSK",
+            "name": "Self Contained Antique",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_01_SNOWED_IN_TSK",
+            "name": "Knee-deep",
             "type": "Task"
           },
           {
             "key": "RU_03_01_MILITARY_SUPPLY_TSK",
+            "name": "Abandoned Convoy",
             "type": "Task"
           },
           {
-            "key": "RU_03_01_MOBILE_WATCHTOWER_RECOVERY_OBJ"
+            "key": "RU_03_01_METEO_RESTORE_TSK",
+            "name": "Forecast Unclear",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_01_FOREIGNER_TSK",
+            "name": "Foreigner",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_01_ZIKZ_RECOVERY_TSK",
+            "name": "Like Brothers",
+            "type": "Task"
           },
           {
             "key": "RU_03_01_NORTH_RIVER_RACE_CNT",
@@ -1229,49 +1530,9 @@
             "type": "Contest"
           },
           {
-            "key": "RU_03_01_NORTH_ROUTE_CHECK_OBJ"
-          },
-          {
             "key": "RU_03_01_OFF_THE_RAILS_CNT",
             "name": "Overturned Train Carriage",
             "type": "Contest"
-          },
-          {
-            "key": "RU_03_01_ON_THIN_ICE_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_01_POWERLINE_1_REPAIR_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_01_POWERLINE_3_REPAIR_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_01_POWERLINE_INSPECTION_OBJ"
-          },
-          {
-            "key": "RU_03_01_ROUTE_CHECK_OBJ"
-          },
-          {
-            "key": "RU_03_01_RURAL_SPELUNKER_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_01_SNOWED_IN_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_01_SWAMP_ROUTE_CHECK_OBJ"
-          },
-          {
-            "key": "RU_03_01_VILLAGE_SCOUTING_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_01_ZIKZ_RECOVERY_TSK",
-            "type": "Task"
           }
         ]
       },
@@ -1283,114 +1544,189 @@
         "num_watchpoints": 3,
         "objectives": [
           {
-            "key": "RU_03_02_AIRPLANE_CNT"
-          },
-          {
-            "key": "RU_03_02_ANTIQUES_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_02_ARCH_CNT"
-          },
-          {
-            "key": "RU_03_02_BUNKER_CNT"
-          },
-          {
-            "key": "RU_03_02_CAMPUS_1_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_02_CAR_DELIVERY_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_02_FISHERCAMP_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_02_GARAGE_REPAIR_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_02_GARBAGE_CNT"
-          },
-          {
-            "key": "RU_03_02_ICE_ROAD_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_02_LANDSLIDE_1_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_02_LANDSLIDE_2_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_02_LIGHTHOUSE_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_02_LOG_CAMP_DELIVERY_OBJ"
-          },
-          {
-            "key": "RU_03_02_LOG_WAREHOUSE_SUPPLY_OBJ"
-          },
-          {
-            "key": "RU_03_02_LOST_CAR_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_02_METEO_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_02_NEW_FISHING_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_02_OLD_SHIP_TSK",
-            "type": "Task"
-          },
-          {
             "key": "RU_03_02_POWER_PLANTS_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_02_SUPPLIES_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_02_TANK_CNT"
-          },
-          {
-            "key": "RU_03_02_TRAILER_CARGO_DELIVERY_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_03_02_VILLAGE_TSK",
+            "name": "Repairing Power Lines",
             "type": "Task"
           },
           {
             "key": "RU_03_02_WAREHOUSE_TSK",
+            "name": "Broken Power Station",
             "type": "Task"
+          },
+          {
+            "key": "RU_03_02_LOST_CAR_TSK",
+            "name": "Troublesome Motor",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_02_SUPPLIES_TSK",
+            "name": "The Riddle of Geology",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_02_LIGHTHOUSE_TSK",
+            "name": "Old Lighthouse",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_02_FISHERCAMP_TSK",
+            "name": "The Floating Change House",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_02_NEW_FISHING_TSK",
+            "name": "New Pool",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_02_GARAGE_REPAIR_TSK",
+            "name": "Engine Troubles",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_02_LANDSLIDE_1_TSK",
+            "name": "Magnitude of 5",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_02_LANDSLIDE_2_TSK",
+            "name": "Landslide in the Mountains",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_02_OLD_SHIP_TSK",
+            "name": "A Keepsake",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_02_ANTIQUES_TSK",
+            "name": "Old Scrap Metal",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_02_METEO_TSK",
+            "name": "Forecast for Tomorrow",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_02_ICE_ROAD_TSK",
+            "name": "Everything for the Pictogram",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_02_CAMPUS_1_TSK",
+            "name": "The Aftermath of Hurricane",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_02_VILLAGE_TSK",
+            "name": "A Picture to Remember",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_02_TRAILER_CARGO_DELIVERY_TSK",
+            "name": "Lost Trailer",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_02_CAR_DELIVERY_TSK",
+            "name": "Nighttime Delivery",
+            "type": "Task"
+          },
+          {
+            "key": "RU_03_02_GARBAGE_CNT"
           }
         ]
       }
     ],
     "contracts": [
       {
-        "name": "Kola Expedition",
-        "objectives": []
+        "name": "KOLA EXPEDITION",
+        "key": "KolaExpedition",
+        "objectives": [
+          {
+            "name": "Sites of military glory",
+            "key": "RU_03_01_BUNKER_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Cabin Fever",
+            "key": "RU_03_01_CAMP_SETUP_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Forgotten Prototype",
+            "key": "RU_03_01_MOBILE_WATCHTOWER_RECOVERY_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Log Of Discord",
+            "key": "RU_03_01_LOG_VILLAGE_DELIVERY_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Places of Military Glory",
+            "key": "RU_03_02_BUNKER_CNT",
+            "type": "Contract"
+          },
+          {
+            "name": "The Star in the Sky",
+            "key": "RU_03_02_AIRPLANE_CNT",
+            "type": "Contract"
+          },
+          {
+            "name": "The Price of Victory",
+            "key": "RU_03_02_TANK_CNT",
+            "type": "Contract"
+          },
+          {
+            "name": "Strategic Reserve",
+            "key": "RU_03_02_LOG_WAREHOUSE_SUPPLY_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Power To The Masses",
+            "key": "RU_03_02_LOG_CAMP_DELIVERY_OBJ",
+            "type": "Contract"
+          }
+        ]
       },
       {
-        "name": "Kolsky Administration",
-        "objectives": []
+        "name": "KOLSKY ADMINISTRATION",
+        "key": "KolskyRegionalGov",
+        "objectives": [
+          {
+            "name": "Almost Afloat",
+            "key": "RU_03_01_ROUTE_CHECK_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Tense Situation",
+            "key": "RU_03_01_POWERLINE_INSPECTION_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Rescuer — marshes",
+            "key": "RU_03_01_SWAMP_ROUTE_CHECK_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Rescuer — the North Tributary",
+            "key": "RU_03_01_NORTH_ROUTE_CHECK_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Forgotten civilization",
+            "key": "RU_03_02_ARCH_CNT",
+            "type": "Contract"
+          }
+        ]
       }
     ]
   },
   {
     "name": "Yukon, North America",
+    "key": "us_04",
     "maps": [
       {
         "name": "Flooded Foothills",
@@ -1400,114 +1736,113 @@
         "num_watchpoints": 4,
         "objectives": [
           {
-            "key": "US_04_01_CONV_01_CONT"
+            "key": "US_04_01_TSK_CAT",
+            "name": "Dump Truck for Dump Truck",
+            "type": "Task"
           },
           {
-            "key": "US_04_01_CONV_02_CONT"
+            "key": "US_04_01_TSK_BRIDGE_01",
+            "name": "North Bridge",
+            "type": "Task"
           },
           {
-            "key": "US_04_01_CONV_03_CONT"
+            "key": "US_04_01_TSK_BRIDGE_02",
+            "name": "Wooden bridge",
+            "type": "Task"
           },
           {
-            "key": "US_04_01_CRAFT_TUTOR"
+            "key": "US_04_01_TSK_BRIDGE_03",
+            "name": "Western bridge",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_01_TSK_ROCKS_01",
+            "name": "Fallen Rocks",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_01_TSK_01",
+            "name": "Abandoned Trailer",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_01_TSK_02",
+            "name": "Abandoned Truck",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_01_TSK_03",
+            "name": "Support the Meteorologists",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_01_TSK_04",
+            "name": "Flood Aftermath",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_01_TSK_05",
+            "name": "Don't do a barrel roll!",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_01_TSK_06",
+            "name": "Towage at Height",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_01_TSK_07",
+            "name": "Trailer Whirlpool",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_01_TSK_08",
+            "name": "Camping Gone Wrong",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_01_TSK_09",
+            "name": "Arrogance",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_01_TSK_10",
+            "name": "Uphill Delivery",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_01_TSK_11",
+            "name": "Failed Delivery",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_01_TSK_12",
+            "name": "Aid Thy Neighbor",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_01_TSK_13",
+            "name": "Lost en Route",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_01_TSK_14",
+            "name": "Lonely Island",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_01_TSK_FORKLIFT",
+            "name": "Manual Unloading Practice",
+            "type": "Task"
           },
           {
             "key": "US_04_01_DOWNHILL_01_CNT"
-          },
-          {
-            "key": "US_04_01_MINE_CONT"
           },
           {
             "key": "US_04_01_RACE_L_CNT"
           },
           {
             "key": "US_04_01_RACE_S_CNT"
-          },
-          {
-            "key": "US_04_01_SORT_CONT"
-          },
-          {
-            "key": "US_04_01_TSK_01",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_02",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_03",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_04",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_05",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_06",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_07",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_08",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_09",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_10",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_11",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_12",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_13",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_14",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_BRIDGE_01",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_BRIDGE_02",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_BRIDGE_03",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_CAT",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_FORKLIFT",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TSK_ROCKS_01",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_01_TUBING"
           }
         ]
       },
@@ -1520,111 +1855,180 @@
         "objectives": [
           {
             "key": "US_04_02_BLOCKAGE_01_TSK",
+            "name": "Road Block",
             "type": "Task"
           },
           {
             "key": "US_04_02_BLOCKAGE_02_TSK",
+            "name": "Landslide on the Highway",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_02_STRANGE_SIGNAL_TSK",
+            "name": "Strange Signal",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_02_DROWNSCOUT_TSK",
+            "name": "Off the Cliff",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_02_TOOLSDELIVERY_TSK",
+            "name": "Tools for the Warehouse",
             "type": "Task"
           },
           {
             "key": "US_04_02_BLOCKED_GATE_TSK",
+            "name": "Rockfall in the Ravine",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_02_LOST_BIG_CONT_TSK",
+            "name": "Missing Container",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_02_ELECTROFIX_TSK",
+            "name": "Power Line Maintenance",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_02_LOST_CRATES_TSK",
+            "name": "Crates in the Woods",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_02_DROWNED_TITAN_TSK",
+            "name": "Sunk Giant",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_02_OPEN_STORAGE_TSK",
+            "name": "Opening the Warehouse",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_02_FUEL_FOR_HUNTER_TSK",
+            "name": "Hunting Needs",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_02_HELP_TSK",
+            "name": "Support the Locals",
             "type": "Task"
           },
           {
             "key": "US_04_02_BROKEN_TRUCK_TSK",
+            "name": "Wrong Turn",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_02_TELEMETRY_TSK",
+            "name": "Unstable Foundation",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_02_STORAGE_TSK",
+            "name": "Warehouse in the Mountains",
+            "type": "Task"
+          },
+          {
+            "key": "US_04_02_TUBES_NEED_NOW_TSK",
+            "name": "Piping Problem",
             "type": "Task"
           },
           {
             "key": "US_04_02_DIRT_CNT"
           },
           {
-            "key": "US_04_02_DROWNED_TITAN_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_02_DROWNSCOUT_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_02_ELECTROFIX_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_02_FACTORY_BLOCK_01"
-          },
-          {
-            "key": "US_04_02_FACTORY_BLOCK_02"
-          },
-          {
-            "key": "US_04_02_FACTORY_BLOCK_03"
-          },
-          {
-            "key": "US_04_02_FINAL_DELIVERY"
-          },
-          {
-            "key": "US_04_02_FUEL_FOR_HUNTER_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_02_HELP_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_02_LOGS_FOR_LUMBERMILL"
-          },
-          {
-            "key": "US_04_02_LONG_LOGS"
-          },
-          {
-            "key": "US_04_02_LOST_BIG_CONT_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_02_LOST_CRATES_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_02_MED_LOGS"
-          },
-          {
-            "key": "US_04_02_OPEN_STORAGE_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_02_STORAGE_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_02_STRANGE_SIGNAL_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_02_TELEMETRY_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_04_02_TOOLSDELIVERY_TSK",
-            "type": "Task"
-          },
-          {
             "key": "US_04_02_TOTHETOP_CNT"
-          },
-          {
-            "key": "US_04_02_TUBES_NEED_NOW_TSK",
-            "type": "Task"
           }
         ]
       }
     ],
     "contracts": [
       {
-        "name": "Goldhorse Mining",
-        "objectives": []
+        "name": "GOLDHORSE MINING",
+        "key": "GoldhorseMining",
+        "objectives": [
+          {
+            "name": "Reinvigorating the old mines",
+            "key": "US_04_01_MINE_CONT",
+            "type": "Contract"
+          },
+          {
+            "name": "Conveyor Belt Section 1",
+            "key": "US_04_01_CONV_01_CONT",
+            "type": "Contract"
+          },
+          {
+            "name": "Conveyor Belt Section 2",
+            "key": "US_04_01_CONV_02_CONT",
+            "type": "Contract"
+          },
+          {
+            "name": "Conveyor Belt Section 3",
+            "key": "US_04_01_CONV_03_CONT",
+            "type": "Contract"
+          },
+          {
+            "name": "Ore Sorting Center",
+            "key": "US_04_01_SORT_CONT",
+            "type": "Contract"
+          },
+          {
+            "name": "Mountaintop Delivery",
+            "key": "US_04_01_TUBING",
+            "type": "Contract"
+          },
+          {
+            "name": "Cargo crafting",
+            "key": "US_04_01_CRAFT_TUTOR",
+            "type": "Contract"
+          },
+          {
+            "name": "Factory: Main Block",
+            "key": "US_04_02_FACTORY_BLOCK_01",
+            "type": "Contract"
+          },
+          {
+            "name": "Factory: Sewage Treatment Facilities",
+            "key": "US_04_02_FACTORY_BLOCK_03",
+            "type": "Contract"
+          },
+          {
+            "name": "Factory: Reservoirs",
+            "key": "US_04_02_FACTORY_BLOCK_02",
+            "type": "Contract"
+          },
+          {
+            "name": "Final check",
+            "key": "US_04_02_FINAL_DELIVERY",
+            "type": "Contract"
+          },
+          {
+            "name": "Stocking Up",
+            "key": "US_04_02_LONG_LOGS",
+            "type": "Contract"
+          },
+          {
+            "name": "Looking After Your Own",
+            "key": "US_04_02_MED_LOGS",
+            "type": "Contract"
+          },
+          {
+            "name": "Destination: Sawmill",
+            "key": "US_04_02_LOGS_FOR_LUMBERMILL",
+            "type": "Contract"
+          }
+        ]
       }
     ]
   },
   {
     "name": "Wisconsin, North America",
+    "key": "us_03",
     "maps": [
       {
         "name": "Black Badger Lake",
@@ -1634,97 +2038,90 @@
         "num_watchpoints": 3,
         "objectives": [
           {
-            "key": "US_03_01_BRIDGE_01"
+            "key": "US_03_01_BRIDGE_01",
+            "name": "Factories Bridge",
+            "type": "Task"
           },
           {
-            "key": "US_03_01_BRIDGE_02"
+            "key": "US_03_01_BRIDGE_02",
+            "name": "Wooden Bridge",
+            "type": "Task"
           },
           {
-            "key": "US_03_01_BRIDGE_03"
+            "key": "US_03_01_BRIDGE_03",
+            "name": "Railway Bridge",
+            "type": "Task"
           },
           {
-            "key": "US_03_01_BRIDGE_04"
+            "key": "US_03_01_BRIDGE_04",
+            "name": "Creek Bridge",
+            "type": "Task"
           },
           {
-            "key": "US_03_01_CELL_CONT"
+            "key": "US_03_01_TSK_01",
+            "name": "Lost Supplies",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_01_TSK_02",
+            "name": "Exploration Gone Wrong",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_01_TSK_03",
+            "name": "To New Horizons",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_01_TSK_04",
+            "name": "Look Before You Leap",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_01_TSK_05",
+            "name": "The Aftermath of the Hurricane",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_01_TSK_06",
+            "name": "Quarry Incidents",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_01_TSK_07",
+            "name": "Decisions and Consequences",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_01_TSK_08",
+            "name": "Saving the Farmer's Machinery",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_01_TSK_09",
+            "name": "Lost but not Forgotten",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_01_TSK_10",
+            "name": "Repaying the Debts",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_01_TSK_11",
+            "name": "Lost Order",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_01_TSK_12",
+            "name": "Recovering What's Lost",
+            "type": "Task"
           },
           {
             "key": "US_03_01_CONT_01"
           },
           {
             "key": "US_03_01_CONT_02"
-          },
-          {
-            "key": "US_03_01_LOGS_CONT_01"
-          },
-          {
-            "key": "US_03_01_LOGS_CONT_02"
-          },
-          {
-            "key": "US_03_01_LOGS_CONT_03"
-          },
-          {
-            "key": "US_03_01_LOGS_CONT_04"
-          },
-          {
-            "key": "US_03_01_PAPER_01_CONT"
-          },
-          {
-            "key": "US_03_01_PAPER_02_CONT"
-          },
-          {
-            "key": "US_03_01_PAPER_03_CONT"
-          },
-          {
-            "key": "US_03_01_PLANT_CONT"
-          },
-          {
-            "key": "US_03_01_TSK_01",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_01_TSK_02",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_01_TSK_03",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_01_TSK_04",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_01_TSK_05",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_01_TSK_06",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_01_TSK_07",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_01_TSK_08",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_01_TSK_09",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_01_TSK_10",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_01_TSK_11",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_01_TSK_12",
-            "type": "Task"
           }
         ]
       },
@@ -1736,103 +2133,178 @@
         "num_watchpoints": 5,
         "objectives": [
           {
-            "key": "US_03_02_BIG_LOGS_OBJ"
-          },
-          {
-            "key": "US_03_02_BROKEN_BRIDGE_01_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_02_BROKEN_BRIDGE_02_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_02_BROKEN_BRIDGE_03_TSK",
+            "key": "US_03_02_CELL_MASHINERY_TSK",
+            "name": "Mobile Telephony",
             "type": "Task"
           },
           {
             "key": "US_03_02_CARGOINRIVER_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_02_CARGO_ON_ISLANDS_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_02_CELL_MASHINERY_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_02_DANGER_BARRELS_TSK",
+            "name": "Trailer In The River",
             "type": "Task"
           },
           {
             "key": "US_03_02_FARMER_LOG_TSK",
+            "name": "Order for Logs",
             "type": "Task"
           },
           {
-            "key": "US_03_02_FINAL_COUNTDOWN_OBJ"
+            "key": "US_03_02_DANGER_BARRELS_TSK",
+            "name": "Hazardous Cargo",
+            "type": "Task"
           },
           {
-            "key": "US_03_02_INVASION_TSK",
+            "key": "US_03_02_BROKEN_BRIDGE_01_TSK",
+            "name": "North Bridge",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_02_BROKEN_BRIDGE_02_TSK",
+            "name": "South Bridge",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_02_BROKEN_BRIDGE_03_TSK",
+            "name": "Wooden Bridge",
             "type": "Task"
           },
           {
             "key": "US_03_02_LOST_TRUCK_01_TSK",
+            "name": "The Wrong Turn",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_02_TUBE_IN_RIVER_TSK",
+            "name": "Don't push your luck!",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_02_TRUCK_IN_RIVER_TSK",
+            "name": "Out of Nowhere",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_02_TOR_TSK",
+            "name": "Only for the Worthy",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_02_STRANGER_TSK",
+            "name": "Strangest Things",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_02_YFILES_TSK",
+            "name": "Classified",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_02_INVASION_TSK",
+            "name": "Invasion!",
+            "type": "Task"
+          },
+          {
+            "key": "US_03_02_CARGO_ON_ISLANDS_TSK",
+            "name": "Gone with the Wind",
             "type": "Task"
           },
           {
             "key": "US_03_02_MUDSTER_CNT"
           },
           {
-            "key": "US_03_02_RAIL_REPAIR_OBJ"
-          },
-          {
             "key": "US_03_02_SLALOM_CNT"
-          },
-          {
-            "key": "US_03_02_STRANGER_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_02_TOR_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_02_TRAIN_OBJ"
-          },
-          {
-            "key": "US_03_02_TRUCK_IN_RIVER_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_02_TUBE_IN_RIVER_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_03_02_YFILES_TSK",
-            "type": "Task"
           }
         ]
       }
     ],
     "contracts": [
       {
-        "name": "Stonecreek Lumber",
-        "objectives": []
+        "name": "STONECREEK LUMBER",
+        "key": "Stonecreek",
+        "objectives": [
+          {
+            "name": "Delivery to the Weather Station",
+            "key": "US_03_01_LOGS_CONT_01",
+            "type": "Contract"
+          },
+          {
+            "name": "Contribution to Farm Restoration",
+            "key": "US_03_01_LOGS_CONT_02",
+            "type": "Contract"
+          },
+          {
+            "name": "Rail Trail",
+            "key": "US_03_01_LOGS_CONT_03",
+            "type": "Contract"
+          },
+          {
+            "name": "Big Trees to Small Homes",
+            "key": "US_03_01_LOGS_CONT_04",
+            "type": "Contract"
+          },
+          {
+            "name": "Fallen Titans",
+            "key": "US_03_02_BIG_LOGS_OBJ",
+            "type": "Contract"
+          }
+        ]
       },
       {
-        "name": "Nonagon Infrastructures",
-        "objectives": []
+        "name": "NONAGON INFRASTRUCTURES",
+        "key": "Nonagon",
+        "objectives": [
+          {
+            "name": "Starting the Power Plant",
+            "key": "US_03_01_PLANT_CONT",
+            "type": "Contract"
+          },
+          {
+            "name": "Weightlifting",
+            "key": "US_03_02_TRAIN_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Restoring the tracks",
+            "key": "US_03_02_RAIL_REPAIR_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Train Departure",
+            "key": "US_03_02_FINAL_COUNTDOWN_OBJ",
+            "type": "Contract"
+          }
+        ]
       },
       {
-        "name": "Greenlake Papermill",
-        "objectives": []
+        "name": "GREENLAKE PAPERMILL",
+        "key": "GreenLake",
+        "objectives": [
+          {
+            "name": "Paper Factory, Section A",
+            "key": "US_03_01_PAPER_01_CONT",
+            "type": "Contract"
+          },
+          {
+            "name": "Paper Factory, Section B",
+            "key": "US_03_01_PAPER_02_CONT",
+            "type": "Contract"
+          },
+          {
+            "name": "Paper Factory, Section C",
+            "key": "US_03_01_PAPER_03_CONT",
+            "type": "Contract"
+          },
+          {
+            "name": "Wisconsin Truck Trip",
+            "key": "US_03_01_CELL_CONT",
+            "type": "Contract"
+          }
+        ]
       }
     ]
   },
   {
     "name": "Amur, Russia",
+    "key": "ru_04",
     "maps": [
       {
         "name": "Urska River",
@@ -1843,50 +2315,96 @@
         "objectives": [
           {
             "key": "RU_04_01_BRIDGE_01_TSK",
+            "name": "Bridge to the Sawmill",
             "type": "Task"
           },
           {
             "key": "RU_04_01_BRIDGE_02_TSK",
+            "name": "Bridge to the Warehouse",
             "type": "Task"
           },
           {
             "key": "RU_04_01_BRIDGE_03_TSK",
+            "name": "Bridge to the Island",
             "type": "Task"
           },
           {
             "key": "RU_04_01_BRIDGE_04_TSK",
+            "name": "Bridge to Town",
             "type": "Task"
           },
           {
-            "key": "RU_04_01_CARGOCULT_TSK",
+            "key": "RU_04_01_ROCKSLIDE_01_TSK",
+            "name": "Landslide on the Path",
             "type": "Task"
           },
           {
-            "key": "RU_04_01_CHURCH_TSK",
+            "key": "RU_04_01_ROCKSLIDE_02_TSK",
+            "name": "Landslide on the Highway",
             "type": "Task"
           },
           {
-            "key": "RU_04_01_EXPEDITION_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_01_FACTORY_TSK",
+            "key": "RU_04_01_ROCKSLIDE_03_TSK",
+            "name": "Landslide Near the Quarry",
             "type": "Task"
           },
           {
             "key": "RU_04_01_FUELTASK_TSK",
+            "name": "Bottoms Up",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_01_SAWMILL_TSK",
+            "name": "Means Of Production",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_01_LOST_TRAILER_TSK",
+            "name": "Warehouse Trouble",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_01_FACTORY_TSK",
+            "name": "Barefoot Cobbler",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_01_CARGOCULT_TSK",
+            "name": "Cargo Cult",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_01_TRUCK_ON_HILL_TSK",
+            "name": "At The Apex",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_01_EXPEDITION_TSK",
+            "name": "Unlucky Expedition",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_01_SUPPLIES_TSK",
+            "name": "For Hard-to-reach Places",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_01_CHURCH_TSK",
+            "name": "Closer to Heaven",
             "type": "Task"
           },
           {
             "key": "RU_04_01_HELP_TSK",
+            "name": "Quid pro Quo",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_01_SCOUT_IN_TROUBLE_TSK",
+            "name": "Treasure Hunter",
             "type": "Task"
           },
           {
             "key": "RU_04_01_ICE_RACE_CNT"
-          },
-          {
-            "key": "RU_04_01_LOST_TRAILER_TSK",
-            "type": "Task"
           },
           {
             "key": "RU_04_01_POWERPLANT_OBJ"
@@ -1901,34 +2419,6 @@
             "key": "RU_04_01_ROCK_RACE_CNT"
           },
           {
-            "key": "RU_04_01_ROCKSLIDE_01_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_01_ROCKSLIDE_02_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_01_ROCKSLIDE_03_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_01_SAWMILL_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_01_SCOUT_IN_TROUBLE_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_01_SUPPLIES_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_01_TRUCK_ON_HILL_TSK",
-            "type": "Task"
-          },
-          {
             "key": "RU_04_01_TUNNELBLOCK_OBJ"
           }
         ]
@@ -1941,43 +2431,104 @@
         "num_watchpoints": 5,
         "objectives": [
           {
-            "key": "RU_04_02_ABANDON_CHECKUP_TSK",
+            "key": "RU_04_02_LOG_BRIDGE_CONSTRUCTION_TSK",
+            "name": "Log Crossing",
             "type": "Task"
           },
           {
-            "key": "RU_04_02_ABANDONED_TRUCK_RECOVERY_TSK",
+            "key": "RU_04_02_ROCK_CLEANUP_1_TSK",
+            "name": "Rockslide",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_02_ROCK_CLEANUP_2_TSK",
+            "name": "Shore Collapse",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_02_TREE_CLEANUP_1_TSK",
+            "name": "Fallen Trees",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_02_TREE_CLEANUP_2_TSK",
+            "name": "Cliffside Treefall",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_02_TREE_CLEANUP_3_TSK",
+            "name": "Tree Blockade",
             "type": "Task"
           },
           {
             "key": "RU_04_02_BRIDGE_CONSTRUCTION_TSK",
+            "name": "Old Bridge",
             "type": "Task"
           },
           {
-            "key": "RU_04_02_CHURCH_REPAIR_TSK",
+            "key": "RU_04_02_ZIKZ_RESCUE_TSK",
+            "name": "Stargazer",
             "type": "Task"
           },
           {
-            "key": "RU_04_02_DAN_RESCUE_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_02_DELIVERY_TRUCK_RECOVER_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_02_FARM_FUEL_RESTOCK_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_02_FARM_RESTOCK_BRICKS_TSK",
+            "key": "RU_04_02_KHAN_RECOVER_TSK",
+            "name": "Unlucky Lineman",
             "type": "Task"
           },
           {
             "key": "RU_04_02_FISHERMAN_SCOUT_RESCUE_TSK",
+            "name": "Takes One To Find One",
             "type": "Task"
           },
           {
-            "key": "RU_04_02_FUEL_LINE_REPAIR_OBJ"
+            "key": "RU_04_02_TOWN_RESUPPLY_TSK",
+            "name": "Strategic Reserve",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_02_DELIVERY_TRUCK_RECOVER_TSK",
+            "name": "Knee Deep",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_02_ABANDONED_TRUCK_RECOVERY_TSK",
+            "name": "Lost But Not Forgotten",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_02_ABANDON_CHECKUP_TSK",
+            "name": "Snowbound",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_02_METEO_RESTOCK_TSK",
+            "name": "Meteo Point",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_02_PICTURESCUE_TSK",
+            "name": "Picturesque",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_02_DAN_RESCUE_TSK",
+            "name": "Misadventure",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_02_FARM_RESTOCK_BRICKS_TSK",
+            "name": "Build Additional Farmhouses",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_02_FARM_FUEL_RESTOCK_TSK",
+            "name": "Fuel For The Masses",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_02_CHURCH_REPAIR_TSK",
+            "name": "Church",
+            "type": "Task"
           },
           {
             "key": "RU_04_02_FUEL_RESTOCK_TARGET_CNT"
@@ -1986,57 +2537,13 @@
             "key": "RU_04_02_FUEL_RUN_CNT"
           },
           {
-            "key": "RU_04_02_KHAN_RECOVER_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_02_LOG_BRIDGE_CONSTRUCTION_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_02_METEO_RESTOCK_TSK",
-            "type": "Task"
-          },
-          {
             "key": "RU_04_02_MISSION_CONTROL_OBJ"
-          },
-          {
-            "key": "RU_04_02_PICTURESCUE_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_02_ROCK_CLEANUP_1_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_02_ROCK_CLEANUP_2_TSK",
-            "type": "Task"
           },
           {
             "key": "RU_04_02_ROCKET_DELIVERY_OBJ"
           },
           {
             "key": "RU_04_02_ROCKET_TRAIN_DELIVERY_OBJ"
-          },
-          {
-            "key": "RU_04_02_TOWN_RESUPPLY_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_02_TREE_CLEANUP_1_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_02_TREE_CLEANUP_2_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_02_TREE_CLEANUP_3_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_02_ZIKZ_RESCUE_TSK",
-            "type": "Task"
           }
         ]
       },
@@ -2048,13 +2555,59 @@
         "num_watchpoints": 3,
         "objectives": [
           {
-            "key": "RU_04_03_BRIDGE_BUILDING_01"
+            "key": "RU_04_03_SCOUT_01",
+            "name": "Expanding the Borders",
+            "type": "Task"
           },
           {
-            "key": "RU_04_03_BRIDGE_BUILDING_02"
+            "key": "RU_04_03_SCOUT_02",
+            "name": "Into the Deep",
+            "type": "Task"
           },
           {
-            "key": "RU_04_03_BRIDGE_BUILDING_03"
+            "key": "RU_04_03_BRIDGE_BUILDING_01",
+            "name": "Fallen Bridge",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_03_BRIDGE_BUILDING_02",
+            "name": "Bridge by the Checkpoint",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_03_BRIDGE_BUILDING_03",
+            "name": "Eroded road",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_03_OBSTACLE_02",
+            "name": "Small landslide",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_03_OBSTACLE_03",
+            "name": "Rockslide",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_03_OBSTACLE_04",
+            "name": "Landslide in the Woods",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_03_LOST_B",
+            "name": "Left Behind",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_03_OBSTACLE_05",
+            "name": "Landslide in the City",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_03_OBSTACLE_06",
+            "name": "Fallen Tower",
+            "type": "Task"
           },
           {
             "key": "RU_04_03_FALLEN_POWER_LINES"
@@ -2066,37 +2619,13 @@
             "key": "RU_04_03_GIANT"
           },
           {
-            "key": "RU_04_03_LOST_B"
-          },
-          {
             "key": "RU_04_03_LOST_C"
-          },
-          {
-            "key": "RU_04_03_OBSTACLE_02"
-          },
-          {
-            "key": "RU_04_03_OBSTACLE_03"
-          },
-          {
-            "key": "RU_04_03_OBSTACLE_04"
-          },
-          {
-            "key": "RU_04_03_OBSTACLE_05"
-          },
-          {
-            "key": "RU_04_03_OBSTACLE_06"
           },
           {
             "key": "RU_04_03_OFF_ROAD"
           },
           {
             "key": "RU_04_03_RUN"
-          },
-          {
-            "key": "RU_04_03_SCOUT_01"
-          },
-          {
-            "key": "RU_04_03_SCOUT_02"
           },
           {
             "key": "RU_04_03_SEISMIC"
@@ -2116,6 +2645,81 @@
         "num_upgrades": 2,
         "num_watchpoints": 4,
         "objectives": [
+          {
+            "key": "RU_04_04_TSK_BRIDGE_A",
+            "name": "Main Bridge",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_04_TSK_BRIDGE_B",
+            "name": "Crossing",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_04_TSK_ROCKS_A",
+            "name": "Landslide in the South West",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_04_TSK_ROCKS_B",
+            "name": "Landslide in the North East",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_04_TSK_ROCKS_C",
+            "name": "Landslide in the West",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_04_TSK_ROCKS_D",
+            "name": "Landslide in the North",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_04_TSK_DREAM_CAR",
+            "name": "Dream Car",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_04_TSK_NEIGHBOR_HELP",
+            "name": "Help Thy Neighbor",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_04_TSK_OLD_BUT_GOLD",
+            "name": "Old-timer",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_04_TSK_BIG_AND_ABANDONED",
+            "name": "Heavy Duty",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_04_TSK_STEEL_MACHINE",
+            "name": "Breach detected",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_04_TSK_REALLY_BIG_ONE",
+            "name": "Nothing To See Here",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_04_TSK_FAMILY_BUSINESS",
+            "name": "Family Business",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_04_TSK_DANGEROUS_ROAD",
+            "name": "Dangerous Road",
+            "type": "Task"
+          },
+          {
+            "key": "RU_04_04_TSK_UNLUCKY_BOY",
+            "name": "Bad Luck Charm",
+            "type": "Task"
+          },
           {
             "key": "RU_04_04_EXPLORATIONS_WORKS"
           },
@@ -2138,15 +2742,6 @@
             "key": "RU_04_04_LUMBER_MILL_RESTORATION"
           },
           {
-            "key": "RU_04_04_NPZ_RESTORATION_A"
-          },
-          {
-            "key": "RU_04_04_NPZ_RESTORATION_B"
-          },
-          {
-            "key": "RU_04_04_NPZ_RESTORATION_C"
-          },
-          {
             "key": "RU_04_04_OLD_TRAIN"
           },
           {
@@ -2162,66 +2757,6 @@
             "key": "RU_04_04__RACE_D_CNT"
           },
           {
-            "key": "RU_04_04_TSK_BIG_AND_ABANDONED",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_04_TSK_BRIDGE_A",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_04_TSK_BRIDGE_B",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_04_TSK_DANGEROUS_ROAD",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_04_TSK_DREAM_CAR",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_04_TSK_FAMILY_BUSINESS",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_04_TSK_NEIGHBOR_HELP",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_04_TSK_OLD_BUT_GOLD",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_04_TSK_REALLY_BIG_ONE",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_04_TSK_ROCKS_A",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_04_TSK_ROCKS_B",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_04_TSK_ROCKS_C",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_04_TSK_ROCKS_D",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_04_TSK_STEEL_MACHINE",
-            "type": "Task"
-          },
-          {
-            "key": "RU_04_04_TSK_UNLUCKY_BOY",
-            "type": "Task"
-          },
-          {
             "key": "RU_04_04_WAREHOUSE_RESTORATION"
           },
           {
@@ -2235,21 +2770,36 @@
     ],
     "contracts": [
       {
-        "name": "Maneuver",
-        "objectives": []
-      },
-      {
-        "name": "Amur Petroleum Company",
-        "objectives": []
-      },
-      {
-        "name": "Amur Regional Administration",
-        "objectives": []
+        "name": "AMUR PETROLEUM COMPANY",
+        "key": "AmurFuelCompany",
+        "objectives": [
+          {
+            "name": "Lifeline",
+            "key": "RU_04_02_FUEL_LINE_REPAIR_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Block Alpha",
+            "key": "RU_04_04_NPZ_RESTORATION_A",
+            "type": "Contract"
+          },
+          {
+            "name": "Block Beta",
+            "key": "RU_04_04_NPZ_RESTORATION_B",
+            "type": "Contract"
+          },
+          {
+            "name": "Block Gamma",
+            "key": "RU_04_04_NPZ_RESTORATION_C",
+            "type": "Contract"
+          }
+        ]
       }
     ]
   },
   {
     "name": "Don, Russia",
+    "key": "ru_05",
     "maps": [
       {
         "name": "Factory Grounds",
@@ -2259,58 +2809,55 @@
         "num_watchpoints": 2,
         "objectives": [
           {
-            "key": "RU_05_01_BIG_BRIDGE"
+            "key": "RU_05_01_BIG_BRIDGE",
+            "name": "Old Bridge",
+            "type": "Task"
           },
           {
-            "key": "RU_05_01_BOILER_ROOM_02"
+            "key": "RU_05_01_BRIDGE",
+            "name": "Rural Bridge",
+            "type": "Task"
           },
           {
-            "key": "RU_05_01_BRIDGE"
+            "key": "RU_05_01_WOODEN_BRIDGE",
+            "name": "Wooden Bridge",
+            "type": "Task"
           },
           {
-            "key": "RU_05_01_CAR_FACTORY_01"
+            "key": "RU_05_01_STONES",
+            "name": "Scrap Pile",
+            "type": "Task"
           },
           {
-            "key": "RU_05_01_DELIVERY_01"
+            "key": "RU_05_01_FUEL",
+            "name": "Old Gas Station",
+            "type": "Task"
+          },
+          {
+            "key": "RU_05_01_TRACK_DELIVERY",
+            "name": "The Toppled Giant",
+            "type": "Task"
+          },
+          {
+            "key": "RU_05_01_DELIVERY_01",
+            "name": "Poddonskoye Village",
+            "type": "Task"
+          },
+          {
+            "key": "RU_05_01_TRACK_TATRA",
+            "name": "The Sleeping King",
+            "type": "Task"
+          },
+          {
+            "key": "RU_05_01_TOWER_01",
+            "name": "Soul Music",
+            "type": "Task"
           },
           {
             "key": "RU_05_01_FACTORY_RACE"
           },
           {
-            "key": "RU_05_01_FUEL"
-          },
-          {
-            "key": "RU_05_01_PORT_RECOVERY"
-          },
-          {
-            "key": "RU_05_01_PORT_RECOVERY_ENERGY"
-          },
-          {
-            "key": "RU_05_01_RECOVERY_PIPES"
-          },
-          {
-            "key": "RU_05_01_RESTORATION_VILLAGE"
-          },
-          {
-            "key": "RU_05_01_STONES"
-          },
-          {
             "key": "RU_05_01_SWAMP_RACE"
-          },
-          {
-            "key": "RU_05_01_TOWER_01"
-          },
-          {
-            "key": "RU_05_01_TRACK_DELIVERY"
-          },
-          {
-            "key": "RU_05_01_TRACK_TATRA"
-          },
-          {
-            "key": "RU_05_01_WAREHOUSE_03"
-          },
-          {
-            "key": "RU_05_01_WOODEN_BRIDGE"
           }
         ]
       },
@@ -2322,73 +2869,143 @@
         "num_watchpoints": 1,
         "objectives": [
           {
-            "key": "RU_05_02_BIG_BRIDGE_01"
+            "key": "RU_05_02_SCOUT_01",
+            "name": "Excursion",
+            "type": "Task"
           },
           {
-            "key": "RU_05_02_BIG_BRIDGE_02"
+            "key": "RU_05_02_BRIDGE_01",
+            "name": "The Washed-off Bridge",
+            "type": "Task"
           },
           {
-            "key": "RU_05_02_BRIDGE_01"
+            "key": "RU_05_02_BRIDGE_02",
+            "name": "Swamp Crossing",
+            "type": "Task"
           },
           {
-            "key": "RU_05_02_BRIDGE_02"
+            "key": "RU_05_02_ROCK_01",
+            "name": "Light Rockfall",
+            "type": "Task"
           },
           {
-            "key": "RU_05_02_DELIVERY_01"
+            "key": "RU_05_02_DELIVERY_01",
+            "name": "Cunning Forester",
+            "type": "Task"
           },
           {
-            "key": "RU_05_02_DELIVERY_02"
+            "key": "RU_05_02_DELIVERY_02",
+            "name": "Wipe Away The Debt",
+            "type": "Task"
           },
           {
             "key": "RU_05_02_HONEY"
           },
           {
             "key": "RU_05_02_LAKE_RACE"
-          },
-          {
-            "key": "RU_05_02_MAIL"
-          },
-          {
-            "key": "RU_05_02_RAIL_REPAIR"
-          },
-          {
-            "key": "RU_05_02_RESTORATION_VILLAGE_PUMPTOWER"
-          },
-          {
-            "key": "RU_05_02_RESTORATION_VILLAGE_REPAIR"
-          },
-          {
-            "key": "RU_05_02_RESTORATION_VILLAGE_SUPPLIES"
-          },
-          {
-            "key": "RU_05_02_RESTORATION_VILLAGE_WORKSHOP"
-          },
-          {
-            "key": "RU_05_02_ROCK_01"
-          },
-          {
-            "key": "RU_05_02_SCOUT_01"
           }
         ]
       }
     ],
     "contracts": [
       {
-        "name": "Rostov Administration",
-        "objectives": []
+        "name": "ROSTOV ADMINISTRATION",
+        "key": "RostovRegionalGov",
+        "objectives": [
+          {
+            "name": "Don's Right Hand",
+            "key": "RU_05_01_PORT_RECOVERY",
+            "type": "Contract"
+          },
+          {
+            "name": "River Port",
+            "key": "RU_05_01_PORT_RECOVERY_ENERGY",
+            "type": "Contract"
+          },
+          {
+            "name": "Broken Pipes",
+            "key": "RU_05_01_RESTORATION_VILLAGE",
+            "type": "Contract"
+          },
+          {
+            "name": "Going Postal",
+            "key": "RU_05_02_MAIL",
+            "type": "Contract"
+          },
+          {
+            "name": "Antonovka's Champion",
+            "key": "RU_05_02_RESTORATION_VILLAGE_SUPPLIES",
+            "type": "Contract"
+          },
+          {
+            "name": "Environmental Disaster",
+            "key": "RU_05_02_RESTORATION_VILLAGE_REPAIR",
+            "type": "Contract"
+          },
+          {
+            "name": "Let There Be Water",
+            "key": "RU_05_02_RESTORATION_VILLAGE_PUMPTOWER",
+            "type": "Contract"
+          },
+          {
+            "name": "Workshop in the Forest",
+            "key": "RU_05_02_RESTORATION_VILLAGE_WORKSHOP",
+            "type": "Contract"
+          }
+        ]
       },
       {
-        "name": "Tatra",
-        "objectives": []
+        "name": "TATRA",
+        "key": "Tatra",
+        "objectives": [
+          {
+            "name": "Titan Awakening",
+            "key": "RU_05_01_CAR_FACTORY_01",
+            "type": "Contract"
+          },
+          {
+            "name": "The Steel Phoenix",
+            "key": "RU_05_01_BOILER_ROOM_02",
+            "type": "Contract"
+          },
+          {
+            "name": "Slow and Steady",
+            "key": "RU_05_01_WAREHOUSE_03",
+            "type": "Contract"
+          },
+          {
+            "name": "Winter is Coming",
+            "key": "RU_05_01_RECOVERY_PIPES",
+            "type": "Contract"
+          }
+        ]
       },
       {
-        "name": "Western Rail Roads",
-        "objectives": []
+        "name": "WESTERN RAIL ROADS",
+        "key": "WestRailways",
+        "objectives": [
+          {
+            "name": "Of Rails And Flash Floods",
+            "key": "RU_05_02_RAIL_REPAIR",
+            "type": "Contract"
+          },
+          {
+            "name": "Nature Reserve Bridge",
+            "key": "RU_05_02_BIG_BRIDGE_01",
+            "type": "Contract"
+          },
+          {
+            "name": "Guardian of the Grove",
+            "key": "RU_05_02_BIG_BRIDGE_02",
+            "type": "Contract"
+          }
+        ]
       }
     ]
   },
   {
     "name": "Maine, North America",
+    "key": "us_06",
     "maps": [
       {
         "name": "The Lowland",
@@ -2398,105 +3015,80 @@
         "num_watchpoints": 4,
         "objectives": [
           {
-            "key": "US_06_01_CON_01"
+            "key": "US_06_01_ROCKS_01",
+            "name": "Landslide Near Production Site",
+            "type": "Task"
           },
           {
-            "key": "US_06_01_CON_02"
+            "key": "US_06_01_ROCKS_02",
+            "name": "Shore Collapse",
+            "type": "Task"
           },
           {
-            "key": "US_06_01_GARAGE_CONT_02_TUNING"
-          },
-          {
-            "key": "US_06_01_GARAGE_STAGE_01_REPAIR"
-          },
-          {
-            "key": "US_06_01_GARAGE_STAGE_01_SLOTS"
-          },
-          {
-            "key": "US_06_01_GARAGE_STAGE_02_TRUCKSTORE"
-          },
-          {
-            "key": "US_06_01_GARAGE_STAGE_03_TRAILERS"
-          },
-          {
-            "key": "US_06_01_GAS_CONT"
-          },
-          {
-            "key": "US_06_01_LOGGING_01"
-          },
-          {
-            "key": "US_06_01_LOGGING_02"
-          },
-          {
-            "key": "US_06_01_LOGGING_03"
-          },
-          {
-            "key": "US_06_01_LOGGING_PIER"
-          },
-          {
-            "key": "US_06_01_MILL_02_STUFF"
-          },
-          {
-            "key": "US_06_01_MILL_03_TRAILER"
-          },
-          {
-            "key": "US_06_01_MILL_04_BUILD"
-          },
-          {
-            "key": "US_06_01_MILL_LOGS"
-          },
-          {
-            "key": "US_06_01_ROCKS_01"
-          },
-          {
-            "key": "US_06_01_ROCKS_02"
-          },
-          {
-            "key": "US_06_01_ROCKS_03"
+            "key": "US_06_01_ROCKS_03",
+            "name": "North Landslide",
+            "type": "Task"
           },
           {
             "key": "US_06_01_TSK_01",
+            "name": "Big Mistake",
             "type": "Task"
           },
           {
             "key": "US_06_01_TSK_02",
+            "name": "Lost in the distance",
             "type": "Task"
           },
           {
             "key": "US_06_01_TSK_03",
+            "name": "Mistakes of Others",
             "type": "Task"
           },
           {
             "key": "US_06_01_TSK_04",
+            "name": "Workhorse",
             "type": "Task"
           },
           {
             "key": "US_06_01_TSK_05",
+            "name": "Delivery From the Pier",
             "type": "Task"
           },
           {
             "key": "US_06_01_TSK_06",
+            "name": "Big Loss",
             "type": "Task"
           },
           {
             "key": "US_06_01_TSK_07",
+            "name": "Restorers' Trouble",
             "type": "Task"
           },
           {
             "key": "US_06_01_TSK_08",
+            "name": "All the Money's Worth",
             "type": "Task"
           },
           {
             "key": "US_06_01_TSK_09",
+            "name": "Very Strange Things",
             "type": "Task"
           },
           {
             "key": "US_06_01_TSK_10",
+            "name": "Small Order",
             "type": "Task"
           },
           {
             "key": "US_06_01_TSK_11",
+            "name": "Abandoned Titan",
             "type": "Task"
+          },
+          {
+            "key": "US_06_01_CON_01"
+          },
+          {
+            "key": "US_06_01_CON_02"
           }
         ]
       },
@@ -2508,103 +3100,203 @@
         "num_watchpoints": 3,
         "objectives": [
           {
-            "key": "US_06_02_BROKEN_BRIDGE_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_06_02_BROKEN_POWERLINE_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_06_02_BROKENTRUCK_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_06_02_BROKEN_WOOD_BRIDGE_1_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_06_02_BROKEN_WOOD_BRIDGE_2_TSK",
+            "key": "US_06_02_DROWNED_CARGO_TSK",
+            "name": "Last Season's Treasure",
             "type": "Task"
           },
           {
             "key": "US_06_02_CABINS_TSK",
+            "name": "Home, Sweet Home",
+            "type": "Task"
+          },
+          {
+            "key": "US_06_02_TRAILER_TSK",
+            "name": "Support Local Ranger",
+            "type": "Task"
+          },
+          {
+            "key": "US_06_02_OILTRUCK_TSK",
+            "name": "Crooked Path",
             "type": "Task"
           },
           {
             "key": "US_06_02_CABINSUPPLY_TSK",
+            "name": "Dirt, Ice and Delivery",
+            "type": "Task"
+          },
+          {
+            "key": "US_06_02_BROKENTRUCK_TSK",
+            "name": "Wrong Place, Wrong Time",
             "type": "Task"
           },
           {
             "key": "US_06_02_CHECKPLACES_TSK",
+            "name": "Quality Assurance",
+            "type": "Task"
+          },
+          {
+            "key": "US_06_02_TURNED_SCOUT_TSK",
+            "name": "Treacherous Ravine",
+            "type": "Task"
+          },
+          {
+            "key": "US_06_02_BROKEN_POWERLINE_TSK",
+            "name": "Power Tower",
+            "type": "Task"
+          },
+          {
+            "key": "US_06_02_BROKEN_BRIDGE_TSK",
+            "name": "Fallen Bridge",
+            "type": "Task"
+          },
+          {
+            "key": "US_06_02_BROKEN_WOOD_BRIDGE_1_TSK",
+            "name": "Road to the Plant",
+            "type": "Task"
+          },
+          {
+            "key": "US_06_02_BROKEN_WOOD_BRIDGE_2_TSK",
+            "name": "Crossing",
+            "type": "Task"
+          },
+          {
+            "key": "US_06_02_LOADSTAR_TSK",
+            "name": "Lost but Not Forgotten",
+            "type": "Task"
+          },
+          {
+            "key": "US_06_02_FIREWORKS_TSK",
+            "name": "Illegal Entertainment",
+            "type": "Task"
+          },
+          {
+            "key": "US_06_02_FUELSTATION_TSK",
+            "name": "Fuel at Any Cost",
             "type": "Task"
           },
           {
             "key": "US_06_02_DANGERRACE_CNT"
           },
           {
-            "key": "US_06_02_DROWNED_CARGO_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_06_02_EXIT_B"
-          },
-          {
-            "key": "US_06_02_EXIT_C"
-          },
-          {
-            "key": "US_06_02_FIREWORKS_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_06_02_FUELSTATION_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_06_02_ICEWATCH"
-          },
-          {
             "key": "US_06_02_KARTER_CNT"
-          },
-          {
-            "key": "US_06_02_LOADSTAR_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_06_02_MOTEL_SUPPLY"
-          },
-          {
-            "key": "US_06_02_OILTRUCK_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_06_02_TRAILER_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_06_02_TURNED_SCOUT_TSK",
-            "type": "Task"
           }
         ]
       }
     ],
     "contracts": [
       {
-        "name": "Evans Garage",
-        "objectives": []
+        "name": "EVANS GARAGE",
+        "key": "EvansGarage",
+        "objectives": [
+          {
+            "name": "Cleaning out the Garage",
+            "key": "US_06_01_GARAGE_STAGE_01_SLOTS",
+            "type": "Contract"
+          },
+          {
+            "name": "Constructing a repair garage",
+            "key": "US_06_01_GARAGE_STAGE_01_REPAIR",
+            "type": "Contract"
+          },
+          {
+            "name": "Restoring the Tuning Shop",
+            "key": "US_06_01_GARAGE_CONT_02_TUNING",
+            "type": "Contract"
+          },
+          {
+            "name": "Truck Store Construction",
+            "key": "US_06_01_GARAGE_STAGE_02_TRUCKSTORE",
+            "type": "Contract"
+          },
+          {
+            "name": "Trailer Store",
+            "key": "US_06_01_GARAGE_STAGE_03_TRAILERS",
+            "type": "Contract"
+          }
+        ]
       },
       {
-        "name": "Yellowrock Forestry",
-        "objectives": []
+        "name": "YELLOWROCK FORESTRY",
+        "key": "YellowRockForestry",
+        "objectives": [
+          {
+            "name": "Fuel Station, Revived",
+            "key": "US_06_01_GAS_CONT",
+            "type": "Contract"
+          },
+          {
+            "name": "Ice Watch",
+            "key": "US_06_02_ICEWATCH",
+            "type": "Contract"
+          },
+          {
+            "name": "Hospitality Business",
+            "key": "US_06_02_MOTEL_SUPPLY",
+            "type": "Contract"
+          },
+          {
+            "name": "South-bound Road",
+            "key": "US_06_02_EXIT_B",
+            "type": "Contract"
+          },
+          {
+            "name": "Access to Civilization",
+            "key": "US_06_02_EXIT_C",
+            "type": "Contract"
+          }
+        ]
       },
       {
-        "name": "Dusty Woodwork",
-        "objectives": []
+        "name": "DUSTY WOODWORK",
+        "key": "DustyWoodwork",
+        "objectives": [
+          {
+            "name": "Old Sawmill",
+            "key": "US_06_01_MILL_02_STUFF",
+            "type": "Contract"
+          },
+          {
+            "name": "Trailer with New Equipment",
+            "key": "US_06_01_MILL_03_TRAILER",
+            "type": "Contract"
+          },
+          {
+            "name": "Sawmill: the final stage",
+            "key": "US_06_01_MILL_04_BUILD",
+            "type": "Contract"
+          },
+          {
+            "name": "Starting the Plank Production",
+            "key": "US_06_01_MILL_LOGS",
+            "type": "Contract"
+          },
+          {
+            "name": "Deliver to the Pier",
+            "key": "US_06_01_LOGGING_PIER",
+            "type": "Contract"
+          },
+          {
+            "name": "Delivery Through the Lowlands",
+            "key": "US_06_01_LOGGING_01",
+            "type": "Contract"
+          },
+          {
+            "name": "Delivery Through the Plateau",
+            "key": "US_06_01_LOGGING_02",
+            "type": "Contract"
+          },
+          {
+            "name": "Up the Mountains",
+            "key": "US_06_01_LOGGING_03",
+            "type": "Contract"
+          }
+        ]
       }
     ]
   },
   {
     "name": "Tennessee, North America",
+    "key": "us_07",
     "maps": [
       {
         "name": "Burning Mill",
@@ -2612,26 +3304,164 @@
         "num_trucks": 0,
         "num_upgrades": 4,
         "num_watchpoints": 4,
-        "objectives": []
+        "objectives": [
+          {
+            "key": "US_07_01_BRIDGE_RESTORE_03",
+            "name": "Old Bridge",
+            "type": "Task"
+          },
+          {
+            "key": "US_07_01_DELIVER_RACING_01",
+            "name": "Racing Truck Delivery",
+            "type": "Task"
+          },
+          {
+            "key": "US_07_01_ROCK_01",
+            "name": "Collapsed Rocks",
+            "type": "Task"
+          },
+          {
+            "key": "US_07_01_ROCK_02",
+            "name": "Old Ranch Rubble",
+            "type": "Task"
+          },
+          {
+            "key": "US_07_01_DELIVER_BUGGY_01",
+            "name": "Buggy Delivery",
+            "type": "Task"
+          },
+          {
+            "key": "US_07_01_RESTORE_TECH_ZONE_01",
+            "name": "Fixing the Service Station",
+            "type": "Task"
+          },
+          {
+            "key": "US_07_01_RESTORE_TECH_ZONE_03",
+            "name": "Repair Crisis",
+            "type": "Task"
+          },
+          {
+            "key": "US_07_01_CAREER_START_LIGHT",
+            "name": "Bronze Trail",
+            "type": "Task"
+          },
+          {
+            "key": "US_07_01_CAREER_START_MEDIUM",
+            "name": "Silver Trail",
+            "type": "Task"
+          },
+          {
+            "key": "US_07_01_CAREER_START_HARD",
+            "name": "Gold Trail",
+            "type": "Task"
+          }
+        ]
       }
     ],
     "contracts": [
       {
-        "name": "Stage 1",
-        "objectives": []
+        "name": "STAGE 1",
+        "key": "OffRroadCup_Stage_1",
+        "objectives": [
+          {
+            "name": "Supply Depot",
+            "key": "US_07_01_RENEWAL_ELECTRICITY",
+            "type": "Contract"
+          },
+          {
+            "name": "Closing the Loop",
+            "key": "US_07_01_TRACK_RESTORATION",
+            "type": "Contract"
+          },
+          {
+            "name": "Solar Power Station",
+            "key": "US_07_01_RESTORATION_SOLAR_STATION",
+            "type": "Contract"
+          },
+          {
+            "name": "Bad Take",
+            "key": "US_07_01_EVACUATION",
+            "type": "Contract"
+          },
+          {
+            "name": "Qualification Race",
+            "key": "US_07_01_QUALIFICATION_01",
+            "type": "Contract"
+          },
+          {
+            "name": "The Ring",
+            "key": "US_07_01_CIRCUIT_RACE_1",
+            "type": "Contract"
+          }
+        ]
       },
       {
-        "name": "Stage 2",
-        "objectives": []
+        "name": "STAGE 2",
+        "key": "OffRroadCup_Stage_2",
+        "objectives": [
+          {
+            "name": "Bridge Deconstruction",
+            "key": "US_07_01_PREPARATION_TRAILS",
+            "type": "Contract"
+          },
+          {
+            "name": "Extreme Downhill",
+            "key": "US_07_01_EXTREME_DESCENT",
+            "type": "Contract"
+          },
+          {
+            "name": "Stone-pit",
+            "key": "US_07_01_DELIVERY_SPECIAL",
+            "type": "Contract"
+          },
+          {
+            "name": "Stage Two Finale",
+            "key": "US_07_01_CAREER",
+            "type": "Contract"
+          },
+          {
+            "name": "Extreme Climb",
+            "key": "US_07_01_EXTREME_SLOPE",
+            "type": "Contract"
+          },
+          {
+            "name": "Wise Old Bird",
+            "key": "US_07_01_CAREER_SCOUT",
+            "type": "Contract"
+          }
+        ]
       },
       {
-        "name": "Stage 3",
-        "objectives": []
+        "name": "STAGE 3",
+        "key": "OffRroadCup_Stage_3",
+        "objectives": [
+          {
+            "name": "Service Unavailable",
+            "key": "US_07_01_CONNECTION",
+            "type": "Contract"
+          },
+          {
+            "name": "Off-road Navigation",
+            "key": "US_07_01_ORIENTEERING",
+            "type": "Contract"
+          },
+          {
+            "name": "Lap Of Honour",
+            "key": "US_07_01_RACE_HEROES",
+            "type": "Contract"
+          },
+          {
+            "name": "Lost Souls",
+            "key": "US_07_01_DELIVER_RIDER_1",
+            "type": "Contract"
+          }
+        ]
       }
     ]
   },
   {
     "name": "Glades, Central Asia",
+    "key": "ru_08",
     "maps": [
       {
         "name": "Crossroads",
@@ -2639,7 +3469,108 @@
         "num_trucks": 3,
         "num_upgrades": 1,
         "num_watchpoints": 4,
-        "objectives": []
+        "objectives": [
+          {
+            "key": "RU_08_01_VILLAGE_RENOVATION",
+            "name": "Supplies for Village",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_LOST_EVACUATION",
+            "name": "Lapse Of Judgement",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_VILLAGE_SUPPLIES",
+            "name": "A Bit Of This And A Bit Of That",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_PROMO_PICS",
+            "name": "Photoshoot",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_FARM_VEHICLE_PARTS",
+            "name": "The Grand Restock",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_GRAIN_ELEVATOR",
+            "name": "Seats Of Power",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_FARMING_FIELD_1",
+            "name": "Farming Plot",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_FARMING_FIELD_2",
+            "name": "Help on the field",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_CHECKING_TOURISTS",
+            "name": "Welfare Check",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_SUPPLIES_FOR_WATCHERS",
+            "name": "Let's Pack Up",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_PLANKS_SUPPLIES",
+            "name": "Refurbishing",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_EXPEDITION_HELP",
+            "name": "Stocking Up",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_SILLY_WORKERS",
+            "name": "Exemplary Work",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_ILLEGAL_BUSINESS",
+            "name": "Shady Dealings",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_INF_FARMING_1",
+            "name": "Sample Field",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_DANGEROUS_BARRELS",
+            "name": "Discarded Chemicals",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_POTATO_SELL",
+            "name": "Honest Work",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_ECOLOGICAL_CHANGE",
+            "name": "Power Of Change",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_HAYSTACKS",
+            "name": "Roll Out!",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_01_HAYSTACKS_2",
+            "name": "Hay Delivery",
+            "type": "Task"
+          }
+        ]
       },
       {
         "name": "The Institute",
@@ -2647,7 +3578,53 @@
         "num_trucks": 1,
         "num_upgrades": 1,
         "num_watchpoints": 3,
-        "objectives": []
+        "objectives": [
+          {
+            "key": "RU_08_02_BRIDGE_FIX_01",
+            "name": "Unfinished Bridge",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_02_BRIDGE_LOGS_FIX_01",
+            "name": "Log Bridge",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_02_DELIVERY_TASK",
+            "name": "Priority Mail",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_02_POSTMAN_CAR_DELIVERY_TASK",
+            "name": "The Lost Mailman",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_02_HARVESTER_DELIVERY",
+            "name": "Exhibit A",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_02_LOST_CARGO",
+            "name": "The Weak Link",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_02_CONSUMABLE_MATERIAL",
+            "name": "Final Request",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_02_ENDLESS_FARMING",
+            "name": "Out In The Field",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_02_FOR_REPAIR",
+            "name": "A gift horse",
+            "type": "Task"
+          }
+        ]
       },
       {
         "name": "Heartlands",
@@ -2655,7 +3632,73 @@
         "num_trucks": 0,
         "num_upgrades": 2,
         "num_watchpoints": 2,
-        "objectives": []
+        "objectives": [
+          {
+            "key": "RU_08_03_BARN_RESTORE",
+            "name": "High Wind Warning",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_03_TV_TOWER_RESTORE",
+            "name": "Tune In",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_03_BROKEN_PIPES_RESTORE",
+            "name": "Force Of Nature",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_03_ROAD_BLOCKAGE",
+            "name": "River Trouble",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_03_CARGO_DELIVERY_TRUCK",
+            "name": "Abandoned Gear",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_03_PRODUCT_DELIVERY",
+            "name": "Supply Chain",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_03_TRANSPORT_EVACUATION",
+            "name": "Emergency Retrieval",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_03_HAUL_TRANSPORT",
+            "name": "The Common Cause",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_03_TRAILER_MATERIALS_DELIVERY",
+            "name": "Missing Supplies",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_03_LOST_GARBAGE_DELIVERY",
+            "name": "Lost Treasure",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_03_FARMING_TASK_01",
+            "name": "Out In The Field",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_03_POTATO_SELLING",
+            "name": "Grocery Run",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_03_HAY_DELIVERY",
+            "name": "Empty Hayloft",
+            "type": "Task"
+          }
+        ]
       },
       {
         "name": "HarvestCorp",
@@ -2663,26 +3706,314 @@
         "num_trucks": 0,
         "num_upgrades": 1,
         "num_watchpoints": 3,
-        "objectives": []
+        "objectives": [
+          {
+            "key": "RU_08_04_BRIDGE_RESTORE_02",
+            "name": "Unfinished Bridge",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_04_LOGS_01_a",
+            "name": "Log Bridge",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_04_LOGS_02_a",
+            "name": "Flooded Crossing",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_04_LAKE",
+            "name": "In Search Of Inspiration",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_04_LOST_CARGO",
+            "name": "Down The Hatch",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_04_FISHING",
+            "name": "Gone Fishing",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_04_SPECIAL_DELIVERY_01",
+            "name": "When Luck Runs Out",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_04_IMPORTANT_CARGO",
+            "name": "Important Cargo",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_04_FIELD_PROCESSING_01",
+            "name": "Out In The Field",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_04_POTATO_BUYING",
+            "name": "Grocery Run",
+            "type": "Task"
+          },
+          {
+            "key": "RU_08_04_HAY_DELIVERY",
+            "name": "Feeding time",
+            "type": "Task"
+          }
+        ]
       }
     ],
     "contracts": [
       {
-        "name": "Kolari Group",
-        "objectives": []
+        "name": "KOLARI GROUP",
+        "key": "Kolari",
+        "objectives": [
+          {
+            "name": "Risky Cleanup",
+            "key": "RU_08_01_HAZARD",
+            "type": "Contract"
+          },
+          {
+            "name": "Supply Recovery",
+            "key": "RU_08_01_FACTORY_RECYCLE",
+            "type": "Contract"
+          },
+          {
+            "name": "Taking Out The Trash",
+            "key": "RU_08_01_THROW_OUT_TRASH",
+            "type": "Contract"
+          },
+          {
+            "name": "Damage Evaluation",
+            "key": "RU_08_02_WATER_TUBING",
+            "type": "Contract"
+          },
+          {
+            "name": "Eco-Action",
+            "key": "RU_08_02_CHEMICAL_BARRELS",
+            "type": "Contract"
+          },
+          {
+            "name": "Deep Study",
+            "key": "RU_08_02_SEISMO_SCOUT",
+            "type": "Contract"
+          },
+          {
+            "name": "Fighting fire with fire",
+            "key": "RU_08_02_CHEMICAL_RESTORER",
+            "type": "Contract"
+          },
+          {
+            "name": "Reduce, Reuse",
+            "key": "RU_08_03_GARBAGE_DELIVERY_CONTR",
+            "type": "Contract"
+          },
+          {
+            "name": "Clean Slate",
+            "key": "RU_08_03_RESYCLE_DELIVERY",
+            "type": "Contract"
+          }
+        ]
       },
       {
-        "name": "Harvestcorp",
-        "objectives": []
+        "name": "HARVESTCORP",
+        "key": "HarvestCorp",
+        "objectives": [
+          {
+            "name": "The Beast Rising",
+            "key": "RU_08_01_KIROVEC",
+            "type": "Contract"
+          },
+          {
+            "name": "Missing Workers",
+            "key": "RU_08_01_HELP_RAILWAY_WORKERS",
+            "type": "Contract"
+          },
+          {
+            "name": "Sample Field",
+            "key": "RU_08_01_FARMING_FIELD_TUTORIAL",
+            "type": "Contract"
+          },
+          {
+            "name": "Fixing The Elevator",
+            "key": "RU_08_01_ELEVATOR_STUFF",
+            "type": "Contract"
+          },
+          {
+            "name": "Finder's Fee",
+            "key": "RU_08_01_METALSCOUT",
+            "type": "Contract"
+          },
+          {
+            "name": "Lost Tech",
+            "key": "RU_08_02_SCIENCE_SCOUT",
+            "type": "Contract"
+          },
+          {
+            "name": "Risky Endeavor",
+            "key": "RU_08_02_TECH_FIX_CONTR",
+            "type": "Contract"
+          },
+          {
+            "name": "Experimental Field",
+            "key": "RU_08_02_FARMING",
+            "type": "Contract"
+          },
+          {
+            "name": "Waste not, want not",
+            "key": "RU_08_02_JUNK_DELIVERY_01_CONTR",
+            "type": "Contract"
+          },
+          {
+            "name": "Scrap Stalker",
+            "key": "RU_08_02_JUNK_DELIVERY_02_CONTR",
+            "type": "Contract"
+          },
+          {
+            "name": "Burning Bridges",
+            "key": "RU_08_02_JUNK_DELIVERY_03",
+            "type": "Contract"
+          },
+          {
+            "name": "Living Space",
+            "key": "RU_08_02_DRAIN_DRY",
+            "type": "Contract"
+          },
+          {
+            "name": "Fertilizer Trouble",
+            "key": "RU_08_02_MANURE_TANKS",
+            "type": "Contract"
+          },
+          {
+            "name": "Down To The Last Screw",
+            "key": "RU_08_02_VEHICAL_PARTS_HELP",
+            "type": "Contract"
+          },
+          {
+            "name": "Like Hot Potatoes",
+            "key": "RU_08_02_GMO_POTATO_BUYING",
+            "type": "Contract"
+          },
+          {
+            "name": "Treasure Hunt",
+            "key": "RU_08_03_COLLECTIVE_FARM_METALLDETECTING",
+            "type": "Contract"
+          },
+          {
+            "name": "Let There Be Light",
+            "key": "RU_08_03_GENERATOR_DELIVERY_CONTR",
+            "type": "Contract"
+          },
+          {
+            "name": "Railway Blues",
+            "key": "RU_08_03_ROAD_WAYS_FIX_CONTR",
+            "type": "Contract"
+          },
+          {
+            "name": "Thirty Harvestless Years",
+            "key": "RU_08_03_FARMING",
+            "type": "Contract"
+          },
+          {
+            "name": "Fixing the Fixers",
+            "key": "RU_08_04_GARAGE_RECOVERY_CONTR",
+            "type": "Contract"
+          },
+          {
+            "name": "Airport",
+            "key": "RU_08_04_AIRPORT_RECOVERY",
+            "type": "Contract"
+          },
+          {
+            "name": "Byre",
+            "key": "RU_08_04_COMPLEX_RECOVERY_01",
+            "type": "Contract"
+          },
+          {
+            "name": "Keep Refrigerated",
+            "key": "RU_08_04_COMPLEX_RECOVERY_02_CONTR",
+            "type": "Contract"
+          },
+          {
+            "name": "Cutting Losses",
+            "key": "RU_08_04_LOST_TRUCKS",
+            "type": "Contract"
+          },
+          {
+            "name": "Chicken Coop",
+            "key": "RU_08_04_COMPLEX_RECOVERY_03",
+            "type": "Contract"
+          },
+          {
+            "name": "Bulk Loading",
+            "key": "RU_08_04_POTATO_BUYING_META",
+            "type": "Contract"
+          }
+        ]
       },
       {
-        "name": "Sunsails Technologies",
-        "objectives": []
+        "name": "SUNSAILS TECHNOLOGIES",
+        "key": "SunsailsTechnologies",
+        "objectives": [
+          {
+            "name": "Clean Energy",
+            "key": "RU_08_01_WIND_POWER",
+            "type": "Contract"
+          },
+          {
+            "name": "High Voltage",
+            "key": "RU_08_02_POWER_FIX",
+            "type": "Contract"
+          },
+          {
+            "name": "Power Of The Sun",
+            "key": "RU_08_03_SOLAR_STATION_PANEL_01_CONTR",
+            "type": "Contract"
+          },
+          {
+            "name": "Power Of Two Suns",
+            "key": "RU_08_03_SOLAR_STATION_PANEL_02_CONTR",
+            "type": "Contract"
+          },
+          {
+            "name": "Power Of A Thousand Suns",
+            "key": "RU_08_03_SOLAR_STATION_PANEL_03_CONTR",
+            "type": "Contract"
+          },
+          {
+            "name": "Closing The Circuit",
+            "key": "RU_08_03_SOLAR_STATION_WIRING",
+            "type": "Contract"
+          },
+          {
+            "name": "Power Transformer",
+            "key": "RU_08_03_TRANSFORMATOR_RESTORE",
+            "type": "Contract"
+          },
+          {
+            "name": "Wind Turbine",
+            "key": "RU_08_04_WINDMILL",
+            "type": "Contract"
+          },
+          {
+            "name": "Comms Tower",
+            "key": "RU_08_04_CONNECTION_01",
+            "type": "Contract"
+          },
+          {
+            "name": "Not-So-High Voltage",
+            "key": "RU_08_04_WIRE_PULLING",
+            "type": "Contract"
+          }
+        ]
       }
     ]
   },
   {
     "name": "Ontario, North America",
+    "key": "us_09",
     "maps": [
       {
         "name": "The Albany River",
@@ -2690,7 +4021,88 @@
         "num_trucks": 1,
         "num_upgrades": 2,
         "num_watchpoints": 3,
-        "objectives": []
+        "objectives": [
+          {
+            "key": "US_09_01_WATER_TOWER_TASK_01",
+            "name": "Water Boom 1",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_01_WATER_TOWER_TASK_02",
+            "name": "Water Boom 2",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_01_WATER_TOWER_TASK_03",
+            "name": "Water Boom 3",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_01_WATER_TOWER_TASK_04",
+            "name": "Water Boom 4",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_01_PORT_RESOURCES_DELIVERY_TASK",
+            "name": "Deliver to the Port",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_01_RANGER_SCOUT_EVACUATION_TASK",
+            "name": "Bad trip",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_01_TRAILERS_LOST_STUFF_TASK",
+            "name": "Help the Evacuees",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_01_BRIDGE_TASK",
+            "name": "Broken Bridge",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_01_LOST_BOAT_TASK",
+            "name": "Swimming the wrong way",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_01_WORKER_SCOUT_EVACUATION_TASK",
+            "name": "Abandoned Transport",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_01_SEEMAN_TASK",
+            "name": "Far Far Away",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_01_LOST_MECHANISM_TASK",
+            "name": "Floating detectors",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_01_MINE_GARBAGE_TASK",
+            "name": "Taking out the junk from the mine",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_01_BAGS_DELIVERY_TASK",
+            "name": "Delivery From the Port",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_01_LOST_RADIOACTIVE_DELIVERY_TASK",
+            "name": "Contamination removal",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_01_TOURIST_CAMPING_TASK",
+            "name": "Caring for tourists",
+            "type": "Task"
+          }
+        ]
       },
       {
         "name": "Burned Forest",
@@ -2698,26 +4110,213 @@
         "num_trucks": 3,
         "num_upgrades": 2,
         "num_watchpoints": 3,
-        "objectives": []
+        "objectives": [
+          {
+            "key": "US_09_02_WATER_TOWER_TASK_01",
+            "name": "Water Boom 5",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_02_WATER_TOWER_TASK_02",
+            "name": "Water Boom 6",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_02_WATER_TOWER_TASK_03",
+            "name": "Water Boom 7",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_02_DON_SCOUT_TASK",
+            "name": "A Hurtful Loss",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_02_QUARRY_LOST_CARGO_TASK",
+            "name": "Lost Cargo",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_02_TATRA_FARM_TASK",
+            "name": "Mutual aid",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_02_LOGS_VEHICLE_TASK",
+            "name": "Support Local Rangers",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_02_VR_TASK_01",
+            "name": "Help the Villagers 1",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_02_VR_TASK_02",
+            "name": "Help the Villagers 2",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_02_VR_TASK_03",
+            "name": "Help the Villagers 3",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_02_NEW_QUARRY_TASK",
+            "name": "Gold rush",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_02_METALLDETECTING_TASK",
+            "name": "Something, somewhere...",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_02_FORGOTTEN_TRAILER_DELIVERY_TASK",
+            "name": "Abandoned Trailer",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_02_RENEGADE_SCOUT_DELIVERY_TASK",
+            "name": "Awkward Situation",
+            "type": "Task"
+          },
+          {
+            "key": "US_09_02_CRASH_TASK",
+            "name": "Bad accident",
+            "type": "Task"
+          }
+        ]
       }
     ],
     "contracts": [
       {
-        "name": "Fire Department",
-        "objectives": []
+        "name": "FIRE DEPARTMENT",
+        "key": "OntarioFireStationDepartment",
+        "objectives": [
+          {
+            "name": "Service Center",
+            "key": "US_09_01_GARAGE_RESTORE_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Exploring the Burned-out Infrastructure",
+            "key": "US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Looking for the fire monster",
+            "key": "US_09_01_FIRE_STATION_VEHICLE_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Restoring the Water Tower 1",
+            "key": "US_09_01_WATER_TOWER_CONTRACT_01",
+            "type": "Contract"
+          },
+          {
+            "name": "Restoring the Water Tower 2",
+            "key": "US_09_01_WATER_TOWER_CONTRACT_02",
+            "type": "Contract"
+          },
+          {
+            "name": "Putting Out the Fire at the Storage 1",
+            "key": "US_09_01_WATER_DELIVERY_WAREHOUSE_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Putting Out the Fire at the Station",
+            "key": "US_09_01_WATER_DELIVERY_RAILWAY_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Forest Cleaner",
+            "key": "US_09_01_BURNED_LOGS_CLEARING_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Data Collection",
+            "key": "US_09_02_FUEL_FOR_STATION_DELIVERY_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Cautiousness",
+            "key": "US_09_02_FIRE_WATCHTOWER_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Restoring The Water Tower 3",
+            "key": "US_09_02_WATER_TOWER_CONTRACT_01",
+            "type": "Contract"
+          },
+          {
+            "name": "Restoring The Water Tower 4",
+            "key": "US_09_02_WATER_TOWER_CONTRACT_02",
+            "type": "Contract"
+          },
+          {
+            "name": "Putting Out The Fire At The Storage 2",
+            "key": "US_09_02_WATER_DELIVERY_WAREHOUSE_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Putting Out The Fire At The Factory",
+            "key": "US_09_02_WATER_DELIVERY_FACTORY_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Searching For Underground Fires",
+            "key": "US_09_02_SEISMO_SCOUT_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Putting Out The Underground Fires",
+            "key": "US_09_02_SEISMO_WATER_DELIVERY_CONTRACT",
+            "type": "Contract"
+          }
+        ]
       },
       {
-        "name": "Ontario Administration",
-        "objectives": []
-      },
-      {
-        "name": "Waymause Mining LTD",
-        "objectives": []
+        "name": "ONTARIO ADMINISTRATION",
+        "key": "OntarioAdministration",
+        "objectives": [
+          {
+            "name": "Timber for the Locals 1",
+            "key": "US_09_01_LOG_HOUSE_CONTRACT_01",
+            "type": "Contract"
+          },
+          {
+            "name": "Timber for the Locals 2",
+            "key": "US_09_01_LOG_HOUSE_CONTRACT_02",
+            "type": "Contract"
+          },
+          {
+            "name": "Let There Be Road",
+            "key": "US_09_02_EXIT_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Preventive Care",
+            "key": "US_09_02_EXPORT_HAY_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "The Flooded Land",
+            "key": "US_09_02_PIPES_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Sawmill Renovation",
+            "key": "US_09_02_LUMBER_MILL_REPAIR_CONTRACT",
+            "type": "Contract"
+          }
+        ]
       }
     ]
   },
   {
     "name": "Br. Columbia, North America",
+    "key": "us_10",
     "maps": [
       {
         "name": "Duncan Bay",
@@ -2727,59 +4326,13 @@
         "num_watchpoints": 15,
         "objectives": [
           {
-            "key": "US_10_01_CONTEST_RACE",
-            "type": "Contest"
-          },
-          {
-            "key": "US_10_01_CONT_VISIT",
-            "name": "Data For The Observatory",
-            "type": "Task"
-          },
-          {
-            "key": "US_10_01_DELIVERY_HUNT_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_10_01_DELIVERY_LIFT_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_10_01_DELIVERY_METEO_TSK",
-            "name": "Restoring Communication",
-            "type": "Task"
-          },
-          {
-            "key": "US_10_01_DELIVERY_OIL_RIGS_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_10_01_DELIVERY_OILTANK_01_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_10_01_DELIVERY_TRANSFORMER_TSK",
-            "name": "Backup Source",
-            "type": "Task"
-          },
-          {
             "key": "US_10_01_DELIVERY_TRUCK_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_10_01_FALLEN_POWER_LINE_01_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_10_01_FALLEN_POWER_LINE_02_TSK",
-            "type": "Task"
-          },
-          {
-            "key": "US_10_01_FALLEN_TRAIN_TSK",
-            "name": "Off The Tracks",
+            "name": "Inexperienced Driver",
             "type": "Task"
           },
           {
             "key": "US_10_01_FIX_BRIDGE_01_TSK",
+            "name": "North City Bridge",
             "type": "Task"
           },
           {
@@ -2788,20 +4341,102 @@
             "type": "Task"
           },
           {
-            "key": "US_10_01_FIX_BRIDGE_04_TSK",
+            "key": "US_10_01_FALLEN_POWER_LINE_01_TSK",
+            "name": "Sky's The Limit",
             "type": "Task"
           },
           {
-            "key": "US_10_01_FIX_BRIDGE_05_TSK",
+            "key": "US_10_01_FALLEN_POWER_LINE_02_TSK",
+            "name": "Don't Drop It!",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_DELIVERY_TRANSFORMER_TSK",
+            "name": "Backup Source",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_DELIVERY_METEO_TSK",
+            "name": "Restoring Communication",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_DELIVERY_LIFT_TSK",
+            "name": "Tools For The Lift",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_DELIVERY_HUNT_TSK",
+            "name": "Assistance To Civilization",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_FALLEN_TRAIN_TSK",
+            "name": "Off The Tracks",
             "type": "Task"
           },
           {
             "key": "US_10_01_PASS_01_TSK",
+            "name": "Rockslide",
             "type": "Task"
           },
           {
             "key": "US_10_01_PASS_02_TSK",
             "name": "Landslide On The Road",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_PIPELINE_01_TSK",
+            "name": "It Gave Way",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_PIPELINE_02_TSK",
+            "name": "Pipe Replacement",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_CONSTRUCTION_GAS_WAREHOUSE_TSK",
+            "name": "Service Center For The Drilling Station",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_FIX_BRIDGE_03_TSK",
+            "name": "Drilling Station Bridge",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_FIX_BRIDGE_04_TSK",
+            "name": "Temporary Measures",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_DELIVERY_OILTANK_01_TSK",
+            "name": "Fuel For Vehicles",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_FIX_BRIDGE_05_TSK",
+            "name": "Sawmill Bridge",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_DELIVERY_OIL_RIGS_TSK",
+            "name": "Let There Be Oil",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_DELIVERY_OILTANK_02_TSK",
+            "name": "Quid Pro Quo",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_01_CONTEST_RACE",
+            "type": "Contest"
+          },
+          {
+            "key": "US_10_01_CONT_VISIT",
+            "name": "Data For The Observatory",
             "type": "Task"
           }
         ]
@@ -2814,62 +4449,126 @@
         "num_watchpoints": 7,
         "objectives": [
           {
-            "key": "US_10_02_GARAGE_CONSTRUCTION_OBJ"
+            "key": "US_10_02_DELIVERY_OILTANK_01_TSK",
+            "name": "Abandoned Oil Tank",
+            "type": "Task"
           },
           {
-            "key": "US_10_02_WILDLIFE_OFFICERS_01_OILTANK_OBJ"
+            "key": "US_10_02_FIX_BRIDGE_01_TSK",
+            "name": "Road Artery",
+            "type": "Task"
           },
           {
-            "key": "US_10_02_WILDLIFE_OFFICERS_02_VISIT_OBJ"
+            "key": "US_10_02_FIX_BRIDGE_02_TSK",
+            "name": "The Coastal Frustration",
+            "type": "Task"
           },
           {
-            "key": "US_10_02_WILDLIFE_OFFICERS_03_BOAT_OBJ"
+            "key": "US_10_02_SCOUT_VISIT_01_TSK",
+            "name": "Water Probe",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_02_DELIVERY_TRUCK_01_TSK",
+            "name": "Confiscated Truck",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_02_DELIVERY_TRAILER_01_TSK",
+            "name": "Special Order For The Builders",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_02_FARM_TOWER_CONSTRUCTION_TSK",
+            "name": "Tower For The Fish Farm",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_02_DELIVERY_TRAILER_02_SCOUT_TSK",
+            "name": "Recyclable",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_02_WAREHOUSE_01_CONSTRUCTION_TSK",
+            "name": "Support Local Businesses!",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_02_REMOVE_TOWERS_TSK",
+            "name": "Tower For Scrap",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_02_DELIVERY_TRUCK_02_TSK",
+            "name": "Plant's Workhorse",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_02_DELIVERY_TRUCK_03_TSK",
+            "name": "Long Distance Haul",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_02_REMOVE_STONES_01_TSK",
+            "name": "Gotta Go Through The Marshes",
+            "type": "Task"
+          },
+          {
+            "key": "US_10_02_REMOVE_STONES_02_TSK",
+            "name": "The Mountain Obstacle",
+            "type": "Task"
           }
         ]
       }
     ],
     "contracts": [
       {
-        "name": "British Columbia Gov.",
+        "name": "BRITISH COLUMBIA GOV.",
+        "key": "BritishColumbiaAdministration",
         "objectives": [
           {
-            "key": "US_10_01_ELECTRIC_POLE_01_OBJ",
             "name": "Short Circuit",
-            "type": "Contract"
-          }
-        ]
-      },
-      {
-        "name": "Uncle Fishmore",
-        "objectives": [
-          {
-            "key": "US_10_01_DELIVERY_FERRY_OBJ",
-            "name": "Consumables For The Ferry",
+            "key": "US_10_01_ELECTRIC_POLE_01_OBJ",
             "type": "Contract"
           },
           {
-            "key": "US_10_01_DELIVERY_TRAILER_01_OBJ",
-            "name": "Humanitarian Aid",
+            "name": "Railway Station Warehouse",
+            "key": "US_10_01_CONSTRUCTION_RAILWAY_OBJ",
             "type": "Contract"
           },
           {
-            "key": "US_10_01_CONSTRUCTION_FACTORY_OBJ",
-            "name": "The Unfinished Business At The Plant",
-            "type": "Contract"
-          }
-        ]
-      },
-      {
-        "name": "Stormy Water Medical",
-        "objectives": [
-          {
-            "key": "US_10_01_DELIVERY_LOG_01_OBJ",
-            "name": "Forestry Business",
+            "name": "Urban Industry",
+            "key": "US_10_01_CONSTRUCTION_WAREHOUSE_02_OBJ",
             "type": "Contract"
           },
           {
-            "key": "US_10_01_DELIVERY_LOG_02_OBJ",
-            "name": "Town Requests",
+            "name": "Paralyzed Transportation",
+            "key": "US_10_01_EXIT_CLEANING_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Deenergized Coast",
+            "key": "US_10_01_ELECTRIC_POLE_02_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Second Garage Construction",
+            "key": "US_10_02_GARAGE_CONSTRUCTION_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Fuel For The Law Enforcement",
+            "key": "US_10_02_WILDLIFE_OFFICERS_01_OILTANK_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Following The Poachers' Trail",
+            "key": "US_10_02_WILDLIFE_OFFICERS_02_VISIT_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Helping The Investigation",
+            "key": "US_10_02_WILDLIFE_OFFICERS_03_BOAT_OBJ",
             "type": "Contract"
           }
         ]
@@ -2878,6 +4577,7 @@
   },
   {
     "name": "Scandinavia, Northern Europe",
+    "key": "us_11",
     "maps": [
       {
         "name": "Mountain Ridge",
@@ -2887,31 +4587,8 @@
         "num_watchpoints": 4,
         "objectives": [
           {
-            "key": "US_11_01_BLOCKAGE_ON_THE_ROAD_01_TASK",
-            "type": "Task"
-          },
-          {
-            "key": "US_11_01_BLOCKAGE_ON_THE_ROAD_02_TASK",
-            "type": "Task"
-          },
-          {
             "key": "US_11_01_BRIDGE_REPAIR_TASK",
-            "type": "Task"
-          },
-          {
-            "key": "US_11_01_CORNERED_TASK",
-            "type": "Task"
-          },
-          {
-            "key": "US_11_01_DROWNED_ORDER_TASK",
-            "type": "Task"
-          },
-          {
-            "key": "US_11_01_FAILED_MOVE_TASK",
-            "type": "Task"
-          },
-          {
-            "key": "US_11_01_FAIL_TASK",
+            "name": "Bridge Issues",
             "type": "Task"
           },
           {
@@ -2920,28 +4597,23 @@
             "type": "Task"
           },
           {
-            "key": "US_11_01_FLOODED_RACE_CONTEST",
-            "type": "Contest"
-          },
-          {
-            "key": "US_11_01_FRIENDLY_HELP_TASK",
-            "name": "A Friend's Favor",
+            "key": "US_11_01_FAILED_MOVE_TASK",
+            "name": "An Unfortunate Twist",
             "type": "Task"
           },
           {
-            "key": "US_11_01_LEFT_TASK",
-            "type": "Task"
-          },
-          {
-            "key": "US_11_01_LOST_CARGO_TASK",
+            "key": "US_11_01_CORNERED_TASK",
+            "name": "In a Tough Spot",
             "type": "Task"
           },
           {
             "key": "US_11_01_MISTAKES_HAPPEN_TASK",
+            "name": "Accidents Happen",
             "type": "Task"
           },
           {
-            "key": "US_11_01_RECHARGING_TASK",
+            "key": "US_11_01_DROWNED_ORDER_TASK",
+            "name": "Wet Work",
             "type": "Task"
           },
           {
@@ -2950,75 +4622,66 @@
             "type": "Task"
           },
           {
+            "key": "US_11_01_WRONG_TURN_TASK",
+            "name": "A Suspicious Excursion",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_01_BLOCKAGE_ON_THE_ROAD_01_TASK",
+            "name": "Eastern Blockage",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_01_BLOCKAGE_ON_THE_ROAD_02_TASK",
+            "name": "Western Blockage",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_01_RECHARGING_TASK",
+            "name": "Power Generator",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_01_LOST_CARGO_TASK",
+            "name": "Shoring up Losses",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_01_LEFT_TASK",
+            "name": "Left by the Ledge",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_01_FAIL_TASK",
+            "name": "Rocky Chasm",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_01_FRIENDLY_HELP_TASK",
+            "name": "A Friend's Favor",
+            "type": "Task"
+          },
+          {
             "key": "US_11_01_TAMER_TROLLS_TASK",
             "name": "Troll tamer",
             "type": "Task"
           },
           {
-            "key": "US_11_01_WRONG_TURN_TASK",
-            "type": "Task"
+            "key": "US_11_01_FLOODED_RACE_CONTEST",
+            "type": "Contest"
           }
         ]
       },
       {
-        "name": "By The Lake",
+        "name": "By the Lake",
         "key": "level_us_11_02",
         "num_trucks": 1,
         "num_upgrades": 1,
         "num_watchpoints": 3,
         "objectives": [
           {
-            "key": "US_11_02_ACCIDENT_TASK",
-            "name": "A Traffic Accident",
-            "type": "Task"
-          },
-          {
-            "key": "US_11_02_BRIDGE_TASK",
-            "name": "Southern Bridge",
-            "type": "Task"
-          },
-          {
-            "key": "US_11_02_DELIVERY"
-          },
-          {
-            "key": "US_11_02_DESCENT_CONTEST",
-            "type": "Contest"
-          },
-          {
-            "key": "US_11_02_FIXING_STATION_CONTRACT",
-            "type": "Contract"
-          },
-          {
-            "key": "US_11_02_LOST_CARGO_TASK",
-            "type": "Task"
-          },
-          {
-            "key": "US_11_02_NEO_FALCON_TASK",
-            "type": "Task"
-          },
-          {
-            "key": "US_11_02_PATH_TASK_01",
-            "type": "Task"
-          },
-          {
-            "key": "US_11_02_PATH_TASK_02",
-            "type": "Task"
-          },
-          {
-            "key": "US_11_02_REPAIR_TASK",
-            "type": "Task"
-          },
-          {
-            "key": "US_11_02_SEARCH_TASK",
-            "type": "Task"
-          },
-          {
-            "key": "US_11_02_SEISMO_TASK",
-            "name": "Thor's Thunder",
-            "type": "Task"
-          },
-          {
             "key": "US_11_02_TRACK_DELIVERY_TASK_01",
+            "name": "A Trip Across the Water",
             "type": "Task"
           },
           {
@@ -3028,11 +4691,65 @@
           },
           {
             "key": "US_11_02_VISIT_TASK",
+            "name": "Lake Paradise",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_02_LOST_CARGO_TASK",
+            "name": "The Element of Water",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_02_BRIDGE_TASK",
+            "name": "Southern Bridge",
             "type": "Task"
           },
           {
             "key": "US_11_02_WOODEN_BRIDGE_TASK",
+            "name": "The Wooden Bridge",
             "type": "Task"
+          },
+          {
+            "key": "US_11_02_ACCIDENT_TASK",
+            "name": "A Traffic Accident",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_02_PATH_TASK_01",
+            "name": "Western Landfall Site",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_02_PATH_TASK_02",
+            "name": "Eastern Landfall Site",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_02_SEARCH_TASK",
+            "name": "A Lost Car",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_02_SEISMO_TASK",
+            "name": "Thor's Thunder",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_02_REPAIR_TASK",
+            "name": "Repair the Repair Station",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_02_NEO_FALCON_TASK",
+            "name": "A Rare Vehicle",
+            "type": "Task"
+          },
+          {
+            "key": "US_11_02_DELIVERY"
+          },
+          {
+            "key": "US_11_02_DESCENT_CONTEST",
+            "type": "Contest"
           }
         ]
       }
@@ -3040,65 +4757,193 @@
     "contracts": [
       {
         "name": "Orestoke Resort Administration",
+        "key": "OrestokeAdministration",
         "objectives": [
           {
-            "key": "US_11_01_HOLIDAY_BEGINS_WITH_WORK_CONTRACT",
+            "name": "Cabins in the Woods",
+            "key": "US_11_01_CABIN_IN_THE_WOODS_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Cabins in the Mountains",
+            "key": "US_11_01_CABIN_IN_THE_MOUNTAIN_CONTRACT",
+            "type": "Contract"
+          },
+          {
             "name": "Business before Pleasure",
+            "key": "US_11_01_HOLIDAY_BEGINS_WITH_WORK_CONTRACT",
             "type": "Contract"
           },
           {
-            "key": "US_11_01_LOST_TRAILERS_CONTRACT",
+            "name": "Mountains' Majesty",
+            "key": "US_11_01_CLEAR_MOUNTAIN_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Dropped Cargo",
+            "key": "US_11_01_FALLING_TOOLS_CONTRACT",
+            "type": "Contract"
+          },
+          {
             "name": "Lost Trailers",
+            "key": "US_11_01_LOST_TRAILERS_CONTRACT",
             "type": "Contract"
           },
           {
-            "key": "US_11_01_HELP_FOR_DROWNING_CONTRACT",
             "name": "Helping the Fishermen",
+            "key": "US_11_01_HELP_FOR_DROWNING_CONTRACT",
             "type": "Contract"
           },
           {
-            "key": "US_11_01_REPAIR_WAREHOUSE_CONTRACT",
             "name": "Warehouse Repairs",
+            "key": "US_11_01_REPAIR_WAREHOUSE_CONTRACT",
             "type": "Contract"
           },
           {
-            "key": "US_11_02_RAIL_REPAIR_CONTRACT",
+            "name": "A Taste of Tinseltown",
+            "key": "US_11_01_HOLLYWOOD_SMILE_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "The Right Tools for the Job",
+            "key": "US_11_01_REQUIRED_TOOLS_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "A Bird's Eye View",
+            "key": "US_11_01_VIEW_FROM_ABOVE_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "The First Trip",
+            "key": "US_11_01_CABLE_CAR_CONTRACT",
+            "type": "Contract"
+          },
+          {
             "name": "Disrupted Supplies",
+            "key": "US_11_02_RAIL_REPAIR_CONTRACT",
             "type": "Contract"
           },
           {
-            "key": "US_11_02_HOTEL_HOUSE_CONTRACT",
             "name": "Tourist Cabin Repairs",
+            "key": "US_11_02_HOTEL_HOUSE_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Collecting Waste",
+            "key": "US_11_02_FIXING_STATION_CONTRACT",
             "type": "Contract"
           }
         ]
       },
       {
         "name": "Emberro Pictures",
+        "key": "EmberroPictures",
         "objectives": [
           {
-            "key": "US_11_01_FILM_STAR_CITY_CONTRACT",
+            "name": "Town Movie Set",
+            "key": "US_11_01_EQUIPMENT_SET_CITY_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Mountain Movie Set",
+            "key": "US_11_01_EQUIPMENT_SET_MOUNTAIN_CONTRACT",
+            "type": "Contract"
+          },
+          {
             "name": "The Movie Star",
+            "key": "US_11_01_FILM_STAR_CITY_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "A Bad Connection",
+            "key": "US_11_01_FILM_STAR_MOUNTAIN_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Construction Help",
+            "key": "US_11_01_CITY_CONSTRUCTION_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Way to Success",
+            "key": "US_11_01_STAR_TRAILER_MOUNTAIN_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "A Grim Background",
+            "key": "US_11_02_MOVIE_PLACE_CONTRACT_01",
+            "type": "Contract"
+          },
+          {
+            "name": "A Freezing Adventure",
+            "key": "US_11_02_MOVIE_PLACE_CONTRACT_02",
+            "type": "Contract"
+          },
+          {
+            "name": "Celebrity Hour",
+            "key": "US_11_02_MOVIE_PLACE_CONTRACT_01_02",
+            "type": "Contract"
+          },
+          {
+            "name": "A Finishing Touch",
+            "key": "US_11_02_MOVIE_PLACE_CONTRACT_02_02",
             "type": "Contract"
           }
         ]
       },
       {
         "name": "Nordic Environment Authority",
+        "key": "NordicEnvironmentAuthority",
         "objectives": [
           {
-            "key": "US_11_01_FORESTER_IS_WATCHING_YOU_CONTRACT",
             "name": "The Ranger is Watching",
+            "key": "US_11_01_FORESTER_IS_WATCHING_YOU_CONTRACT",
             "type": "Contract"
           },
           {
-            "key": "US_11_01_TOP_VIEW_CONTRACT",
             "name": "The View from Above",
+            "key": "US_11_01_TOP_VIEW_CONTRACT",
             "type": "Contract"
           },
           {
-            "key": "US_11_01_TERRIORY_EXPLORATION_CONTRACT",
             "name": "Reconnaissance",
+            "key": "US_11_01_TERRIORY_EXPLORATION_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Guardian of the Lake",
+            "key": "US_11_02_WATCHTOWER_CONTRACT_01",
+            "type": "Contract"
+          },
+          {
+            "name": "Spirit of the River",
+            "key": "US_11_02_WATCHTOWER_CONTRACT_02",
+            "type": "Contract"
+          },
+          {
+            "name": "Renewing the Cycle",
+            "key": "US_11_02_RECYCLING_RECOVERY_CONTRACT_01",
+            "type": "Contract"
+          },
+          {
+            "name": "Recycling Waste!",
+            "key": "US_11_02_RECYCLING_RECOVERY_CONTRACT_02",
+            "type": "Contract"
+          },
+          {
+            "name": "A Cliffside Road",
+            "key": "US_11_02_RESEARCH_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Severe Dehydration",
+            "key": "US_11_02_WATER_CAMP_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Winter's Hasty Retreat",
+            "key": "US_11_02_CAMP_CONTRACT",
             "type": "Contract"
           }
         ]
