@@ -90,7 +90,7 @@ function processSavegame(savegame) {
         const objKey = discoveredObjectives[obj];
         const li = document.getElementById(objKey);
         if (!li) {
-            console.log(objKey);
+            // console.log(objKey);
             addUnknownObjective(objKey);
         }
     }
