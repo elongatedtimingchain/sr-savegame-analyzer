@@ -51,7 +51,7 @@ function addProgress(progressByLevel, varName) {
     for (const [mapName, numCurrent] of Object.entries(progressByLevel)) {
         const liNode = document.getElementById(varName + "_" + mapName);
         if (liNode !== null) {
-            liNode.dataset.numCurrent = numCurrent;
+            liNode.dataset.numCurrent = Math.min(numCurrent, liNode.dataset.numTotal);
             liNode.textContent = liNode.dataset.name + ": " + liNode.dataset.numCurrent + " / " + liNode.dataset.numTotal;
         }        
     }    

@@ -115,7 +115,7 @@
       {
         "name": "Smithville Dam",
         "key": "level_us_01_02",
-        "num_trucks": 3,
+        "num_trucks": 2,
         "num_upgrades": 8,
         "num_watchpoints": 6,
         "objectives": [
@@ -627,7 +627,7 @@
       {
         "name": "Mountain River",
         "key": "level_us_02_02_new",
-        "num_trucks": 1,
+        "num_trucks": 0,
         "num_upgrades": 5,
         "num_watchpoints": 3,
         "objectives": [
@@ -671,7 +671,7 @@
       {
         "name": "White Valley",
         "key": "level_us_02_03_new",
-        "num_trucks": 1,
+        "num_trucks": 0,
         "num_upgrades": 6,
         "num_watchpoints": 5,
         "objectives": [
@@ -980,7 +980,7 @@
       {
         "name": "Quarry",
         "key": "level_ru_02_01_crop",
-        "num_trucks": 1,
+        "num_trucks": 0,
         "num_upgrades": 7,
         "num_watchpoints": 6,
         "objectives": [
@@ -1049,7 +1049,7 @@
       {
         "name": "Drowned Lands",
         "key": "level_ru_02_02",
-        "num_trucks": 2,
+        "num_trucks": 0,
         "num_upgrades": 8,
         "num_watchpoints": 3,
         "objectives": [
@@ -1144,7 +1144,7 @@
       {
         "name": "Zimnegorsk",
         "key": "level_ru_02_03",
-        "num_trucks": 2,
+        "num_trucks": 1,
         "num_upgrades": 6,
         "num_watchpoints": 3,
         "objectives": [
@@ -1208,7 +1208,7 @@
       {
         "name": "Rift",
         "key": "level_ru_02_04",
-        "num_trucks": 1,
+        "num_trucks": 0,
         "num_upgrades": 3,
         "num_watchpoints": 4,
         "objectives": [
@@ -1428,7 +1428,7 @@
       {
         "name": "Lake Kovd",
         "key": "level_ru_03_01",
-        "num_trucks": 2,
+        "num_trucks": 1,
         "num_upgrades": 5,
         "num_watchpoints": 3,
         "objectives": [
@@ -1741,7 +1741,7 @@
       {
         "name": "Flooded Foothills",
         "key": "level_us_04_01",
-        "num_trucks": 2,
+        "num_trucks": 1,
         "num_upgrades": 3,
         "num_watchpoints": 4,
         "objectives": [
@@ -2454,7 +2454,7 @@
       {
         "name": "Cosmodrome",
         "key": "level_ru_04_02",
-        "num_trucks": 1,
+        "num_trucks": 0,
         "num_upgrades": 1,
         "num_watchpoints": 5,
         "objectives": [
@@ -2832,7 +2832,7 @@
       {
         "name": "Factory Grounds",
         "key": "level_ru_05_01",
-        "num_trucks": 1,
+        "num_trucks": 0,
         "num_upgrades": 1,
         "num_watchpoints": 2,
         "objectives": [
@@ -2892,7 +2892,7 @@
       {
         "name": "Antonovskiy Nature Reserve",
         "key": "level_ru_05_02",
-        "num_trucks": 1,
+        "num_trucks": 0,
         "num_upgrades": 1,
         "num_watchpoints": 1,
         "objectives": [
@@ -3042,7 +3042,7 @@
       {
         "name": "The Lowland",
         "key": "level_us_06_01",
-        "num_trucks": 1,
+        "num_trucks": 0,
         "num_upgrades": 1,
         "num_watchpoints": 4,
         "objectives": [
