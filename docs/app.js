@@ -1,3 +1,5 @@
+let gameInfo = {}
+
 function toggleDarkMode() {
     const body = document.body;
     const darkModeToggle = document.getElementById("dark-mode-toggle");
@@ -27,24 +29,30 @@ function addPercentage(elemClass) {
 }
 
 function getNumDiscoveredTrucksByLevel(savegame) {
-    return Object.entries(savegame.CompleteSave.SslValue.persistentProfileData.discoveredTrucks).reduce(function(result, [k,v]){
-        result[k] = v.current;
-        return result;
-    }, {});
+    result = {};
+    const discoveredTrucks = savegame.CompleteSave.SslValue.persistentProfileData.discoveredTrucks;
+    for (level of gameInfo.map(x => x.maps).flat().map(x => x.key)) {
+        result[level] = (level in discoveredTrucks) ? discoveredTrucks[level].current : 0;
+    }
+    return result;
 }
 
 function getNumDiscoveredUpgradesByLevel(savegame) {
-    return Object.entries(savegame.CompleteSave.SslValue.persistentProfileData.discoveredUpgrades).reduce(function(result, [k,v]){
-        result[k] = v.current;
-        return result;
-    }, {});
+    result = {};
+    const discoveredUpgrades = savegame.CompleteSave.SslValue.persistentProfileData.discoveredUpgrades;
+    for (level of gameInfo.map(x => x.maps).flat().map(x => x.key)) {
+        result[level] = (level in discoveredUpgrades) ? discoveredUpgrades[level].current : 0;
+    }
+    return result;
 }
 
 function getNumDiscoveredWatchpointsByLevel(savegame) {
-    return Object.entries(savegame.CompleteSave.SslValue.watchPointsData.data).reduce(function(result, [k,v]){
-        result[k] = Object.values(v).reduce((sum, next) => sum + (next ? 1 : 0), 0);
-        return result;
-    }, {});
+    result = {};
+    const watchPoints = savegame.CompleteSave.SslValue.watchPointsData.data;
+    for (level of gameInfo.map(x => x.maps).flat().map(x => x.key)) {
+        result[level] = (level in watchPoints) ? Object.values(watchPoints[level]).reduce((sum, next) => sum + (next ? 1 : 0), 0)  : 0;
+    }
+    return result;   
 }
 
 function addProgress(progressByLevel, varName) {
@@ -191,7 +199,7 @@ function createPNode(text) {
     return pNode;
 }
 
-function processGameInfo(gameInfo) {
+function processGameInfo() {
     for (const region of gameInfo) {
         const detailsNodeRegion = createDetailsNode(region.name);
         detailsNodeRegion.classList.add("region");
@@ -265,7 +273,10 @@ fetch('game_info.json')
         }
         return response.json();
     })
-    .then(processGameInfo)
+    .then(function(responseJson) {
+        gameInfo = responseJson;
+        processGameInfo();
+    })
     .catch(function(error) {
         console.error("Error loading game info:", error);
     });
