@@ -2433,21 +2433,9 @@
             "type": "Contest"
           },
           {
-            "key": "RU_04_01_POWERPLANT_OBJ"
-          },
-          {
-            "key": "RU_04_01_ROCKET_OBJ"
-          },
-          {
-            "key": "RU_04_01_ROCKET_TRAILER_OBJ"
-          },
-          {
             "key": "RU_04_01_ROCK_RACE_CNT",
             "name": "Conquering Summits",
             "type": "Contest"
-          },
-          {
-            "key": "RU_04_01_TUNNELBLOCK_OBJ"
           }
         ]
       },
@@ -2563,15 +2551,6 @@
           },
           {
             "key": "RU_04_02_FUEL_RUN_CNT"
-          },
-          {
-            "key": "RU_04_02_MISSION_CONTROL_OBJ"
-          },
-          {
-            "key": "RU_04_02_ROCKET_DELIVERY_OBJ"
-          },
-          {
-            "key": "RU_04_02_ROCKET_TRAIN_DELIVERY_OBJ"
           }
         ]
       },
@@ -2638,31 +2617,10 @@
             "type": "Task"
           },
           {
-            "key": "RU_04_03_FALLEN_POWER_LINES"
-          },
-          {
-            "key": "RU_04_03_FUEL"
-          },
-          {
-            "key": "RU_04_03_GIANT"
-          },
-          {
-            "key": "RU_04_03_LOST_C"
-          },
-          {
             "key": "RU_04_03_OFF_ROAD"
           },
           {
             "key": "RU_04_03_RUN"
-          },
-          {
-            "key": "RU_04_03_SEISMIC"
-          },
-          {
-            "key": "RU_04_03_SUBSTATION_1"
-          },
-          {
-            "key": "RU_04_03_SUPPLIES"
           }
         ]
       },
@@ -2749,30 +2707,6 @@
             "type": "Task"
           },
           {
-            "key": "RU_04_04_EXPLORATIONS_WORKS"
-          },
-          {
-            "key": "RU_04_04_FACTORY_RESTORATION"
-          },
-          {
-            "key": "RU_04_04_FISHER"
-          },
-          {
-            "key": "RU_04_04_GARAGE_REPAIR"
-          },
-          {
-            "key": "RU_04_04_HEATING_SEASON"
-          },
-          {
-            "key": "RU_04_04_LOCAL_RESIDENTS"
-          },
-          {
-            "key": "RU_04_04_LUMBER_MILL_RESTORATION"
-          },
-          {
-            "key": "RU_04_04_OLD_TRAIN"
-          },
-          {
             "key": "RU_04_04_RACE_A_CNT"
           },
           {
@@ -2783,20 +2717,97 @@
           },
           {
             "key": "RU_04_04__RACE_D_CNT"
-          },
-          {
-            "key": "RU_04_04_WAREHOUSE_RESTORATION"
-          },
-          {
-            "key": "RU_04_04_WINTER_SUPPLIES"
-          },
-          {
-            "key": "RU_04_04_WOOD_CARVING"
           }
         ]
       }
     ],
     "contracts": [
+      {
+        "name": "MANEUVER-29 AGENCY",
+        "key": "Maneuver29Agency",
+        "objectives": [
+          {
+            "name": "Orbital Velocity",
+            "key": "RU_04_01_ROCKET_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Electric Atmosphere",
+            "key": "RU_04_01_POWERPLANT_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Carrier Rocket Carrier",
+            "key": "RU_04_01_ROCKET_TRAILER_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Reach for the Stars",
+            "key": "RU_04_02_ROCKET_DELIVERY_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Liftoff",
+            "key": "RU_04_02_ROCKET_TRAIN_DELIVERY_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Ground Control",
+            "key": "RU_04_02_MISSION_CONTROL_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Humanitarian Mission",
+            "key": "RU_04_03_SUPPLIES",
+            "type": "Contract"
+          },
+          {
+            "name": "Evacuation Point",
+            "key": "RU_04_03_LOST_C",
+            "type": "Contract"
+          },
+          {
+            "name": "Top Secret",
+            "key": "RU_04_03_GIANT",
+            "type": "Contract"
+          },
+          {
+            "name": "Richter Scale",
+            "key": "RU_04_03_SEISMIC",
+            "type": "Contract"
+          },
+          {
+            "name": "Solid Rock",
+            "key": "RU_04_04_EXPLORATIONS_WORKS",
+            "type": "Contract"
+          },
+          {
+            "name": "Sawmill Blues",
+            "key": "RU_04_04_LUMBER_MILL_RESTORATION",
+            "type": "Contract"
+          },
+          {
+            "name": "Plant Restoration",
+            "key": "RU_04_04_FACTORY_RESTORATION",
+            "type": "Contract"
+          },
+          {
+            "name": "Spring Cleaning",
+            "key": "RU_04_04_WAREHOUSE_RESTORATION",
+            "type": "Contract"
+          },
+          {
+            "name": "Personal Favor",
+            "key": "RU_04_04_WOOD_CARVING",
+            "type": "Contract"
+          },
+          {
+            "name": "Covered In Smoke",
+            "key": "RU_04_04_OLD_TRAIN",
+            "type": "Contract"
+          }
+        ]
+      },
       {
         "name": "AMUR PETROLEUM COMPANY",
         "key": "AmurFuelCompany",
@@ -2819,6 +2830,57 @@
           {
             "name": "Block Gamma",
             "key": "RU_04_04_NPZ_RESTORATION_C",
+            "type": "Contract"
+          }
+        ]
+      },
+      {
+        "name": "AMUR REGIONAL ADMINIST.",
+        "key": "AmurRegionalGov",
+        "objectives": [
+          {
+            "name": "A Heap of Work",
+            "key": "RU_04_01_TUNNELBLOCK_OBJ",
+            "type": "Contract"
+          },
+          {
+            "name": "Bare Minimum",
+            "key": "RU_04_03_FUEL",
+            "type": "Contract"
+          },
+          {
+            "name": "Unlimited Power",
+            "key": "RU_04_03_SUBSTATION_1",
+            "type": "Contract"
+          },
+          {
+            "name": "We Have Contact!",
+            "key": "RU_04_03_FALLEN_POWER_LINES",
+            "type": "Contract"
+          },
+          {
+            "name": "Back In Action",
+            "key": "RU_04_04_GARAGE_REPAIR",
+            "type": "Contract"
+          },
+          {
+            "name": "Supply Lines",
+            "key": "RU_04_04_LOCAL_RESIDENTS",
+            "type": "Contract"
+          },
+          {
+            "name": "Winter Reserves",
+            "key": "RU_04_04_WINTER_SUPPLIES",
+            "type": "Contract"
+          },
+          {
+            "name": "Fisherman's House",
+            "key": "RU_04_04_FISHER",
+            "type": "Contract"
+          },
+          {
+            "name": "Repair Works",
+            "key": "RU_04_04_HEATING_SEASON",
             "type": "Contract"
           }
         ]
@@ -4344,6 +4406,37 @@
           {
             "name": "Sawmill Renovation",
             "key": "US_09_02_LUMBER_MILL_REPAIR_CONTRACT",
+            "type": "Contract"
+          }
+        ]
+      },
+      {
+        "name": "\"WAYMAUSE MINING LTD\"",
+        "key": "WeymouthMiningLTD",
+        "objectives": [
+          {
+            "name": "Work Transport Evacuation",
+            "key": "US_09_01_GOLD_TRUCK_DELIVERY_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Restoring the Railroad Tracks",
+            "key": "US_09_01_RAILWAY_DELIVERY_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Serious business",
+            "key": "US_09_01_GOLD_DELIVERY_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Delivery From The Quarry",
+            "key": "US_09_02_UNCLEAR_GOLD_CONTRACT",
+            "type": "Contract"
+          },
+          {
+            "name": "Old Oil Rig",
+            "key": "US_09_02_DISASSEMBLY_DRILL_CONTRACT",
             "type": "Contract"
           }
         ]
