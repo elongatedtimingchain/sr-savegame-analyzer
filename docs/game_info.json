@@ -6,7 +6,7 @@
       {
         "name": "Black River",
         "key": "level_us_01_01",
-        "num_trucks": 5,
+        "num_trucks": 4,
         "num_upgrades": 7,
         "num_watchpoints": 8,
         "objectives": [
@@ -4199,6 +4199,11 @@
             "key": "US_09_01_TOURIST_CAMPING_TASK",
             "name": "Caring for tourists",
             "type": "Task"
+          },
+          {
+            "key": "US_09_01_BARRELS_EXPRESS_DELIVERY_CONTEST",
+            "name": "Express fuel delivery",
+            "type": "Contest"
           }
         ]
       },
@@ -4283,6 +4288,11 @@
             "key": "US_09_02_CRASH_TASK",
             "name": "Bad accident",
             "type": "Task"
+          },
+          {
+            "key": "US_09_02_MOUNTAIN_TOURISM_CONTEST",
+            "name": "Mountain ride",
+            "type": "Contest"
           }
         ]
       }
@@ -4647,6 +4657,16 @@
             "key": "US_10_02_REMOVE_STONES_02_TSK",
             "name": "The Mountain Obstacle",
             "type": "Task"
+          },
+          {
+            "key": "US_10_02_CONT_01",
+            "name": "All for the great view!",
+            "type": "Contest"
+          },
+          {
+            "key": "US_10_02_CONT_02",
+            "name": "Waste Disposal",
+            "type": "Contest"
           }
         ]
       }
