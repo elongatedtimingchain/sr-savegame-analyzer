@@ -266,7 +266,7 @@ function processGameInfo() {
     }
 }
 
-fetch('game_info.json')
+fetch('game_info.json', { cache: "reload" })
     .then(function(response) {
         if (!response.ok) {
             throw new Error("Unable to fetch file");
