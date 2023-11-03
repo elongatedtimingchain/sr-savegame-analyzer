@@ -3667,6 +3667,16 @@
             "key": "RU_08_01_HAYSTACKS_2",
             "name": "Hay Delivery",
             "type": "Task"
+          },
+          {
+            "key": "RU_08_01_LAKE_RACE",
+            "name": "Lakeside Racing",
+            "type": "Contest"
+          },
+          {
+            "key": "RU_08_01_LOCAL_FUN",
+            "name": "Local Rally",
+            "type": "Contest"
           }
         ]
       },
@@ -3721,6 +3731,16 @@
             "key": "RU_08_02_FOR_REPAIR",
             "name": "A gift horse",
             "type": "Task"
+          },
+          {
+            "key": "RU_08_02_DOWNHILL_RACE",
+            "name": "Bravery Is A Virtue",
+            "type": "Contest"
+          },
+          {
+            "key": "RU_08_02_SWAMP_RACE",
+            "name": "Swamp Racer",
+            "type": "Contest"
           }
         ]
       },
@@ -3795,6 +3815,16 @@
             "key": "RU_08_03_HAY_DELIVERY",
             "name": "Empty Hayloft",
             "type": "Task"
+          },
+          {
+            "key": "RU_08_03_FIELDS_RACING",
+            "name": "Aim To Misbehave",
+            "type": "Contest"
+          },
+          {
+            "key": "RU_08_03_URGENT_DELIVERY_CARGO",
+            "name": "Special Delivery",
+            "type": "Contest"
           }
         ]
       },
@@ -3859,6 +3889,16 @@
             "key": "RU_08_04_HAY_DELIVERY",
             "name": "Feeding time",
             "type": "Task"
+          },
+          {
+            "key": "RU_08_04_CONTEST",
+            "name": "Treading Water",
+            "type": "Contest"
+          },
+          {
+            "key": "RU_08_04_RING",
+            "name": "Crop Circle",
+            "type": "Contest"
           }
         ]
       }
