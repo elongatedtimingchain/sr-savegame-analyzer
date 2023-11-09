@@ -3452,6 +3452,34 @@
             "key": "US_07_01_CAREER_START_HARD",
             "name": "Gold Trail",
             "type": "Task"
+          },
+          {
+            "key": "US_07_01_EXTREME_DESCENT_START_SOLO"
+          },
+          {
+            "key": "US_07_01_EXTREME_SLOPE_SOLO",
+            "name": "Extreme Climb",
+            "type": "Contest"
+          },
+          {
+            "key": "US_07_01_PARKOUR",
+            "name": "Parkour",
+            "type": "Contest"
+          },
+          {
+            "key": "US_07_01_QUALIFICATION_01_START_SOLO",
+            "name": "Qualification (SOLO)",
+            "type": "Contest"
+          },
+          {
+            "key": "US_07_01_RACE_START_SOLO",
+            "name": "The Ring (SOLO)",
+            "type": "Contest"
+          },
+          {
+            "key": "US_07_01_WORKOUT",
+            "name": "Gearswitch Training",
+            "type": "Contest"
           }
         ]
       }
@@ -3731,6 +3759,11 @@
             "key": "RU_08_02_FOR_REPAIR",
             "name": "A gift horse",
             "type": "Task"
+          },
+          {
+            "key": "RU_08_02_DANGEROUS_DELIVERY",
+            "name": "This Side Up",
+            "type": "Contest"
           },
           {
             "key": "RU_08_02_DOWNHILL_RACE",
