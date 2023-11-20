@@ -2138,10 +2138,14 @@
             "type": "Task"
           },
           {
-            "key": "US_03_01_CONT_01"
+            "key": "US_03_01_CONT_01",
+            "name": "Quarry Race",
+            "type": "Contest"
           },
           {
-            "key": "US_03_01_CONT_02"
+            "key": "US_03_01_CONT_02",
+            "name": "Cliffhanger Race",
+            "type": "Contest"
           }
         ]
       },
@@ -2944,10 +2948,14 @@
             "type": "Task"
           },
           {
-            "key": "RU_05_01_FACTORY_RACE"
+            "key": "RU_05_01_FACTORY_RACE",
+            "name": "Driving Exam",
+            "type": "Contest"
           },
           {
-            "key": "RU_05_01_SWAMP_RACE"
+            "key": "RU_05_01_SWAMP_RACE",
+            "name": "Lord of the Frogs",
+            "type": "Contest"
           }
         ]
       },
@@ -3179,10 +3187,14 @@
             "type": "Task"
           },
           {
-            "key": "US_06_01_CON_01"
+            "key": "US_06_01_CON_01",
+            "name": "Local Racing",
+            "type": "Contest"
           },
           {
-            "key": "US_06_01_CON_02"
+            "key": "US_06_01_CON_02",
+            "name": "Port-side Racing",
+            "type": "Contest"
           }
         ]
       },
@@ -3454,7 +3466,9 @@
             "type": "Task"
           },
           {
-            "key": "US_07_01_EXTREME_DESCENT_START_SOLO"
+            "key": "US_07_01_EXTREME_DESCENT_START_SOLO",
+            "name": "Extreme Downhill (SOLO)",
+            "type": "Contest"
           },
           {
             "key": "US_07_01_EXTREME_SLOPE_SOLO",
